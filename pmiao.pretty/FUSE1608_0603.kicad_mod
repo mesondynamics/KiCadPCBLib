@@ -1,55 +1,361 @@
-(footprint "FUSE1608_0603" (version 20221018) (generator pcbnew)
-  (layer "F.Cu")
-  (property "Author" "Peng")
-  (property "Comment" "500mA Fuse 0603")
-  (property "DATASHEET" "https://www.littelfuse.com/~{/media/electronics/datasheets/resettable_ptcs/littelfuse_ptc_low_rho_datasheet.pdf.pdf}")
-  (property "MFG" "Littelfuse, Inc.")
-  (property "MFGPN" "0603L050SLYR")
-  (property "MFGPN1" "0603L050YR")
-  (property "MFGPN2" "0603L050SLYR")
-  (property "Note" "")
-  (property "PackageDescription" "0603")
-  (property "PackageType" "1608_0603")
-  (property "Part Description" "500mA Fuse 0603")
-  (property "Part Name" "")
-  (property "Power" "6V")
-  (property "Sheetfile" "Power.kicad_sch")
-  (property "Sheetname" "Power")
-  (property "Size" "")
-  (property "Tol" "")
-  (property "ValueP" "0603L050SLYR")
-  (property "description" "500mA Fuse 0603")
-  (fp_text reference "REF**" (at 0.6858 1.0808 -180 unlocked) (layer "F.SilkS")
-      (effects (font (size 0.762 0.762) (thickness 0.127)) (justify left bottom))
-    (tstamp e403d07b-5d1f-42a9-9249-47582aacd552)
-  )
-  (fp_text value "FUSE_0603L050SL" (at -1.6129 3.2385 unlocked) (layer "F.SilkS") hide
-      (effects (font (size 1.524 1.524) (thickness 0.254)) (justify left bottom))
-    (tstamp 61344a58-9921-4515-84ba-cbf1bc0f2d30)
-  )
-  (fp_text user "${REFERENCE}" (at -1.8 0 unlocked) (layer "User.5")
-      (effects (font (size 0.508 0.508) (thickness 0.127)))
-    (tstamp e7910673-cf33-412f-ab22-1bd5e5fedfc4)
-  )
-  (fp_line (start -1.8 -0.9) (end 1.8 -0.9)
-    (stroke (width 0.127) (type solid)) (layer "F.SilkS") (tstamp 516429d0-d262-4898-8faa-5e0cc0705758))
-  (fp_line (start -1.8 0.9) (end -1.8 -0.9)
-    (stroke (width 0.127) (type solid)) (layer "F.SilkS") (tstamp da9aff09-b12a-4f30-bfa2-c49b1af4e964))
-  (fp_line (start -1.8 0.9) (end 1.8 0.9)
-    (stroke (width 0.127) (type solid)) (layer "F.SilkS") (tstamp 9f97ec66-2b82-4353-9750-8437950ed7bf))
-  (fp_line (start 1.8 0.9) (end 1.8 -0.9)
-    (stroke (width 0.127) (type solid)) (layer "F.SilkS") (tstamp 61658425-438f-4aff-b102-6eff019d1328))
-  (fp_arc (start 0 -0.3048) (mid 0.1524 -0.1524) (end 0 0)
-    (stroke (width 0.127) (type solid)) (layer "F.SilkS") (tstamp f8db7756-193b-453b-95fc-e6aa9fbaef5e))
-  (fp_arc (start 0 0.3048) (mid -0.1524 0.1524) (end 0 0)
-    (stroke (width 0.127) (type solid)) (layer "F.SilkS") (tstamp 63976097-595d-4e90-9009-63a21fa58ed5))
-  (pad "1" smd rect (at -0.889 0) (size 1.016 1.016) (layers "F.Cu" "F.Paste" "F.Mask")
-    (thermal_bridge_angle 45) (tstamp 69a15efa-d7b1-4628-8655-a8400302a2f2))
-  (pad "2" smd rect (at 0.889 0) (size 1.016 1.016) (layers "F.Cu" "F.Paste" "F.Mask")
-    (thermal_bridge_angle 45) (tstamp f296e78e-5700-4459-aef5-17b2ad5eb69a))
-  (model "${KIPRJMOD}/ALTIUM_EMBEDDED_MODELS/FUSE1608_0603.step"
-    (offset (xyz 0.00008 0.00012 0.559))
-    (scale (xyz 1 1 1))
-    (rotate (xyz -180 -0 -180))
-  )
+(footprint "FUSE1608_0603"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0.6858 1.0808 180)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "e403d07b-5d1f-42a9-9249-47582aacd552")
+		(effects
+			(font
+				(size 0.762 0.762)
+				(thickness 0.127)
+			)
+			(justify left bottom)
+		)
+	)
+	(property "Value" "FUSE_0603L050SL"
+		(at -1.6129 3.2385 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "61344a58-9921-4515-84ba-cbf1bc0f2d30")
+		(effects
+			(font
+				(size 1.524 1.524)
+				(thickness 0.254)
+			)
+			(justify left bottom)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ec5fefa2-ba41-49ed-9a02-bc9715af1b5f")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d132e498-9b02-49c3-8e75-8987b7304eae")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Author" "Peng"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "6dded504-af32-4ee6-ba0f-e525e816fe28")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Comment" "500mA Fuse 0603"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "94cee153-1009-4774-a1d7-641cfb44c784")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "DATASHEET" "https://www.littelfuse.com/~{/media/electronics/datasheets/resettable_ptcs/littelfuse_ptc_low_rho_datasheet.pdf.pdf}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "edb32ac9-5a38-45c3-9ac8-da2094e4ac6d")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "MFG" "Littelfuse, Inc."
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e29df818-6e03-461f-a6e4-4683e2354091")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "MFGPN" "0603L050SLYR"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "0b2839bb-a54b-44d1-b2f6-5f1c8097e746")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "MFGPN1" "0603L050YR"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "3177c8cb-a7c9-4afd-a907-75fe4a5c8610")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "MFGPN2" "0603L050SLYR"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "59fdcd44-379e-488c-a993-2d183be54f91")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Note" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "8c11dffa-cc16-414d-8be3-4c92ccc6238a")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "PackageDescription" "0603"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b4997934-cf12-4a75-9b87-0a9a24ba47f4")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "PackageType" "1608_0603"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "dec55725-a7d3-4687-ada3-0e772accb371")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Part Description" "500mA Fuse 0603"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "452f687b-ad92-47cf-9a1e-9522bbb0e9e5")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Part Name" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e2280d8f-fb00-4547-8cb6-64ab8b1df142")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Power" "6V"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "dfbd409d-df70-4a69-963b-db53f2f3259f")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Size" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "8bae2e72-dba2-4080-bc01-4bfdfb290714")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Tol" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "13dc119a-d7f5-4509-a155-93432f870d7d")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "ValueP" "0603L050SLYR"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b2424719-be09-417b-9435-454141c620c9")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "description" "500mA Fuse 0603"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "4f51ffa1-dfd3-4a11-b97d-622072fc1ff6")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_line
+		(start -1.8 -0.9)
+		(end 1.8 -0.9)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "516429d0-d262-4898-8faa-5e0cc0705758")
+	)
+	(fp_line
+		(start -1.8 0.9)
+		(end -1.8 -0.9)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "da9aff09-b12a-4f30-bfa2-c49b1af4e964")
+	)
+	(fp_line
+		(start -1.8 0.9)
+		(end 1.8 0.9)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "9f97ec66-2b82-4353-9750-8437950ed7bf")
+	)
+	(fp_line
+		(start 1.8 0.9)
+		(end 1.8 -0.9)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "61658425-438f-4aff-b102-6eff019d1328")
+	)
+	(fp_arc
+		(start 0 -0.3048)
+		(mid 0.1524 -0.1524)
+		(end 0 0)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "f8db7756-193b-453b-95fc-e6aa9fbaef5e")
+	)
+	(fp_arc
+		(start 0 0.3048)
+		(mid -0.1524 0.1524)
+		(end 0 0)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "63976097-595d-4e90-9009-63a21fa58ed5")
+	)
+	(fp_text user "${REFERENCE}"
+		(at -1.8 0 0)
+		(unlocked yes)
+		(layer "User.5")
+		(uuid "e7910673-cf33-412f-ab22-1bd5e5fedfc4")
+		(effects
+			(font
+				(size 0.508 0.508)
+				(thickness 0.127)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -0.889 0)
+		(size 1.016 1.016)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(thermal_bridge_angle 45)
+		(uuid "69a15efa-d7b1-4628-8655-a8400302a2f2")
+	)
+	(pad "2" smd rect
+		(at 0.889 0)
+		(size 1.016 1.016)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(thermal_bridge_angle 45)
+		(uuid "f296e78e-5700-4459-aef5-17b2ad5eb69a")
+	)
+	(embedded_fonts no)
+	(model "${KICAD_USER_3DMODEL_DIR}/pmiao/FUSE1608_0603.step"
+		(offset
+			(xyz 0.00008 0.00012 0.559)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -180 -0 -180)
+		)
+	)
 )

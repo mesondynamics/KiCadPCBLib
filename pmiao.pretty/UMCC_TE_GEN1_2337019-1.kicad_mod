@@ -1,61 +1,380 @@
-(footprint "UMCC_TE_GEN1_2337019-1" (version 20221018) (generator pcbnew)
-  (layer "F.Cu")
-  (property "Author" "Peng")
-  (property "Comment" "UMCC")
-  (property "DATASHEET" "https://www.te.com/usa-en/product-2337019-1.html")
-  (property "MFG" "TE Connectivity AMP Connectors")
-  (property "MFGPN" "2337019-1")
-  (property "Note" "U.FL (UMCC)")
-  (property "PackageDescription" "")
-  (property "PackageType" "")
-  (property "Part Description" "UMCC Micro-Coax receptacle, Gen 1, TE")
-  (property "Part Name" "")
-  (property "Power" "")
-  (property "Sheetfile" "Power.kicad_sch")
-  (property "Sheetname" "Power")
-  (property "Size" "2mm")
-  (property "Tol" "50 Ohm, DC to 9GHz, 0.02Ohm contact")
-  (property "ValueP" "2337019-1")
-  (property "description" "UMCC Micro-Coax receptacle, Gen 1, U.FL, TE")
-  (fp_text reference "REF**" (at -0.7112 -2.5136 90 unlocked) (layer "F.SilkS")
-      (effects (font (size 0.762 0.762) (thickness 0.127)) (justify left bottom))
-    (tstamp 882a0b28-4e3a-40c9-ace3-f87e237ac00a)
-  )
-  (fp_text value "UMCC_TE_GEN1_2337019-1" (at -1.8161 4.1529 unlocked) (layer "F.SilkS") hide
-      (effects (font (size 1.524 1.524) (thickness 0.254)) (justify left bottom))
-    (tstamp 236395aa-07b7-46f6-9ebc-9dcc443d2a00)
-  )
-  (fp_line (start -1.6256 -1.6764) (end -0.82804 -1.6764)
-    (stroke (width 0.1524) (type solid)) (layer "F.SilkS") (tstamp 69d8f531-ab63-4721-88c1-f39a999e722a))
-  (fp_line (start -1.6256 -1.48704) (end -1.6256 -1.6764)
-    (stroke (width 0.1524) (type solid)) (layer "F.SilkS") (tstamp 4b9c9af7-f678-47ed-9bd1-76fe70703214))
-  (fp_line (start -1.6256 1.6764) (end -1.6256 1.38824)
-    (stroke (width 0.1524) (type solid)) (layer "F.SilkS") (tstamp e83763da-f183-4c99-a272-7f840d75e896))
-  (fp_line (start -1.6256 1.6764) (end 1.6256 1.6764)
-    (stroke (width 0.1524) (type solid)) (layer "F.SilkS") (tstamp a0471cda-3af0-4e1c-9e3c-0958c00086ee))
-  (fp_line (start 0.82804 -1.6764) (end 1.6256 -1.6764)
-    (stroke (width 0.1524) (type solid)) (layer "F.SilkS") (tstamp b4f3c47d-b805-4c22-9527-c0a764f25185))
-  (fp_line (start 1.6256 -1.48704) (end 1.6256 -1.6764)
-    (stroke (width 0.1524) (type solid)) (layer "F.SilkS") (tstamp 7a3dc2de-162c-4097-91e1-422433a90110))
-  (fp_line (start 1.6256 1.6764) (end 1.6256 1.38824)
-    (stroke (width 0.1524) (type solid)) (layer "F.SilkS") (tstamp 61998b56-0bc8-436f-a116-e040a5b77a42))
-  (fp_line (start -1.9222 -2.3491) (end 1.9222 -2.3491)
-    (stroke (width 0.1524) (type solid)) (layer "Eco1.User") (tstamp 35dddf21-5ae6-47b7-8b22-a0d63528bec2))
-  (fp_line (start -1.9222 1.8034) (end -1.9222 -2.3491)
-    (stroke (width 0.1524) (type solid)) (layer "Eco1.User") (tstamp 63e51888-6593-4d22-9be1-bbf6101c04a5))
-  (fp_line (start -1.9222 1.8034) (end 1.9222 1.8034)
-    (stroke (width 0.1524) (type solid)) (layer "Eco1.User") (tstamp b1e345e4-5d9d-4ade-a2f9-9553dd28d633))
-  (fp_line (start 1.9222 1.8034) (end 1.9222 -2.3491)
-    (stroke (width 0.1524) (type solid)) (layer "Eco1.User") (tstamp 44068243-1f00-4192-a180-7f2b93884619))
-  (pad "1" smd rect (at 0 -1.5744) (size 0.9906 1.0414) (layers "F.Cu" "F.Paste" "F.Mask")
-    (thermal_bridge_angle 45) (tstamp ee1210ff-d496-4902-8f32-cbb183618a32))
-  (pad "2" smd rect (at -1.475 0) (size 1 2.1844) (layers "F.Cu" "F.Paste" "F.Mask")
-    (thermal_bridge_angle 45) (tstamp d371ca0c-8d62-4c17-863a-c4e7be897a51))
-  (pad "2" smd rect (at 1.475 0) (size 1 2.1844) (layers "F.Cu" "F.Paste" "F.Mask")
-    (thermal_bridge_angle 45) (tstamp 3cf7b353-5e4d-4690-9d9b-c45e3a598cd9))
-  (model "${KIPRJMOD}/ALTIUM_EMBEDDED_MODELS/UMCC_TE_GEN1_2337019-1.step"
-    (offset (xyz 0.00012 0.00012 1.25))
-    (scale (xyz 1 1 1))
-    (rotate (xyz -0 -0 0))
-  )
+(footprint "UMCC_TE_GEN1_2337019-1"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at -0.7112 -2.5136 90)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "882a0b28-4e3a-40c9-ace3-f87e237ac00a")
+		(effects
+			(font
+				(size 0.762 0.762)
+				(thickness 0.127)
+			)
+			(justify left bottom)
+		)
+	)
+	(property "Value" "UMCC_TE_GEN1_2337019-1"
+		(at -1.8161 4.1529 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "236395aa-07b7-46f6-9ebc-9dcc443d2a00")
+		(effects
+			(font
+				(size 1.524 1.524)
+				(thickness 0.254)
+			)
+			(justify left bottom)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "764cf24e-80c0-4810-a161-2bf71c5486ee")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "18b81eaf-115e-471e-b523-fc7d82befad4")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Author" "Peng"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "4b131e9f-b540-4d32-96c5-7d830312dedf")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Comment" "UMCC"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "28d31a07-96bf-4c28-93c8-535f1e0c2c14")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "DATASHEET" "https://www.te.com/usa-en/product-2337019-1.html"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "bbcfa310-9882-4aa5-a478-b5032be263c3")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "MFG" "TE Connectivity AMP Connectors"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "0d7566f2-4705-40fd-a82d-00215f1903c3")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "MFGPN" "2337019-1"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "6264cb7a-0a96-433e-9b26-af0477f9a46d")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Note" "U.FL (UMCC)"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "9bd4c1a3-d2d8-4297-913a-7eb7e59fa73c")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "PackageDescription" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "26964bf1-089d-46b3-a3f8-6463cc6dccd5")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "PackageType" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "5c432625-720e-43bb-8dc2-c9c2323396a6")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Part Description" "UMCC Micro-Coax receptacle, Gen 1, TE"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a6bd89e5-234f-4860-98a7-f5120e5e2dc8")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Part Name" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "15c6e788-f82e-4297-b1b2-6d486e12bfc6")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Power" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "462a1e29-6eee-4be8-821e-13eff3e653a1")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Size" "2mm"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d61bb077-ceab-488a-8ff8-8faaac7078e3")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Tol" "50 Ohm, DC to 9GHz, 0.02Ohm contact"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "bf5cea81-a756-491c-82cb-fea5abb634d8")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "ValueP" "2337019-1"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "67b64410-efdd-4719-b52d-3e3d1e7460ba")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "description" "UMCC Micro-Coax receptacle, Gen 1, U.FL, TE"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "9da270a7-b581-49f7-85da-8a0389283a3e")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_line
+		(start -1.6256 -1.6764)
+		(end -0.82804 -1.6764)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "69d8f531-ab63-4721-88c1-f39a999e722a")
+	)
+	(fp_line
+		(start -1.6256 -1.48704)
+		(end -1.6256 -1.6764)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "4b9c9af7-f678-47ed-9bd1-76fe70703214")
+	)
+	(fp_line
+		(start -1.6256 1.6764)
+		(end -1.6256 1.38824)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "e83763da-f183-4c99-a272-7f840d75e896")
+	)
+	(fp_line
+		(start -1.6256 1.6764)
+		(end 1.6256 1.6764)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "a0471cda-3af0-4e1c-9e3c-0958c00086ee")
+	)
+	(fp_line
+		(start 0.82804 -1.6764)
+		(end 1.6256 -1.6764)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "b4f3c47d-b805-4c22-9527-c0a764f25185")
+	)
+	(fp_line
+		(start 1.6256 -1.48704)
+		(end 1.6256 -1.6764)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "7a3dc2de-162c-4097-91e1-422433a90110")
+	)
+	(fp_line
+		(start 1.6256 1.6764)
+		(end 1.6256 1.38824)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "61998b56-0bc8-436f-a116-e040a5b77a42")
+	)
+	(fp_line
+		(start -1.9222 -2.3491)
+		(end 1.9222 -2.3491)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "Eco1.User")
+		(uuid "35dddf21-5ae6-47b7-8b22-a0d63528bec2")
+	)
+	(fp_line
+		(start -1.9222 1.8034)
+		(end -1.9222 -2.3491)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "Eco1.User")
+		(uuid "63e51888-6593-4d22-9be1-bbf6101c04a5")
+	)
+	(fp_line
+		(start -1.9222 1.8034)
+		(end 1.9222 1.8034)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "Eco1.User")
+		(uuid "b1e345e4-5d9d-4ade-a2f9-9553dd28d633")
+	)
+	(fp_line
+		(start 1.9222 1.8034)
+		(end 1.9222 -2.3491)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "Eco1.User")
+		(uuid "44068243-1f00-4192-a180-7f2b93884619")
+	)
+	(pad "1" smd rect
+		(at 0 -1.5744)
+		(size 0.9906 1.0414)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(thermal_bridge_angle 45)
+		(uuid "ee1210ff-d496-4902-8f32-cbb183618a32")
+	)
+	(pad "2" smd rect
+		(at -1.475 0)
+		(size 1 2.1844)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(thermal_bridge_angle 45)
+		(uuid "d371ca0c-8d62-4c17-863a-c4e7be897a51")
+	)
+	(pad "2" smd rect
+		(at 1.475 0)
+		(size 1 2.1844)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(thermal_bridge_angle 45)
+		(uuid "3cf7b353-5e4d-4690-9d9b-c45e3a598cd9")
+	)
+	(embedded_fonts no)
+	(model "${KICAD_USER_3DMODEL_DIR}/pmiao/UMCC_TE_GEN1_2337019-1.step"
+		(offset
+			(xyz 0.00012 0.00012 1.25)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 0)
+		)
+	)
 )

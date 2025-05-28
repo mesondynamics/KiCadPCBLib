@@ -1,75 +1,466 @@
-(footprint "RESADJ_3224W" (version 20221018) (generator pcbnew)
-  (layer "F.Cu")
-  (property "Author" "Peng")
-  (property "Comment" "RESADJ_3224W")
-  (property "DATASHEET" "https://www.bourns.com/docs/Product-Datasheets/3224.pdf")
-  (property "Field2" "")
-  (property "MFG" "Bourns Inc.")
-  (property "MFGPN" "3224W-1-103E")
-  (property "MFGPN1" "3224W-1-202E     (2k)")
-  (property "MFGPN2" "")
-  (property "Note" "")
-  (property "PackageDescription" "SMD Potentiometers, Variable Resistors,  12 Turn Top Adjustment")
-  (property "PackageType" "SMD")
-  (property "Part Description" "")
-  (property "Power" "0.25W")
-  (property "Sheetfile" "FrontEnd.kicad_sch")
-  (property "Sheetname" "FrontEnd")
-  (property "Size" "")
-  (property "Tol" "10%, ±100ppm/°C")
-  (property "ValueP" "10k")
-  (property "description" "SMD Potentiometers, Variable Resistors,  12 Turn Top Adjustment")
-  (fp_text reference "REF**" (at -0.9166 3.556 unlocked) (layer "F.SilkS")
-      (effects (font (size 0.762 0.762) (thickness 0.127)) (justify left bottom))
-    (tstamp 56aaf7e0-582e-4366-be39-14df308f257b)
-  )
-  (fp_text value "RESADJ_3224W" (at -2.6035 7.2263 unlocked) (layer "F.SilkS") hide
-      (effects (font (size 1.524 1.524) (thickness 0.254)) (justify left bottom))
-    (tstamp c9663399-539c-4be9-ad0f-a351e15e583c)
-  )
-  (fp_line (start -1.75 -2.4) (end 1.75 -2.4)
-    (stroke (width 0.127) (type solid)) (layer "F.SilkS") (tstamp 58d2dce9-26c7-440d-82d5-93f723c9c026))
-  (fp_line (start -1.75 -2.2) (end -1.75 -2.4)
-    (stroke (width 0.127) (type solid)) (layer "F.SilkS") (tstamp 5fd20796-a16f-42da-b885-2c4a12868842))
-  (fp_line (start -1.75 0.4) (end -1.75 -0.4)
-    (stroke (width 0.127) (type solid)) (layer "F.SilkS") (tstamp 79ed22b2-8bf9-4cfe-b15f-de4e6337adc0))
-  (fp_line (start -1.75 2.4) (end -1.75 2.2)
-    (stroke (width 0.127) (type solid)) (layer "F.SilkS") (tstamp 198b29ba-44b8-4310-a790-fa0ddfa1d7a6))
-  (fp_line (start -1.75 2.4) (end 1.75 2.4)
-    (stroke (width 0.127) (type solid)) (layer "F.SilkS") (tstamp 5aad0fa7-2a79-4515-9d69-0d34a06c7cf6))
-  (fp_line (start 1.75 -1.3) (end 1.75 -2.4)
-    (stroke (width 0.127) (type solid)) (layer "F.SilkS") (tstamp 9e66a7bb-b7b7-44b8-b3e9-e683fcdc6a6b))
-  (fp_line (start 1.75 2.4) (end 1.75 1.3)
-    (stroke (width 0.127) (type solid)) (layer "F.SilkS") (tstamp 8807c3dc-a688-4eb9-987f-a0ae68d9ad44))
-  (fp_circle (center -2.286 -2.286) (end -2.286 -2.386)
-    (stroke (width 0.2) (type solid)) (fill none) (layer "F.SilkS") (tstamp 4d0b439c-bd7c-4463-8fce-f3b233da20b4))
-  (fp_line (start -2.65 -2.65) (end 2.5 -2.65)
-    (stroke (width 0.05) (type solid)) (layer "Eco1.User") (tstamp a3a170ba-3059-4dd0-975c-437732739200))
-  (fp_line (start -2.65 2.65) (end -2.65 -2.65)
-    (stroke (width 0.05) (type solid)) (layer "Eco1.User") (tstamp f5948dd6-a5f6-4ce3-92a2-7b5ba3d8d242))
-  (fp_line (start -2.65 2.65) (end 2.5 2.65)
-    (stroke (width 0.05) (type solid)) (layer "Eco1.User") (tstamp 8a6f93df-afea-4d66-b25f-a9f36446cc98))
-  (fp_line (start 2.5 2.65) (end 2.5 -2.65)
-    (stroke (width 0.05) (type solid)) (layer "Eco1.User") (tstamp c2afd17f-8495-4da9-8666-aa61474a4f9e))
-  (fp_line (start -1.75 -2.4) (end 1.75 -2.4)
-    (stroke (width 0.127) (type solid)) (layer "B.Fab") (tstamp f646632a-109c-4bd1-a4ab-e2b85f97fffe))
-  (fp_line (start -1.75 2.4) (end -1.75 -2.4)
-    (stroke (width 0.127) (type solid)) (layer "B.Fab") (tstamp fe626548-5607-4bd1-bf81-826758836d45))
-  (fp_line (start -1.75 2.4) (end 1.75 2.4)
-    (stroke (width 0.127) (type solid)) (layer "B.Fab") (tstamp 9aea4e8e-d7cf-46ba-977c-634b2fbf03db))
-  (fp_line (start 1.75 2.4) (end 1.75 -2.4)
-    (stroke (width 0.127) (type solid)) (layer "B.Fab") (tstamp 6f932e7d-901a-4933-9e4f-01900d052404))
-  (fp_circle (center -0.68 -1.37) (end -0.68 -1.47)
-    (stroke (width 0.2) (type solid)) (fill none) (layer "B.Fab") (tstamp 2ce79125-e17e-4260-8558-ff57f9c449ed))
-  (pad "1" smd rect (at -1.45 -1.25 180) (size 1.9 1.3) (layers "F.Cu" "F.Paste" "F.Mask")
-    (thermal_bridge_angle 45) (tstamp f334ddf5-6550-4c61-a14a-7c58df2721b0))
-  (pad "2" smd rect (at 1.45 0 180) (size 1.6 2) (layers "F.Cu" "F.Paste" "F.Mask")
-    (thermal_bridge_angle 45) (tstamp 24fc21df-0d53-465f-a518-da6b5a3fac4e))
-  (pad "3" smd rect (at -1.45 1.25 180) (size 1.9 1.3) (layers "F.Cu" "F.Paste" "F.Mask")
-    (thermal_bridge_angle 45) (tstamp 220f7946-5185-4cd1-b925-ec435a51b101))
-  (model "${KIPRJMOD}/ALTIUM_EMBEDDED_MODELS/RESADJ_3224W.STEP"
-    (offset (xyz 0.00012 0.00004 0))
-    (scale (xyz 1 1 1))
-    (rotate (xyz -0 -0 0))
-  )
+(footprint "RESADJ_3224W"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at -0.9166 3.556 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "56aaf7e0-582e-4366-be39-14df308f257b")
+		(effects
+			(font
+				(size 0.762 0.762)
+				(thickness 0.127)
+			)
+			(justify left bottom)
+		)
+	)
+	(property "Value" "RESADJ_3224W"
+		(at -2.6035 7.2263 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "c9663399-539c-4be9-ad0f-a351e15e583c")
+		(effects
+			(font
+				(size 1.524 1.524)
+				(thickness 0.254)
+			)
+			(justify left bottom)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "8428f214-f339-442f-a19a-8252d93803b4")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c1762455-6a12-48f5-b7b6-eafea8cdfba6")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Author" "Peng"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "6e1ada16-4bdd-46b0-9fde-f375ff375fc8")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Comment" "RESADJ_3224W"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "08414a13-7cc7-4a91-9741-aa9dd163cfa3")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "DATASHEET" "https://www.bourns.com/docs/Product-Datasheets/3224.pdf"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "688da372-a53f-48cf-bc8f-b0f0afd271ed")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Field2" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "2fca0307-c301-437f-b1b7-32a2ae7808e6")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "MFG" "Bourns Inc."
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "011dfe8a-6177-4542-bc6a-6ea1f355e739")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "MFGPN" "3224W-1-103E"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f646eece-90e7-43f8-a618-40bb6b09bd8a")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "MFGPN1" "3224W-1-202E     (2k)"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "56fb80bb-be98-48d5-be1c-331531720154")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "MFGPN2" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "0ac98d2f-be44-422c-956e-bbb901dfc54c")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Note" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "2074a865-dea3-4074-9f07-4c987d0ef17f")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "PackageDescription" "SMD Potentiometers, Variable Resistors,  12 Turn Top Adjustment"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "268fc401-8e93-4fa9-8481-fc02474df861")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "PackageType" "SMD"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "de471f86-c976-47ec-ab79-842b7a9aa946")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Part Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "87d2af2a-99f7-47c1-9461-6863b93c83d3")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Power" "0.25W"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "469659ea-b0d3-485f-b51f-4ced041fbd8a")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Size" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "95f537ba-6fb3-4600-b52d-8653038aa437")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Tol" "10%, ±100ppm/°C"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "be81917d-79fc-4763-9c85-25cf633c96b9")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "ValueP" "10k"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "2179b03d-a5c6-4a49-8b13-c217c4713167")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "description" "SMD Potentiometers, Variable Resistors,  12 Turn Top Adjustment"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "07dc9619-536f-4273-8061-cbfd4df2a8a0")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_line
+		(start -1.75 -2.4)
+		(end 1.75 -2.4)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "58d2dce9-26c7-440d-82d5-93f723c9c026")
+	)
+	(fp_line
+		(start -1.75 -2.2)
+		(end -1.75 -2.4)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "5fd20796-a16f-42da-b885-2c4a12868842")
+	)
+	(fp_line
+		(start -1.75 0.4)
+		(end -1.75 -0.4)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "79ed22b2-8bf9-4cfe-b15f-de4e6337adc0")
+	)
+	(fp_line
+		(start -1.75 2.4)
+		(end -1.75 2.2)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "198b29ba-44b8-4310-a790-fa0ddfa1d7a6")
+	)
+	(fp_line
+		(start -1.75 2.4)
+		(end 1.75 2.4)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "5aad0fa7-2a79-4515-9d69-0d34a06c7cf6")
+	)
+	(fp_line
+		(start 1.75 -1.3)
+		(end 1.75 -2.4)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "9e66a7bb-b7b7-44b8-b3e9-e683fcdc6a6b")
+	)
+	(fp_line
+		(start 1.75 2.4)
+		(end 1.75 1.3)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "8807c3dc-a688-4eb9-987f-a0ae68d9ad44")
+	)
+	(fp_circle
+		(center -2.286 -2.286)
+		(end -2.286 -2.386)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "4d0b439c-bd7c-4463-8fce-f3b233da20b4")
+	)
+	(fp_line
+		(start -2.65 -2.65)
+		(end 2.5 -2.65)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "Eco1.User")
+		(uuid "a3a170ba-3059-4dd0-975c-437732739200")
+	)
+	(fp_line
+		(start -2.65 2.65)
+		(end -2.65 -2.65)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "Eco1.User")
+		(uuid "f5948dd6-a5f6-4ce3-92a2-7b5ba3d8d242")
+	)
+	(fp_line
+		(start -2.65 2.65)
+		(end 2.5 2.65)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "Eco1.User")
+		(uuid "8a6f93df-afea-4d66-b25f-a9f36446cc98")
+	)
+	(fp_line
+		(start 2.5 2.65)
+		(end 2.5 -2.65)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "Eco1.User")
+		(uuid "c2afd17f-8495-4da9-8666-aa61474a4f9e")
+	)
+	(fp_line
+		(start -1.75 -2.4)
+		(end 1.75 -2.4)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "B.Fab")
+		(uuid "f646632a-109c-4bd1-a4ab-e2b85f97fffe")
+	)
+	(fp_line
+		(start -1.75 2.4)
+		(end -1.75 -2.4)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "B.Fab")
+		(uuid "fe626548-5607-4bd1-bf81-826758836d45")
+	)
+	(fp_line
+		(start -1.75 2.4)
+		(end 1.75 2.4)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "B.Fab")
+		(uuid "9aea4e8e-d7cf-46ba-977c-634b2fbf03db")
+	)
+	(fp_line
+		(start 1.75 2.4)
+		(end 1.75 -2.4)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "B.Fab")
+		(uuid "6f932e7d-901a-4933-9e4f-01900d052404")
+	)
+	(fp_circle
+		(center -0.68 -1.37)
+		(end -0.68 -1.47)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(fill no)
+		(layer "B.Fab")
+		(uuid "2ce79125-e17e-4260-8558-ff57f9c449ed")
+	)
+	(pad "1" smd rect
+		(at -1.45 -1.25 180)
+		(size 1.9 1.3)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(thermal_bridge_angle 45)
+		(uuid "f334ddf5-6550-4c61-a14a-7c58df2721b0")
+	)
+	(pad "2" smd rect
+		(at 1.45 0 180)
+		(size 1.6 2)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(thermal_bridge_angle 45)
+		(uuid "24fc21df-0d53-465f-a518-da6b5a3fac4e")
+	)
+	(pad "3" smd rect
+		(at -1.45 1.25 180)
+		(size 1.9 1.3)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(thermal_bridge_angle 45)
+		(uuid "220f7946-5185-4cd1-b925-ec435a51b101")
+	)
+	(embedded_fonts no)
+	(model "${KICAD_USER_3DMODEL_DIR}/pmiao/RESADJ_3224W.step"
+		(offset
+			(xyz 0.00012 0.00004 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 0)
+		)
+	)
 )

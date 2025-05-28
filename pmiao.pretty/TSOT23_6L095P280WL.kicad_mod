@@ -1,76 +1,474 @@
-(footprint "TSOT23_6L095P280WL" (version 20221018) (generator pcbnew)
-  (layer "F.Cu")
-  (property "Author" "Peng")
-  (property "Comment" "LT6200IS6-10")
-  (property "DATASHEET" "")
-  (property "MFG" "Analog Devices, Inc.")
-  (property "MFGPN" "")
-  (property "MFGPN1" "LT6200CS6-10#PBF")
-  (property "MFGPN2" "LT6200IS6-10#PBF")
-  (property "Note" "")
-  (property "PackageDescription" "")
-  (property "PackageType" "6-Lead Plastic TSOT-23")
-  (property "Part Description" "1.6GHz GBW, Av>")
-  (property "Part Name" "")
-  (property "Power" "2.5V to 12.6V")
-  (property "Sheetfile" "Power.kicad_sch")
-  (property "Sheetname" "Power")
-  (property "Size" "2.8mm × 2.9mm")
-  (property "Tol" "0°C to 70°C(CS8); –40°C to 85°C(IS8)")
-  (property "ValueP" "LT6200IS6-10#PBF")
-  (property "description" "1.6GHz GBW, Av>")
-  (property "user" "+V")
-  (property "user_1" "-V")
-  (property "user_2" "SHDN#")
-  (fp_text reference "REF**" (at 4.0386 1.3716 -180 unlocked) (layer "F.SilkS")
-      (effects (font (size 0.762 0.762) (thickness 0.127)) (justify left bottom))
-    (tstamp e03cd11b-401d-4065-a3ad-c78cd09aa430)
-  )
-  (fp_text value "AMP_LT6200IS6-10" (at -1.5875 4.0259 unlocked) (layer "F.SilkS") hide
-      (effects (font (size 1.524 1.524) (thickness 0.254)) (justify left bottom))
-    (tstamp 8a940558-d632-4eeb-8757-6cf1f9696256)
-  )
-  (fp_text user "${REFERENCE}" (at 0.1016 1.7 90 unlocked) (layer "User.5")
-      (effects (font (size 0.508 0.508) (thickness 0.127)))
-    (tstamp b4099a59-6084-4315-866f-22fb0c3170f1)
-  )
-  (fp_circle (center -1.5748 -1.524) (end -1.5748 -1.6002)
-    (stroke (width 0.127) (type solid)) (fill none) (layer "F.SilkS") (tstamp 94932f0e-e497-401c-9f28-383f15eaad1d))
-  (fp_line (start -1.8 -1.7) (end 1.8 -1.7)
-    (stroke (width 0.1) (type solid)) (layer "Eco1.User") (tstamp baa42e64-6ce8-4e4f-8d74-fc8ba4b434b5))
-  (fp_line (start -1.8 1.7) (end -1.8 -1.7)
-    (stroke (width 0.1) (type solid)) (layer "Eco1.User") (tstamp 8e864273-e084-4dba-beec-d4afdb0f89b6))
-  (fp_line (start -1.8 1.7) (end 1.8 1.7)
-    (stroke (width 0.1) (type solid)) (layer "Eco1.User") (tstamp c9955511-72c6-4f8c-accc-a53987158bd2))
-  (fp_line (start -0.5 0) (end 0.5 0)
-    (stroke (width 0.1) (type solid)) (layer "Eco1.User") (tstamp 16925b70-c863-4db1-a6e8-6b61431360a8))
-  (fp_line (start 0 0.5) (end 0 -0.5)
-    (stroke (width 0.1) (type solid)) (layer "Eco1.User") (tstamp 3abec906-3fcb-488d-ba91-7e025709456f))
-  (fp_line (start 1.8 1.7) (end 1.8 -1.7)
-    (stroke (width 0.1) (type solid)) (layer "Eco1.User") (tstamp 1e8b867b-eef7-4a94-b51e-0b0d36130c24))
-  (fp_line (start -0.8 -1.45) (end 0.8 -1.45)
-    (stroke (width 0.1) (type solid)) (layer "B.Fab") (tstamp cec869bf-af1d-430f-a1b4-6adb528dbb22))
-  (fp_line (start -0.8 1.45) (end -0.8 -1.45)
-    (stroke (width 0.1) (type solid)) (layer "B.Fab") (tstamp ec93a6d9-2e7a-4910-ab4a-f0a02ba713ea))
-  (fp_line (start -0.8 1.45) (end 0.8 1.45)
-    (stroke (width 0.1) (type solid)) (layer "B.Fab") (tstamp e74a0ae9-1c2a-41e6-9c82-8e7b4d4c7182))
-  (fp_line (start 0.8 1.45) (end 0.8 -1.45)
-    (stroke (width 0.1) (type solid)) (layer "B.Fab") (tstamp e1137113-816e-4807-a9ec-6bf9ff943288))
-  (pad "1" smd rect (at -1.31 -0.95 90) (size 0.44 1.1) (layers "F.Cu" "F.Paste" "F.Mask")
-    (thermal_bridge_angle 45) (tstamp 1219ee3b-31a2-4328-b570-a6b8e066e67d))
-  (pad "2" smd rect (at -1.31 0 90) (size 0.44 1.1) (layers "F.Cu" "F.Paste" "F.Mask")
-    (thermal_bridge_angle 45) (tstamp cd23ed0e-7445-4563-9c4c-28a0bf464f7f))
-  (pad "3" smd rect (at -1.31 0.95 90) (size 0.44 1.1) (layers "F.Cu" "F.Paste" "F.Mask")
-    (thermal_bridge_angle 45) (tstamp 82011fbd-7c9e-482e-a5e1-4ca22b3d93fd))
-  (pad "4" smd rect (at 1.31 0.95 90) (size 0.44 1.1) (layers "F.Cu" "F.Paste" "F.Mask")
-    (thermal_bridge_angle 45) (tstamp 4f1b8f34-27ec-477f-bcbb-f6a0c66368e0))
-  (pad "5" smd rect (at 1.31 0 90) (size 0.44 1.1) (layers "F.Cu" "F.Paste" "F.Mask")
-    (thermal_bridge_angle 45) (tstamp d0523e22-cf35-4fa5-bc29-0d5ed6180f64))
-  (pad "6" smd rect (at 1.31 -0.95 90) (size 0.44 1.1) (layers "F.Cu" "F.Paste" "F.Mask")
-    (thermal_bridge_angle 45) (tstamp e5fa04b4-0b85-4314-a3d1-547d66934334))
-  (model "${KIPRJMOD}/ALTIUM_EMBEDDED_MODELS/TSOT23_6L095P280WL.step"
-    (offset (xyz 0.00008 0.00008 0))
-    (scale (xyz 1 1 1))
-    (rotate (xyz -90 -0 -180))
-  )
+(footprint "TSOT23_6L095P280WL"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 4.0386 1.3716 180)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "e03cd11b-401d-4065-a3ad-c78cd09aa430")
+		(effects
+			(font
+				(size 0.762 0.762)
+				(thickness 0.127)
+			)
+			(justify left bottom)
+		)
+	)
+	(property "Value" "AMP_LT6200IS6-10"
+		(at -1.5875 4.0259 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "8a940558-d632-4eeb-8757-6cf1f9696256")
+		(effects
+			(font
+				(size 1.524 1.524)
+				(thickness 0.254)
+			)
+			(justify left bottom)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "dc64bd35-e2f3-45e6-87b7-2e11c751a413")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "5579bbe4-5f5a-4cbe-96fd-8a99ebf8a18c")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Author" "Peng"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "df9f2b6a-b957-4fd4-bff1-2c7705004f74")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Comment" "LT6200IS6-10"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f0be49f3-1369-4bfd-82b4-726b5721a613")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "DATASHEET" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "20076578-b39e-4988-bbfe-e3431963fd3d")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "MFG" "Analog Devices, Inc."
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b3e85196-31d2-4db0-a57a-a7c3436aa265")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "MFGPN" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "88c3b320-e5fc-452a-aa88-75f65f35c3a6")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "MFGPN1" "LT6200CS6-10#PBF"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "fdb5a18b-4ebf-4de6-9966-5a32add59ece")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "MFGPN2" "LT6200IS6-10#PBF"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c0137308-d2b0-4481-b812-5b089fc3412a")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Note" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "46962278-2b6d-4e04-bffe-2509f9a6e0cc")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "PackageDescription" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "6ce6404d-0193-4fb4-b907-a84ac71ab013")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "PackageType" "6-Lead Plastic TSOT-23"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "7972108a-f4c2-4777-8521-d59bfe345d4b")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Part Description" "1.6GHz GBW, Av>"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "6bd60e49-fde5-44a6-a471-cdd6ccbfd34e")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Part Name" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "1ca0ae23-1d12-4bbc-b3fc-4b49bb01fe76")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Power" "2.5V to 12.6V"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "46de377b-69a5-4423-b2a7-ac2086831547")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Size" "2.8mm × 2.9mm"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a827183d-84ec-43f0-b5fe-624db5483f0f")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Tol" "0°C to 70°C(CS8); –40°C to 85°C(IS8)"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "aae132e1-2369-4114-94c7-2bc3e72364aa")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "ValueP" "LT6200IS6-10#PBF"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "25c16a6e-757b-472a-a83b-c54bb6e755d1")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "description" "1.6GHz GBW, Av>"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "6d521fbb-c739-4394-9004-4309ea4dfc53")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "user" "+V"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "fcebb818-5d28-4903-8187-b752d82a1f04")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "user_1" "-V"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "1690eb4f-c207-4986-bbcf-10470ce90beb")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "user_2" "SHDN#"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "55bf0432-2ab9-4894-8f41-5fede31a6ee7")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_circle
+		(center -1.5748 -1.524)
+		(end -1.5748 -1.6002)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "94932f0e-e497-401c-9f28-383f15eaad1d")
+	)
+	(fp_line
+		(start -1.8 -1.7)
+		(end 1.8 -1.7)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "Eco1.User")
+		(uuid "baa42e64-6ce8-4e4f-8d74-fc8ba4b434b5")
+	)
+	(fp_line
+		(start -1.8 1.7)
+		(end -1.8 -1.7)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "Eco1.User")
+		(uuid "8e864273-e084-4dba-beec-d4afdb0f89b6")
+	)
+	(fp_line
+		(start -1.8 1.7)
+		(end 1.8 1.7)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "Eco1.User")
+		(uuid "c9955511-72c6-4f8c-accc-a53987158bd2")
+	)
+	(fp_line
+		(start -0.5 0)
+		(end 0.5 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "Eco1.User")
+		(uuid "16925b70-c863-4db1-a6e8-6b61431360a8")
+	)
+	(fp_line
+		(start 0 0.5)
+		(end 0 -0.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "Eco1.User")
+		(uuid "3abec906-3fcb-488d-ba91-7e025709456f")
+	)
+	(fp_line
+		(start 1.8 1.7)
+		(end 1.8 -1.7)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "Eco1.User")
+		(uuid "1e8b867b-eef7-4a94-b51e-0b0d36130c24")
+	)
+	(fp_line
+		(start -0.8 -1.45)
+		(end 0.8 -1.45)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "B.Fab")
+		(uuid "cec869bf-af1d-430f-a1b4-6adb528dbb22")
+	)
+	(fp_line
+		(start -0.8 1.45)
+		(end -0.8 -1.45)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "B.Fab")
+		(uuid "ec93a6d9-2e7a-4910-ab4a-f0a02ba713ea")
+	)
+	(fp_line
+		(start -0.8 1.45)
+		(end 0.8 1.45)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "B.Fab")
+		(uuid "e74a0ae9-1c2a-41e6-9c82-8e7b4d4c7182")
+	)
+	(fp_line
+		(start 0.8 1.45)
+		(end 0.8 -1.45)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "B.Fab")
+		(uuid "e1137113-816e-4807-a9ec-6bf9ff943288")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0.1016 1.7 90)
+		(unlocked yes)
+		(layer "User.5")
+		(uuid "b4099a59-6084-4315-866f-22fb0c3170f1")
+		(effects
+			(font
+				(size 0.508 0.508)
+				(thickness 0.127)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -1.31 -0.95 90)
+		(size 0.44 1.1)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(thermal_bridge_angle 45)
+		(uuid "1219ee3b-31a2-4328-b570-a6b8e066e67d")
+	)
+	(pad "2" smd rect
+		(at -1.31 0 90)
+		(size 0.44 1.1)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(thermal_bridge_angle 45)
+		(uuid "cd23ed0e-7445-4563-9c4c-28a0bf464f7f")
+	)
+	(pad "3" smd rect
+		(at -1.31 0.95 90)
+		(size 0.44 1.1)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(thermal_bridge_angle 45)
+		(uuid "82011fbd-7c9e-482e-a5e1-4ca22b3d93fd")
+	)
+	(pad "4" smd rect
+		(at 1.31 0.95 90)
+		(size 0.44 1.1)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(thermal_bridge_angle 45)
+		(uuid "4f1b8f34-27ec-477f-bcbb-f6a0c66368e0")
+	)
+	(pad "5" smd rect
+		(at 1.31 0 90)
+		(size 0.44 1.1)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(thermal_bridge_angle 45)
+		(uuid "d0523e22-cf35-4fa5-bc29-0d5ed6180f64")
+	)
+	(pad "6" smd rect
+		(at 1.31 -0.95 90)
+		(size 0.44 1.1)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(thermal_bridge_angle 45)
+		(uuid "e5fa04b4-0b85-4314-a3d1-547d66934334")
+	)
+	(embedded_fonts no)
+	(model "${KICAD_USER_3DMODEL_DIR}/pmiao/TSOT23_6L095P280WL.step"
+		(offset
+			(xyz 0.00008 0.00008 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 -180)
+		)
+	)
 )

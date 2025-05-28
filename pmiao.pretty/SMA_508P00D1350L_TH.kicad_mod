@@ -1,55 +1,388 @@
-(footprint "SMA_508P00D1350L_TH" (version 20221018) (generator pcbnew)
-  locked (layer "F.Cu")
-  (property "Author" "Peng")
-  (property "Comment" "SMA")
-  (property "DATASHEET" "")
-  (property "DATASHEET2" "https://www.amphenolrf.com/132134.html")
-  (property "MFG" "Rosenberger")
-  (property "MFG2" "Amphenol RF")
-  (property "MFGPN" "32k101-400L5")
-  (property "MFGPN2" "132134")
-  (property "Note" "")
-  (property "PackageDescription" "")
-  (property "PackageType" "")
-  (property "Part Description" "SMA  STRAIGHT JACK PCB")
-  (property "Part Name" "")
-  (property "Power" "")
-  (property "Sheetfile" "Power.kicad_sch")
-  (property "Sheetname" "Power")
-  (property "Size" "")
-  (property "Tol" "")
-  (property "ValueP" "")
-  (property "description" "SMA  STRAIGHT JACK PCB")
-  (fp_text reference "REF**" (at -4.3896 -0.7172 -90 unlocked) (layer "F.SilkS")
-      (effects (font (size 0.762 0.762) (thickness 0.127)) (justify left bottom))
-    (tstamp ab289a08-ef38-4a75-837d-a37e375499d2)
-  )
-  (fp_text value "SMA_508P00D1350L_TH" (at -3.5941 6.1341 unlocked) (layer "F.SilkS") hide
-      (effects (font (size 1.524 1.524) (thickness 0.254)) (justify left bottom))
-    (tstamp 324b8fb8-3150-48c1-9dfb-53e1a71fd956)
-  )
-  (fp_text user "${REFERENCE}" (at 0 0 unlocked) (layer "User.5")
-      (effects (font (size 0.508 0.508) (thickness 0.127)))
-    (tstamp 5cbe0e00-f109-4895-9519-0e626d675b84)
-  )
-  (fp_line (start -3.15 1) (end -3.15 -1)
-    (stroke (width 0.2) (type solid)) (layer "F.SilkS") (tstamp fc495454-963e-4ad8-bea1-3d1d8be1a4db))
-  (fp_line (start -1 -3.15) (end 1 -3.15)
-    (stroke (width 0.2) (type solid)) (layer "F.SilkS") (tstamp 6ec9956a-a36b-4138-9412-6f83923398ae))
-  (fp_line (start -1 3.15) (end 1 3.15)
-    (stroke (width 0.2) (type solid)) (layer "F.SilkS") (tstamp 882086ed-7cd1-43a5-8048-89811b69eb76))
-  (fp_line (start 3.15 1) (end 3.15 -1)
-    (stroke (width 0.2) (type solid)) (layer "F.SilkS") (tstamp a15f35d5-50a2-4fcf-800f-60e2b82291db))
-  (fp_circle (center 0 0) (end 0 -1.75334)
-    (stroke (width 0.2) (type solid)) (fill none) (layer "F.SilkS") (tstamp 31db89dd-677d-4914-b199-370214b4bcf9))
-  (pad "1" thru_hole circle locked (at 0 0 180) (size 2.4 2.4) (drill 1.5) (layers "*.Cu" "*.Mask") (tstamp 0dcd2f89-6a02-47b9-a58d-e5627df7fa33))
-  (pad "2" thru_hole circle locked (at -2.5 -2.5 180) (size 2.5 2.5) (drill 1.7) (layers "*.Cu" "*.Mask") (tstamp d1d6819e-9f90-4f68-a6f8-2b32fa666305))
-  (pad "2" thru_hole circle locked (at -2.5 2.5 180) (size 2.5 2.5) (drill 1.7) (layers "*.Cu" "*.Mask") (tstamp 17d5ad5a-c3f1-4e18-a89a-f7bac5f41ea4))
-  (pad "2" thru_hole circle locked (at 2.5 -2.5 180) (size 2.5 2.5) (drill 1.7) (layers "*.Cu" "*.Mask") (tstamp ec89a4a7-dc2a-4539-b6d9-de47a3db59e3))
-  (pad "2" thru_hole circle locked (at 2.5 2.5 180) (size 2.5 2.5) (drill 1.7) (layers "*.Cu" "*.Mask") (tstamp 197dd7a5-66af-4229-b2a8-a9a62ecd7c06))
-  (model "${KIPRJMOD}/ALTIUM_EMBEDDED_MODELS/SMA_508P00D1350L_TH.step"
-    (offset (xyz 0.00007 0.00009 0.0508))
-    (scale (xyz 1 1 1))
-    (rotate (xyz -90 -0 0))
-  )
+(footprint "SMA_508P00D1350L_TH"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at -4.3896 -0.7172 270)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "ab289a08-ef38-4a75-837d-a37e375499d2")
+		(effects
+			(font
+				(size 0.762 0.762)
+				(thickness 0.127)
+			)
+			(justify left bottom)
+		)
+	)
+	(property "Value" "SMA_508P00D1350L_TH"
+		(at -3.5941 6.1341 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "324b8fb8-3150-48c1-9dfb-53e1a71fd956")
+		(effects
+			(font
+				(size 1.524 1.524)
+				(thickness 0.254)
+			)
+			(justify left bottom)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "1f77fa2e-dc35-4c7b-8610-1665fa1e3064")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "246e6c7e-4f91-48e8-8a66-d148f50d87b2")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Author" "Peng"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c1ee45c9-b0ba-419b-9fa3-6d84778efac5")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Comment" "SMA"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "9f4f4a58-07ba-405e-88fd-ab84e130fbac")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "DATASHEET" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b06546a1-33c6-4b80-a434-ff6c260b8b36")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "DATASHEET2" "https://www.amphenolrf.com/132134.html"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "9d923911-bfc7-43d9-be2b-982f7466d3b1")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "MFG" "Rosenberger"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d892be82-ffc5-41a5-bdf0-c8db5207de75")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "MFG2" "Amphenol RF"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a26d43da-4c9c-4d2e-bacb-c348a1476937")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "MFGPN" "32k101-400L5"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "74d7b69f-751d-4e35-9368-618dd5e8b09c")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "MFGPN2" "132134"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "39b9389b-6095-4dc0-83c8-e5d2575bffa4")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Note" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "5cca4366-45da-4a48-8b54-c7bbf1b31504")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "PackageDescription" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ca0e53dd-2297-4c12-a5c2-d4b13e51b2d0")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "PackageType" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "cdc85f11-b007-456a-97b8-b9fb0735d341")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Part Description" "SMA  STRAIGHT JACK PCB"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "6ddff644-d5d4-441a-b2ee-498638cd4d0e")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Part Name" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e618ed69-fb6a-4609-ae2f-36a8dae47bbe")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Power" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "4c644874-a013-4b23-9065-92d4663c94e0")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Size" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f069f935-a95b-4309-bd0a-25719223770f")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Tol" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "33b253cb-1a69-43d5-8168-40ce410db154")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "ValueP" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "95a311ba-381d-4087-9019-7aa3ee44e61b")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "description" "SMA  STRAIGHT JACK PCB"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "3d13e007-2142-46f0-badd-7ae6e813bc64")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_line
+		(start -3.15 1)
+		(end -3.15 -1)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "fc495454-963e-4ad8-bea1-3d1d8be1a4db")
+	)
+	(fp_line
+		(start -1 -3.15)
+		(end 1 -3.15)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "6ec9956a-a36b-4138-9412-6f83923398ae")
+	)
+	(fp_line
+		(start -1 3.15)
+		(end 1 3.15)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "882086ed-7cd1-43a5-8048-89811b69eb76")
+	)
+	(fp_line
+		(start 3.15 1)
+		(end 3.15 -1)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "a15f35d5-50a2-4fcf-800f-60e2b82291db")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 0 -1.75334)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "31db89dd-677d-4914-b199-370214b4bcf9")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "User.5")
+		(uuid "5cbe0e00-f109-4895-9519-0e626d675b84")
+		(effects
+			(font
+				(size 0.508 0.508)
+				(thickness 0.127)
+			)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at 0 0 180)
+		(size 2.4 2.4)
+		(drill 1.5)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "0dcd2f89-6a02-47b9-a58d-e5627df7fa33")
+	)
+	(pad "2" thru_hole circle
+		(at -2.5 -2.5 180)
+		(size 2.5 2.5)
+		(drill 1.7)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "d1d6819e-9f90-4f68-a6f8-2b32fa666305")
+	)
+	(pad "2" thru_hole circle
+		(at -2.5 2.5 180)
+		(size 2.5 2.5)
+		(drill 1.7)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "17d5ad5a-c3f1-4e18-a89a-f7bac5f41ea4")
+	)
+	(pad "2" thru_hole circle
+		(at 2.5 -2.5 180)
+		(size 2.5 2.5)
+		(drill 1.7)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "ec89a4a7-dc2a-4539-b6d9-de47a3db59e3")
+	)
+	(pad "2" thru_hole circle
+		(at 2.5 2.5 180)
+		(size 2.5 2.5)
+		(drill 1.7)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "197dd7a5-66af-4229-b2a8-a9a62ecd7c06")
+	)
+	(embedded_fonts no)
+	(model "${KICAD_USER_3DMODEL_DIR}/pmiao/SMA_508P00D1350L_TH.step"
+		(offset
+			(xyz 0.00007 0.00009 0.0508)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 0)
+		)
+	)
 )
