@@ -1,8 +1,8 @@
 (kicad_sch
-	(version 20260101)
+	(version 20260306)
 	(generator "eeschema")
 	(generator_version "10.0")
-	(uuid "921387aa-19cc-4016-b50f-b558b818be97")
+	(uuid "529f6650-641e-42c9-8227-77fc074e2d52")
 	(paper "A4")
 	(lib_symbols
 		(symbol "Device:C_Small"
@@ -1084,344 +1084,325 @@
 		)
 	)
 	(junction
-		(at 316.23 158.75)
+		(at 299.72 176.53)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "0f86c593-a0df-4e63-8751-dd2ddc3770d3")
+		(uuid "0f1d26dd-ddea-472e-9147-ce85b00ee3d2")
 	)
 	(junction
-		(at 261.62 196.85)
+		(at 375.92 181.61)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "1383d488-9909-4ef5-848e-ebd1ecb66541")
+		(uuid "44e3293a-2e4e-4c3a-84c4-1a94a8906568")
 	)
 	(junction
-		(at 237.49 186.69)
+		(at 303.53 189.23)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "2932ece2-8565-45e4-a603-1a0ed782606b")
+		(uuid "76365242-6027-4dc6-99cc-e9ac6a29ccc4")
 	)
 	(junction
-		(at 309.88 179.07)
+		(at 322.58 198.12)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "2c21dfa6-bd52-47f3-bec7-4043c27929d4")
+		(uuid "81e3f5cf-210d-4588-979a-0c45cd0289f2")
 	)
 	(junction
-		(at 323.85 163.83)
+		(at 327.66 199.39)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "3d4e4217-96a7-4e55-9e05-6281e9436ad7")
+		(uuid "bdfe12bd-2f84-4185-92ad-56d6792b1249")
 	)
 	(junction
-		(at 233.68 173.99)
+		(at 389.89 166.37)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "59c631e2-ed75-4e02-bf56-a2c65b2f6ff8")
+		(uuid "e5f92108-ef3d-4c2d-9e71-9f6c8f375a82")
 	)
 	(junction
-		(at 256.54 195.58)
+		(at 382.27 161.29)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "b9a814e2-69ce-4b76-8ead-876154b03b76")
+		(uuid "fa2add97-2bbf-4b05-8050-5441ee268acf")
 	)
 	(no_connect
-		(at 264.16 163.83)
-		(uuid "05daa4ed-0655-400b-9a2b-359dd25cdc16")
+		(at 360.68 186.69)
+		(uuid "12eca3ab-8b1f-4e8d-a94a-d76b0da375ba")
 	)
 	(no_connect
-		(at 264.16 194.31)
-		(uuid "3e825de0-d86a-4e30-b137-f901d8ad3c17")
+		(at 335.28 166.37)
+		(uuid "2aef6bdc-2829-4d72-a9a7-be7b89b2945b")
 	)
 	(no_connect
-		(at 259.08 194.31)
-		(uuid "6b75a2a2-e31d-4173-be2f-16211fe523df")
+		(at 327.66 166.37)
+		(uuid "2b420bc3-6bd0-46e4-beee-c51f8b20335d")
 	)
 	(no_connect
-		(at 294.64 173.99)
-		(uuid "714529e9-92dc-4fb5-8d2f-1a92de7cf0c3")
+		(at 325.12 196.85)
+		(uuid "2bf4cd0d-3a1d-4ede-84a5-87998609e482")
 	)
 	(no_connect
-		(at 261.62 163.83)
-		(uuid "78163c58-8771-4917-9ff7-a6b3ca105b6e")
+		(at 332.74 166.37)
+		(uuid "3ee7c552-8ba4-42c0-80f4-53b0baa0affc")
 	)
 	(no_connect
-		(at 266.7 163.83)
-		(uuid "9c1e3525-ed5b-4cbf-a4e6-6b0e418e4db8")
+		(at 304.8 186.69)
+		(uuid "a3346e7a-fc76-4f13-a287-a3feca2266f6")
 	)
 	(no_connect
-		(at 294.64 184.15)
-		(uuid "b67493da-7817-4591-bdcd-4c94003fb85b")
+		(at 330.2 166.37)
+		(uuid "a36f5ddd-1fae-46f0-880a-6caf89267381")
 	)
 	(no_connect
-		(at 238.76 171.45)
-		(uuid "d7d4168c-49c2-4807-9cae-2a1b3fbb530e")
+		(at 304.8 173.99)
+		(uuid "ba793569-d625-4ae4-862e-a4f80b0c703d")
 	)
 	(no_connect
-		(at 294.64 186.69)
-		(uuid "e25a928e-7d30-4d4d-b560-13960dfb3945")
+		(at 360.68 189.23)
+		(uuid "c36bb8f0-fc33-40dc-8c25-566ff5405154")
 	)
 	(no_connect
-		(at 269.24 163.83)
-		(uuid "e853181c-76bc-4cd8-ba0e-db23ba3cdc02")
+		(at 360.68 176.53)
+		(uuid "ef78cbfa-349f-471c-b35d-db7dbb8281fd")
 	)
 	(no_connect
-		(at 238.76 184.15)
-		(uuid "ead7cd1e-5f58-44d9-9dea-2a5479058216")
+		(at 330.2 196.85)
+		(uuid "fca0696d-5e88-4e03-ab95-a34769e4cdae")
 	)
 	(wire
 		(pts
-			(xy 256.54 163.83) (xy 256.54 160.02)
+			(xy 303.53 184.15) (xy 303.53 189.23)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "03046a75-1813-48db-88b5-b861e831eb82")
+		(uuid "076cc353-8f13-479b-8a2f-9899b7d27d13")
 	)
 	(wire
 		(pts
-			(xy 309.88 179.07) (xy 312.42 179.07)
+			(xy 325.12 199.39) (xy 325.12 207.01)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "06a8beef-5056-43c7-855b-17bd320c3506")
+		(uuid "0adc334f-ee8d-4003-99d3-b37f1a3abd48")
 	)
 	(wire
 		(pts
-			(xy 261.62 196.85) (xy 261.62 199.39)
+			(xy 327.66 196.85) (xy 327.66 199.39)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "19f3f507-4fd6-4de7-9747-e9c99f2b660a")
+		(uuid "138fc5ff-adc6-4d2e-91d4-309666cef83c")
 	)
 	(wire
 		(pts
-			(xy 261.62 196.85) (xy 259.08 196.85)
+			(xy 299.72 179.07) (xy 304.8 179.07)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "1f34a6f0-080f-452b-be68-f62d2688649d")
+		(uuid "15465b7e-c911-4aaf-94a3-a68fcaab1aae")
 	)
 	(wire
 		(pts
-			(xy 309.88 176.53) (xy 309.88 179.07)
+			(xy 327.66 199.39) (xy 325.12 199.39)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "233cebe2-b746-4c9f-a0f8-cdf0e40bb5d8")
+		(uuid "1a59bc15-c8d6-4cfa-bcd0-fa3841b49e3e")
 	)
 	(wire
 		(pts
-			(xy 294.64 179.07) (xy 309.88 179.07)
+			(xy 317.5 198.12) (xy 322.58 198.12)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "2d599516-ee64-4e7c-940e-d411e01a7369")
+		(uuid "215aa7c4-4e15-462b-8fac-6728bc64f1c1")
 	)
 	(wire
 		(pts
-			(xy 237.49 181.61) (xy 237.49 186.69)
+			(xy 322.58 196.85) (xy 322.58 198.12)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "34be9f76-d6a8-45b7-a2b8-88a4d3938654")
+		(uuid "219f3a5d-d906-4b11-98a2-4d0560aebb9d")
 	)
 	(wire
 		(pts
-			(xy 316.23 158.75) (xy 327.66 158.75)
+			(xy 375.92 161.29) (xy 375.92 173.99)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "3f028c7f-119d-4e1c-b90c-fe2f5070a719")
+		(uuid "23f080a4-9ba7-482d-94d0-291ac9852b54")
 	)
 	(wire
 		(pts
-			(xy 269.24 194.31) (xy 274.32 194.31)
+			(xy 304.8 184.15) (xy 303.53 184.15)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "4a6952dd-2527-4fe3-b2b6-836a62941591")
+		(uuid "287fcf49-3877-40a0-bba5-67a9b3aee80b")
 	)
 	(wire
 		(pts
-			(xy 294.64 181.61) (xy 298.45 181.61)
+			(xy 335.28 196.85) (xy 340.36 196.85)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "5d1735e4-cd98-433f-91d4-1867c29d6287")
+		(uuid "2d2d9ffd-7d00-4c52-805c-919d32d84e5f")
 	)
 	(wire
 		(pts
-			(xy 256.54 194.31) (xy 256.54 195.58)
+			(xy 375.92 179.07) (xy 375.92 181.61)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "71cf4d05-2f0c-4262-89c5-363f8cd4b40b")
+		(uuid "406327aa-e892-448a-9c09-8f2995fa2c8b")
 	)
 	(wire
 		(pts
-			(xy 255.27 160.02) (xy 256.54 160.02)
+			(xy 389.89 166.37) (xy 393.7 166.37)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "823bf90c-6acd-4293-ae0c-0e160a85a722")
+		(uuid "5eaf9641-7c36-459e-9bcd-a663faab5dad")
 	)
 	(wire
 		(pts
-			(xy 309.88 158.75) (xy 316.23 158.75)
+			(xy 360.68 181.61) (xy 375.92 181.61)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "8533937a-2d17-49df-aba9-21383febdc4d")
+		(uuid "6a029d43-0846-4315-8892-a6104c9adb74")
 	)
 	(wire
 		(pts
-			(xy 238.76 181.61) (xy 237.49 181.61)
+			(xy 360.68 184.15) (xy 364.49 184.15)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "886da5ca-c63d-496a-a9aa-fd2598fec4bf")
+		(uuid "79951199-9598-455a-97af-042bfec5a396")
 	)
 	(wire
 		(pts
-			(xy 251.46 195.58) (xy 256.54 195.58)
+			(xy 321.31 162.56) (xy 322.58 162.56)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "a4433652-5967-4501-bea6-133e703f001c")
+		(uuid "7c822a88-bcf3-4542-9892-bdc0c52ba313")
 	)
 	(wire
 		(pts
-			(xy 259.08 196.85) (xy 259.08 204.47)
+			(xy 375.92 181.61) (xy 378.46 181.61)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "a4d54cc3-eea6-4e47-9d47-ab40c1a11209")
+		(uuid "80cc464f-548c-448f-91c4-5a3d7582ee1c")
 	)
 	(wire
 		(pts
-			(xy 316.23 163.83) (xy 323.85 163.83)
+			(xy 322.58 166.37) (xy 322.58 162.56)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "ab4ad9e0-cad7-4c8d-919a-9cae4bd3778a")
+		(uuid "8116129f-cc98-48c6-a1ad-870196d90a53")
 	)
 	(wire
 		(pts
-			(xy 229.87 186.69) (xy 237.49 186.69)
+			(xy 299.72 176.53) (xy 299.72 179.07)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "b1878659-6d44-4054-a695-3b2e10f2dc45")
+		(uuid "adecafc4-51e8-4c11-b44e-679079c9521f")
 	)
 	(wire
 		(pts
-			(xy 233.68 173.99) (xy 233.68 176.53)
+			(xy 382.27 166.37) (xy 389.89 166.37)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "b66378c6-9a1f-48d3-9ccc-dd06ccbde59a")
+		(uuid "b6df99ea-0a43-4000-93c5-9c5a7df660ac")
 	)
 	(wire
 		(pts
-			(xy 256.54 195.58) (xy 256.54 199.39)
+			(xy 382.27 161.29) (xy 393.7 161.29)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "bef40267-b794-47c2-86ab-b0b8473da6cf")
+		(uuid "b73c93b8-2257-413b-b5b9-b7a0f03c85cd")
 	)
 	(wire
 		(pts
-			(xy 233.68 176.53) (xy 238.76 176.53)
+			(xy 375.92 161.29) (xy 382.27 161.29)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "dec3ee30-fc1d-4fab-8f00-634590fe3886")
+		(uuid "baaf9df3-f121-46d3-9baa-ae6c21b55198")
 	)
 	(wire
 		(pts
-			(xy 237.49 186.69) (xy 238.76 186.69)
+			(xy 322.58 198.12) (xy 322.58 201.93)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "e37e5d44-30b3-4b63-a2f8-aade3de20864")
+		(uuid "bb705176-9fdb-4835-96f0-327c9aab677e")
 	)
 	(wire
 		(pts
-			(xy 261.62 194.31) (xy 261.62 196.85)
+			(xy 327.66 199.39) (xy 327.66 201.93)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "e645aaa1-7a60-44f9-adf4-629a9fd76d26")
-	)
-	(wire
-		(pts
-			(xy 323.85 163.83) (xy 327.66 163.83)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e99a4aea-ada6-445a-aab0-dc336112544d")
-	)
-	(wire
-		(pts
-			(xy 309.88 158.75) (xy 309.88 171.45)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "eb215db5-ca9b-4bdd-84c4-db76c6a6dad8")
+		(uuid "ffa0b166-b55e-4bac-9c35-32c7af001892")
 	)
 	(symbol
 		(lib_id "power:GNDA")
-		(at 246.38 195.58 270)
+		(at 325.12 161.29 0)
+		(mirror x)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1429,10 +1410,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "0a5a088d-f6dd-4122-9e52-abbb529af831")
-		(property "Reference" "#PWR069"
-			(at 240.03 195.58 0)
+		(uuid "00e9568c-e949-48c8-b96f-b62359ea906e")
+		(property "Reference" "#PWR0103"
+			(at 325.12 154.94 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1443,18 +1423,17 @@
 			)
 		)
 		(property "Value" "GNDA"
-			(at 242.57 195.5799 90)
+			(at 325.12 156.464 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
 		(property "Footprint" ""
-			(at 246.38 195.58 0)
+			(at 325.12 161.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1465,7 +1444,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 246.38 195.58 0)
+			(at 325.12 161.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1476,7 +1455,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GNDA\" , analog ground"
-			(at 246.38 195.58 0)
+			(at 325.12 161.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1487,12 +1466,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "8d3d326c-d7e9-4184-848c-900526f7a1c0")
+			(uuid "a99a3e63-9b1a-4829-8f84-525ae25cd34a")
 		)
 		(instances
 			(project "RFCableTester"
-				(path "/fcdaf602-6d83-47ef-9856-13ece685cf9e/f6548753-b1e6-43ea-873e-05eee1e14129"
-					(reference "#PWR069")
+				(path "/fcdaf602-6d83-47ef-9856-13ece685cf9e/f378d860-b8cf-44c4-b7ef-1ee1775c26e5"
+					(reference "#PWR0103")
 					(unit 1)
 				)
 			)
@@ -1500,7 +1479,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 274.32 196.85 0)
+		(at 382.27 163.83 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1508,9 +1487,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "0a90a95e-cb67-4528-adb5-d97643c86d80")
-		(property "Reference" "C82"
-			(at 276.86 195.5862 0)
+		(uuid "0e1d7af7-a490-4f40-8c7e-a89ab78ffa03")
+		(property "Reference" "C75"
+			(at 384.81 162.5662 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1520,8 +1499,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100n"
-			(at 276.86 198.1262 0)
+		(property "Value" "10n"
+			(at 384.81 165.1062 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1532,7 +1511,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 274.32 196.85 0)
+			(at 382.27 163.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1543,7 +1522,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 274.32 196.85 0)
+			(at 382.27 163.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1554,7 +1533,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 274.32 196.85 0)
+			(at 382.27 163.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1565,23 +1544,24 @@
 			)
 		)
 		(pin "1"
-			(uuid "64a8f044-510a-4d18-b770-ffabe8fbe935")
+			(uuid "7f14ac80-c05a-4f3a-aac6-acd11e4b0ec5")
 		)
 		(pin "2"
-			(uuid "6012efdb-3775-4a50-92a8-dc3c37534d32")
+			(uuid "5908a0f5-319f-4378-85fb-87e8dfdc2d09")
 		)
 		(instances
 			(project "RFCableTester"
-				(path "/fcdaf602-6d83-47ef-9856-13ece685cf9e/f6548753-b1e6-43ea-873e-05eee1e14129"
-					(reference "C82")
+				(path "/fcdaf602-6d83-47ef-9856-13ece685cf9e/f378d860-b8cf-44c4-b7ef-1ee1775c26e5"
+					(reference "C75")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "power:GNDA")
-		(at 323.85 163.83 0)
+		(lib_id "Device:L_Small")
+		(at 375.92 176.53 0)
+		(mirror x)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1589,87 +1569,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "1b14756e-0cc3-4007-8bfe-32bb864f7973")
-		(property "Reference" "#PWR0151"
-			(at 323.85 170.18 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GNDA"
-			(at 323.85 168.91 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 323.85 163.83 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 323.85 163.83 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GNDA\" , analog ground"
-			(at 323.85 163.83 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "e372ace9-f5b6-4d7d-a49a-cf637c8bca89")
-		)
-		(instances
-			(project "RFCableTester"
-				(path "/fcdaf602-6d83-47ef-9856-13ece685cf9e/f6548753-b1e6-43ea-873e-05eee1e14129"
-					(reference "#PWR0151")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Small")
-		(at 252.73 160.02 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "2843f51c-7597-42d9-b758-877b62a38c1d")
-		(property "Reference" "C77"
-			(at 253.9938 162.56 0)
+		(uuid "29a13fa0-ed0c-4970-919e-9e31acc3ac13")
+		(property "Reference" "L3"
+			(at 377.19 177.8001 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1679,8 +1581,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100n"
-			(at 251.4538 162.56 0)
+		(property "Value" "BCR272JLC"
+			(at 377.19 175.2601 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1690,8 +1592,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 252.73 160.02 0)
+		(property "Footprint" "VNA_fp:BCR-272"
+			(at 375.92 176.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1702,7 +1604,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 252.73 160.02 0)
+			(at 375.92 176.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1712,8 +1614,8 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 252.73 160.02 0)
+		(property "Description" "Inductor, small symbol"
+			(at 375.92 176.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1722,95 +1624,17 @@
 					(size 1.27 1.27)
 				)
 			)
-		)
-		(pin "1"
-			(uuid "54a85f00-e8c7-471b-a4a0-858b998966f2")
 		)
 		(pin "2"
-			(uuid "26bf6f72-da8f-407f-b17a-5559691280c5")
-		)
-		(instances
-			(project "RFCableTester"
-				(path "/fcdaf602-6d83-47ef-9856-13ece685cf9e/f6548753-b1e6-43ea-873e-05eee1e14129"
-					(reference "C77")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GNDA")
-		(at 266.7 199.39 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "3604e189-3216-48ff-8c31-4e468d2d1959")
-		(property "Reference" "#PWR0147"
-			(at 266.7 205.74 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GNDA"
-			(at 266.7 204.47 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 266.7 199.39 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 266.7 199.39 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GNDA\" , analog ground"
-			(at 266.7 199.39 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
+			(uuid "4dbe6ee1-351a-434b-9863-8083ed465b7d")
 		)
 		(pin "1"
-			(uuid "e3a7ea9e-5554-45a8-8c50-97e74acafd1d")
+			(uuid "6d663783-4f8e-43f4-9ffb-e70a4d1daf2f")
 		)
 		(instances
 			(project "RFCableTester"
-				(path "/fcdaf602-6d83-47ef-9856-13ece685cf9e/f6548753-b1e6-43ea-873e-05eee1e14129"
-					(reference "#PWR0147")
+				(path "/fcdaf602-6d83-47ef-9856-13ece685cf9e/f378d860-b8cf-44c4-b7ef-1ee1775c26e5"
+					(reference "L3")
 					(unit 1)
 				)
 			)
@@ -1818,7 +1642,7 @@
 	)
 	(symbol
 		(lib_id "power:GNDA")
-		(at 233.68 173.99 270)
+		(at 299.72 176.53 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1827,9 +1651,9 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "456feb0b-13b0-4473-8d17-cceb3b49529b")
-		(property "Reference" "#PWR067"
-			(at 227.33 173.99 0)
+		(uuid "2d8bae69-ef99-4160-9766-3b56d47e38ac")
+		(property "Reference" "#PWR0100"
+			(at 293.37 176.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1840,7 +1664,7 @@
 			)
 		)
 		(property "Value" "GNDA"
-			(at 228.6 173.99 0)
+			(at 294.64 176.53 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1850,7 +1674,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 233.68 173.99 0)
+			(at 299.72 176.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1861,7 +1685,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 233.68 173.99 0)
+			(at 299.72 176.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1872,7 +1696,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GNDA\" , analog ground"
-			(at 233.68 173.99 0)
+			(at 299.72 176.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1887,8 +1711,8 @@
 		)
 		(instances
 			(project "RFCableTester"
-				(path "/fcdaf602-6d83-47ef-9856-13ece685cf9e/f6548753-b1e6-43ea-873e-05eee1e14129"
-					(reference "#PWR067")
+				(path "/fcdaf602-6d83-47ef-9856-13ece685cf9e/f378d860-b8cf-44c4-b7ef-1ee1775c26e5"
+					(reference "#PWR0100")
 					(unit 1)
 				)
 			)
@@ -1896,88 +1720,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 266.7 196.85 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "62bd58bd-af59-4953-98f2-3be7b415effb")
-		(property "Reference" "C81"
-			(at 269.24 195.5862 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100n"
-			(at 269.24 198.1262 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 266.7 196.85 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 266.7 196.85 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 266.7 196.85 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "5a735271-ed0b-4a68-97b0-8f0c5329aa1e")
-		)
-		(pin "2"
-			(uuid "00d83331-c68a-48ed-bbd6-a611636b8046")
-		)
-		(instances
-			(project "RFCableTester"
-				(path "/fcdaf602-6d83-47ef-9856-13ece685cf9e/f6548753-b1e6-43ea-873e-05eee1e14129"
-					(reference "C81")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Small")
-		(at 259.08 207.01 0)
+		(at 325.12 209.55 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -1986,9 +1729,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "69981ce6-5966-4543-9f2b-3ca20612314c")
-		(property "Reference" "C80"
-			(at 256.54 205.7462 0)
+		(uuid "412be634-59ef-45c9-826b-60b81a709ed1")
+		(property "Reference" "C69"
+			(at 322.58 208.2862 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1999,7 +1742,7 @@
 			)
 		)
 		(property "Value" "100n"
-			(at 256.54 208.2862 0)
+			(at 322.58 210.8262 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2010,7 +1753,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 259.08 207.01 0)
+			(at 325.12 209.55 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2021,7 +1764,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 259.08 207.01 0)
+			(at 325.12 209.55 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2032,7 +1775,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 259.08 207.01 0)
+			(at 325.12 209.55 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2050,86 +1793,8 @@
 		)
 		(instances
 			(project "RFCableTester"
-				(path "/fcdaf602-6d83-47ef-9856-13ece685cf9e/f6548753-b1e6-43ea-873e-05eee1e14129"
-					(reference "C80")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GNDA")
-		(at 274.32 199.39 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "776667ef-99a2-4b94-9465-22eaa05abd10")
-		(property "Reference" "#PWR0148"
-			(at 274.32 205.74 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GNDA"
-			(at 274.32 204.47 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 274.32 199.39 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 274.32 199.39 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GNDA\" , analog ground"
-			(at 274.32 199.39 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "745600ad-702b-401a-b743-f850a22a1518")
-		)
-		(instances
-			(project "RFCableTester"
-				(path "/fcdaf602-6d83-47ef-9856-13ece685cf9e/f6548753-b1e6-43ea-873e-05eee1e14129"
-					(reference "#PWR0148")
+				(path "/fcdaf602-6d83-47ef-9856-13ece685cf9e/f378d860-b8cf-44c4-b7ef-1ee1775c26e5"
+					(reference "C69")
 					(unit 1)
 				)
 			)
@@ -2137,7 +1802,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 248.92 195.58 90)
+		(at 325.12 163.83 0)
 		(mirror x)
 		(unit 1)
 		(body_style 1)
@@ -2146,9 +1811,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "7da0a027-08ed-4e29-8e55-dd74c77cd398")
-		(property "Reference" "C78"
-			(at 247.6562 198.12 0)
+		(uuid "4aca432b-1a29-4cab-9ff8-8b442552e784")
+		(property "Reference" "C68"
+			(at 327.66 165.0938 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2159,7 +1824,7 @@
 			)
 		)
 		(property "Value" "100n"
-			(at 250.1962 198.12 0)
+			(at 327.66 162.5538 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2170,7 +1835,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 248.92 195.58 0)
+			(at 325.12 163.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2181,7 +1846,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 248.92 195.58 0)
+			(at 325.12 163.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2192,89 +1857,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 248.92 195.58 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "6e6333d2-debd-4853-ad31-3e6bf4522839")
-		)
-		(pin "2"
-			(uuid "f81139d7-270a-422c-9c10-fb0d3c711056")
-		)
-		(instances
-			(project "RFCableTester"
-				(path "/fcdaf602-6d83-47ef-9856-13ece685cf9e/f6548753-b1e6-43ea-873e-05eee1e14129"
-					(reference "C78")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Small")
-		(at 259.08 161.29 0)
-		(mirror x)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "8548a632-0226-4076-a893-549e8f7752bc")
-		(property "Reference" "C79"
-			(at 261.62 162.5538 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100n"
-			(at 261.62 160.0138 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 259.08 161.29 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 259.08 161.29 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 259.08 161.29 0)
+			(at 325.12 163.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2292,8 +1875,8 @@
 		)
 		(instances
 			(project "RFCableTester"
-				(path "/fcdaf602-6d83-47ef-9856-13ece685cf9e/f6548753-b1e6-43ea-873e-05eee1e14129"
-					(reference "C79")
+				(path "/fcdaf602-6d83-47ef-9856-13ece685cf9e/f378d860-b8cf-44c4-b7ef-1ee1775c26e5"
+					(reference "C68")
 					(unit 1)
 				)
 			)
@@ -2301,8 +1884,7 @@
 	)
 	(symbol
 		(lib_id "power:GNDA")
-		(at 259.08 158.75 0)
-		(mirror x)
+		(at 389.89 166.37 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2310,9 +1892,10 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "8e8d0432-1f04-403d-8f4e-51ca71d651f5")
-		(property "Reference" "#PWR0124"
-			(at 259.08 152.4 0)
+		(fields_autoplaced yes)
+		(uuid "4c2e78fb-5765-4eaf-9097-6a1cfe146c58")
+		(property "Reference" "#PWR0114"
+			(at 389.89 172.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2323,7 +1906,7 @@
 			)
 		)
 		(property "Value" "GNDA"
-			(at 259.08 153.924 0)
+			(at 389.89 171.45 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2333,7 +1916,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 259.08 158.75 0)
+			(at 389.89 166.37 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2344,7 +1927,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 259.08 158.75 0)
+			(at 389.89 166.37 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2355,7 +1938,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GNDA\" , analog ground"
-			(at 259.08 158.75 0)
+			(at 389.89 166.37 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2366,12 +1949,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "a99a3e63-9b1a-4829-8f84-525ae25cd34a")
+			(uuid "e372ace9-f5b6-4d7d-a49a-cf637c8bca89")
 		)
 		(instances
 			(project "RFCableTester"
-				(path "/fcdaf602-6d83-47ef-9856-13ece685cf9e/f6548753-b1e6-43ea-873e-05eee1e14129"
-					(reference "#PWR0124")
+				(path "/fcdaf602-6d83-47ef-9856-13ece685cf9e/f378d860-b8cf-44c4-b7ef-1ee1775c26e5"
+					(reference "#PWR0114")
 					(unit 1)
 				)
 			)
@@ -2379,7 +1962,7 @@
 	)
 	(symbol
 		(lib_id "power:GNDA")
-		(at 294.64 176.53 90)
+		(at 360.68 179.07 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2388,9 +1971,9 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "aab02ee8-4af7-4a0b-a5a6-6fe59df4f829")
-		(property "Reference" "#PWR0149"
-			(at 300.99 176.53 0)
+		(uuid "4ee84438-8840-4b41-8508-479f930706bf")
+		(property "Reference" "#PWR0111"
+			(at 367.03 179.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2401,7 +1984,7 @@
 			)
 		)
 		(property "Value" "GNDA"
-			(at 298.0302 176.5299 90)
+			(at 364.0702 179.0699 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2412,7 +1995,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 294.64 176.53 0)
+			(at 360.68 179.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2423,7 +2006,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 294.64 176.53 0)
+			(at 360.68 179.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2434,7 +2017,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GNDA\" , analog ground"
-			(at 294.64 176.53 0)
+			(at 360.68 179.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2449,8 +2032,8 @@
 		)
 		(instances
 			(project "RFCableTester"
-				(path "/fcdaf602-6d83-47ef-9856-13ece685cf9e/f6548753-b1e6-43ea-873e-05eee1e14129"
-					(reference "#PWR0149")
+				(path "/fcdaf602-6d83-47ef-9856-13ece685cf9e/f378d860-b8cf-44c4-b7ef-1ee1775c26e5"
+					(reference "#PWR0111")
 					(unit 1)
 				)
 			)
@@ -2458,8 +2041,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 314.96 179.07 90)
-		(mirror x)
+		(at 393.7 163.83 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2467,9 +2049,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "aaf8964e-a905-439b-9712-f7f0b1c84d86")
-		(property "Reference" "C83"
-			(at 313.6962 181.61 0)
+		(uuid "687d27f7-112c-4156-a0ee-ebc60fedf004")
+		(property "Reference" "C76"
+			(at 396.24 162.5662 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2479,8 +2061,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "P21BNL300M5S"
-			(at 316.2362 181.61 0)
+		(property "Value" "1u"
+			(at 396.24 165.1062 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2490,8 +2072,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
-			(at 314.96 179.07 0)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 393.7 163.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2502,7 +2084,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 314.96 179.07 0)
+			(at 393.7 163.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2513,7 +2095,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 314.96 179.07 0)
+			(at 393.7 163.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2524,15 +2106,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "971a857d-d628-44e2-a87e-254933278ff5")
+			(uuid "6d1bf2ac-6e60-44d5-a6c1-857f9a94e256")
 		)
 		(pin "2"
-			(uuid "726cc559-1f20-45a5-bfa4-45edea45c512")
+			(uuid "c70346d2-d8be-47d5-a339-ccd9d9ecf7f6")
 		)
 		(instances
 			(project "RFCableTester"
-				(path "/fcdaf602-6d83-47ef-9856-13ece685cf9e/f6548753-b1e6-43ea-873e-05eee1e14129"
-					(reference "C83")
+				(path "/fcdaf602-6d83-47ef-9856-13ece685cf9e/f378d860-b8cf-44c4-b7ef-1ee1775c26e5"
+					(reference "C76")
 					(unit 1)
 				)
 			)
@@ -2540,7 +2122,7 @@
 	)
 	(symbol
 		(lib_id "power:GNDA")
-		(at 298.45 181.61 0)
+		(at 316.23 162.56 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2549,9 +2131,9 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "afb0bb2a-04a3-457a-8258-8f418dd01ed1")
-		(property "Reference" "#PWR0150"
-			(at 298.45 187.96 0)
+		(uuid "6e95e127-d0b1-4f85-a279-0a9eaeacc07e")
+		(property "Reference" "#PWR0102"
+			(at 309.88 162.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2562,7 +2144,7 @@
 			)
 		)
 		(property "Value" "GNDA"
-			(at 298.45 186.69 0)
+			(at 311.15 162.56 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2572,7 +2154,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 298.45 181.61 0)
+			(at 316.23 162.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2583,7 +2165,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 298.45 181.61 0)
+			(at 316.23 162.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2594,7 +2176,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GNDA\" , analog ground"
-			(at 298.45 181.61 0)
+			(at 316.23 162.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2605,20 +2187,21 @@
 			)
 		)
 		(pin "1"
-			(uuid "e37b509e-095c-4e48-8ba4-4b12bbcdab96")
+			(uuid "d035bf14-4cba-4fb6-94e6-32984caf0a4a")
 		)
 		(instances
 			(project "RFCableTester"
-				(path "/fcdaf602-6d83-47ef-9856-13ece685cf9e/f6548753-b1e6-43ea-873e-05eee1e14129"
-					(reference "#PWR0150")
+				(path "/fcdaf602-6d83-47ef-9856-13ece685cf9e/f378d860-b8cf-44c4-b7ef-1ee1775c26e5"
+					(reference "#PWR0102")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "VNA_sym:LVA-273PN+")
-		(at 256.54 194.31 90)
+		(lib_id "power:GNDA")
+		(at 325.12 212.09 0)
+		(mirror y)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2627,9 +2210,168 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "c5e78e8d-f371-4ca2-87ba-d62346195c95")
+		(uuid "6ed23227-3975-4d0c-a838-3e5df8616bc9")
+		(property "Reference" "#PWR0104"
+			(at 325.12 218.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GNDA"
+			(at 325.12 217.17 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 325.12 212.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 325.12 212.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDA\" , analog ground"
+			(at 325.12 212.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "d6d1d6d3-5d7a-4c7d-8dea-72527bdd40c8")
+		)
+		(instances
+			(project "RFCableTester"
+				(path "/fcdaf602-6d83-47ef-9856-13ece685cf9e/f378d860-b8cf-44c4-b7ef-1ee1775c26e5"
+					(reference "#PWR0104")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 302.26 176.53 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "90b90692-29fb-4073-942e-0a91b2a37a43")
+		(property "Reference" "C63"
+			(at 300.9962 173.99 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100n"
+			(at 303.5362 173.99 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 302.26 176.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 302.26 176.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 302.26 176.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "45c0f634-7122-4d2c-be3f-3044ad61f99e")
+		)
+		(pin "2"
+			(uuid "b46efb49-ee54-42c6-8816-380ab6269515")
+		)
+		(instances
+			(project "RFCableTester"
+				(path "/fcdaf602-6d83-47ef-9856-13ece685cf9e/f378d860-b8cf-44c4-b7ef-1ee1775c26e5"
+					(reference "C63")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "VNA_sym:LVA-273PN+")
+		(at 322.58 196.85 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9430dd4a-c41c-4610-b4ef-c16091b21f4d")
 		(property "Reference" "IC5"
-			(at 297.18 168.5446 90)
+			(at 363.22 171.0846 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2639,7 +2381,7 @@
 			)
 		)
 		(property "Value" "LVA-273PN+"
-			(at 297.18 171.0846 90)
+			(at 363.22 173.6246 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2649,7 +2391,7 @@
 			)
 		)
 		(property "Footprint" "VNA_fp:DG1847_MNC-L"
-			(at 341.3 167.64 0)
+			(at 407.34 170.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2661,7 +2403,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.minicircuits.com/pdfs/LVA-273PN+.pdf"
-			(at 441.3 167.64 0)
+			(at 507.34 170.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2673,7 +2415,7 @@
 			)
 		)
 		(property "Description" "RF Amplifier SMT Gain Block, 0.01 - 26.5 GHz, 50?"
-			(at 256.54 194.31 0)
+			(at 322.58 196.85 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2684,7 +2426,7 @@
 			)
 		)
 		(property "Height" "1"
-			(at 641.3 167.64 0)
+			(at 707.34 170.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2696,7 +2438,7 @@
 			)
 		)
 		(property "Mouser Part Number" "139-LVA-273PN+"
-			(at 741.3 167.64 0)
+			(at 807.34 170.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2708,7 +2450,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Mini-Circuits/LVA-273PN%2b?qs=ST9lo4GX8V3LevpwkB9vfA%3D%3D"
-			(at 841.3 167.64 0)
+			(at 907.34 170.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2720,7 +2462,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Mini-Circuits"
-			(at 941.3 167.64 0)
+			(at 1007.34 170.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2732,7 +2474,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "LVA-273PN+"
-			(at 1041.3 167.64 0)
+			(at 1107.34 170.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2820,7 +2562,7 @@
 		)
 		(instances
 			(project "RFCableTester"
-				(path "/fcdaf602-6d83-47ef-9856-13ece685cf9e/f6548753-b1e6-43ea-873e-05eee1e14129"
+				(path "/fcdaf602-6d83-47ef-9856-13ece685cf9e/f378d860-b8cf-44c4-b7ef-1ee1775c26e5"
 					(reference "IC5")
 					(unit 1)
 				)
@@ -2829,7 +2571,7 @@
 	)
 	(symbol
 		(lib_id "power:GNDA")
-		(at 250.19 160.02 270)
+		(at 312.42 198.12 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2838,9 +2580,9 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "e74eb58e-59c4-4e16-bbd4-33a5035ed435")
-		(property "Reference" "#PWR068"
-			(at 243.84 160.02 0)
+		(uuid "a4204e5c-f81b-4678-a537-dae91375bb17")
+		(property "Reference" "#PWR0101"
+			(at 306.07 198.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2851,17 +2593,18 @@
 			)
 		)
 		(property "Value" "GNDA"
-			(at 245.11 160.02 0)
+			(at 308.61 198.1199 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
 		(property "Footprint" ""
-			(at 250.19 160.02 0)
+			(at 312.42 198.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2872,7 +2615,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 250.19 160.02 0)
+			(at 312.42 198.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2883,7 +2626,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GNDA\" , analog ground"
-			(at 250.19 160.02 0)
+			(at 312.42 198.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2894,12 +2637,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "d035bf14-4cba-4fb6-94e6-32984caf0a4a")
+			(uuid "8d3d326c-d7e9-4184-848c-900526f7a1c0")
 		)
 		(instances
 			(project "RFCableTester"
-				(path "/fcdaf602-6d83-47ef-9856-13ece685cf9e/f6548753-b1e6-43ea-873e-05eee1e14129"
-					(reference "#PWR068")
+				(path "/fcdaf602-6d83-47ef-9856-13ece685cf9e/f378d860-b8cf-44c4-b7ef-1ee1775c26e5"
+					(reference "#PWR0101")
 					(unit 1)
 				)
 			)
@@ -2907,7 +2650,7 @@
 	)
 	(symbol
 		(lib_id "power:GNDA")
-		(at 229.87 186.69 0)
+		(at 340.36 201.93 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2916,9 +2659,9 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "e7dd5eba-5658-40fc-8081-0280b3a0c7ed")
-		(property "Reference" "#PWR066"
-			(at 229.87 193.04 0)
+		(uuid "b0b33052-1080-49de-81ab-ad49e46b62d1")
+		(property "Reference" "#PWR0109"
+			(at 340.36 208.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2929,7 +2672,7 @@
 			)
 		)
 		(property "Value" "GNDA"
-			(at 229.87 191.77 0)
+			(at 340.36 207.01 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2939,7 +2682,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 229.87 186.69 0)
+			(at 340.36 201.93 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2950,7 +2693,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 229.87 186.69 0)
+			(at 340.36 201.93 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2961,7 +2704,245 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GNDA\" , analog ground"
-			(at 229.87 186.69 0)
+			(at 340.36 201.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "745600ad-702b-401a-b743-f850a22a1518")
+		)
+		(instances
+			(project "RFCableTester"
+				(path "/fcdaf602-6d83-47ef-9856-13ece685cf9e/f378d860-b8cf-44c4-b7ef-1ee1775c26e5"
+					(reference "#PWR0109")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDA")
+		(at 364.49 184.15 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "be944802-4725-43e1-a0b5-cd06feaf928e")
+		(property "Reference" "#PWR0112"
+			(at 364.49 190.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GNDA"
+			(at 364.49 189.23 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 364.49 184.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 364.49 184.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDA\" , analog ground"
+			(at 364.49 184.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "e37b509e-095c-4e48-8ba4-4b12bbcdab96")
+		)
+		(instances
+			(project "RFCableTester"
+				(path "/fcdaf602-6d83-47ef-9856-13ece685cf9e/f378d860-b8cf-44c4-b7ef-1ee1775c26e5"
+					(reference "#PWR0112")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 381 181.61 90)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "c99f4970-7952-46e1-9f89-e80ea9b6c7a2")
+		(property "Reference" "C74"
+			(at 379.7362 184.15 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "P21BNL300M5S"
+			(at 382.2762 184.15 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+			(at 381 181.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 381 181.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 381 181.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "971a857d-d628-44e2-a87e-254933278ff5")
+		)
+		(pin "2"
+			(uuid "726cc559-1f20-45a5-bfa4-45edea45c512")
+		)
+		(instances
+			(project "RFCableTester"
+				(path "/fcdaf602-6d83-47ef-9856-13ece685cf9e/f378d860-b8cf-44c4-b7ef-1ee1775c26e5"
+					(reference "C74")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDA")
+		(at 295.91 189.23 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d24dcfd8-4b94-40cf-86d4-c4ee6361d625")
+		(property "Reference" "#PWR099"
+			(at 295.91 195.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GNDA"
+			(at 295.91 194.31 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 295.91 189.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 295.91 189.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDA\" , analog ground"
+			(at 295.91 189.23 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2976,90 +2957,8 @@
 		)
 		(instances
 			(project "RFCableTester"
-				(path "/fcdaf602-6d83-47ef-9856-13ece685cf9e/f6548753-b1e6-43ea-873e-05eee1e14129"
-					(reference "#PWR066")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:L_Small")
-		(at 309.88 173.99 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ed259efb-ec13-4d66-a4b6-ea4dee24e4be")
-		(property "Reference" "L4"
-			(at 311.15 172.7199 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "BCR272JLC"
-			(at 311.15 175.2599 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 309.88 173.99 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 309.88 173.99 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Inductor, small symbol"
-			(at 309.88 173.99 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "4dbe6ee1-351a-434b-9863-8083ed465b7d")
-		)
-		(pin "1"
-			(uuid "6d663783-4f8e-43f4-9ffb-e70a4d1daf2f")
-		)
-		(instances
-			(project "RFCableTester"
-				(path "/fcdaf602-6d83-47ef-9856-13ece685cf9e/f6548753-b1e6-43ea-873e-05eee1e14129"
-					(reference "L4")
+				(path "/fcdaf602-6d83-47ef-9856-13ece685cf9e/f378d860-b8cf-44c4-b7ef-1ee1775c26e5"
+					(reference "#PWR099")
 					(unit 1)
 				)
 			)
@@ -3067,7 +2966,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 316.23 161.29 0)
+		(at 340.36 199.39 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3075,90 +2974,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "edd3b0dc-bc43-426e-932b-3c12ead9808f")
-		(property "Reference" "C84"
-			(at 318.77 160.0262 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10n"
-			(at 318.77 162.5662 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 316.23 161.29 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 316.23 161.29 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 316.23 161.29 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "7f14ac80-c05a-4f3a-aac6-acd11e4b0ec5")
-		)
-		(pin "2"
-			(uuid "5908a0f5-319f-4378-85fb-87e8dfdc2d09")
-		)
-		(instances
-			(project "RFCableTester"
-				(path "/fcdaf602-6d83-47ef-9856-13ece685cf9e/f6548753-b1e6-43ea-873e-05eee1e14129"
-					(reference "C84")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Small")
-		(at 236.22 173.99 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "ee6fba3f-6fbb-4361-93f0-e481defdf665")
-		(property "Reference" "C66"
-			(at 234.9562 171.45 0)
+		(uuid "d31980c0-aa64-41dc-9d31-8e154f7da9d2")
+		(property "Reference" "C73"
+			(at 342.9 198.1262 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3169,7 +2987,7 @@
 			)
 		)
 		(property "Value" "100n"
-			(at 237.4962 171.45 0)
+			(at 342.9 200.6662 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3180,7 +2998,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 236.22 173.99 0)
+			(at 340.36 199.39 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3191,7 +3009,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 236.22 173.99 0)
+			(at 340.36 199.39 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3202,7 +3020,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 236.22 173.99 0)
+			(at 340.36 199.39 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3213,15 +3031,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "45c0f634-7122-4d2c-be3f-3044ad61f99e")
+			(uuid "64a8f044-510a-4d18-b770-ffabe8fbe935")
 		)
 		(pin "2"
-			(uuid "b46efb49-ee54-42c6-8816-380ab6269515")
+			(uuid "6012efdb-3775-4a50-92a8-dc3c37534d32")
 		)
 		(instances
 			(project "RFCableTester"
-				(path "/fcdaf602-6d83-47ef-9856-13ece685cf9e/f6548753-b1e6-43ea-873e-05eee1e14129"
-					(reference "C66")
+				(path "/fcdaf602-6d83-47ef-9856-13ece685cf9e/f378d860-b8cf-44c4-b7ef-1ee1775c26e5"
+					(reference "C73")
 					(unit 1)
 				)
 			)
@@ -3229,7 +3047,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 327.66 161.29 0)
+		(at 318.77 162.56 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3237,9 +3055,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "f55ca5fe-02ec-4c27-9ce3-4f03a2448c75")
-		(property "Reference" "C85"
-			(at 330.2 160.0262 0)
+		(uuid "de66d31e-1b2f-45fe-8bb3-a7d4c6e9a33c")
+		(property "Reference" "C65"
+			(at 320.0338 165.1 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3249,8 +3067,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1u"
-			(at 330.2 162.5662 0)
+		(property "Value" "100n"
+			(at 317.4938 165.1 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3261,7 +3079,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 327.66 161.29 0)
+			(at 318.77 162.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3272,7 +3090,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 327.66 161.29 0)
+			(at 318.77 162.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3283,7 +3101,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 327.66 161.29 0)
+			(at 318.77 162.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3294,15 +3112,97 @@
 			)
 		)
 		(pin "1"
-			(uuid "6d1bf2ac-6e60-44d5-a6c1-857f9a94e256")
+			(uuid "54a85f00-e8c7-471b-a4a0-858b998966f2")
 		)
 		(pin "2"
-			(uuid "c70346d2-d8be-47d5-a339-ccd9d9ecf7f6")
+			(uuid "26bf6f72-da8f-407f-b17a-5559691280c5")
 		)
 		(instances
 			(project "RFCableTester"
-				(path "/fcdaf602-6d83-47ef-9856-13ece685cf9e/f6548753-b1e6-43ea-873e-05eee1e14129"
-					(reference "C85")
+				(path "/fcdaf602-6d83-47ef-9856-13ece685cf9e/f378d860-b8cf-44c4-b7ef-1ee1775c26e5"
+					(reference "C65")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 314.96 198.12 90)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "e0c07d83-43d8-4453-a7f8-b97f9a2beb9f")
+		(property "Reference" "C64"
+			(at 313.6962 200.66 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100n"
+			(at 316.2362 200.66 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 314.96 198.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 314.96 198.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 314.96 198.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "6e6333d2-debd-4853-ad31-3e6bf4522839")
+		)
+		(pin "2"
+			(uuid "f81139d7-270a-422c-9c10-fb0d3c711056")
+		)
+		(instances
+			(project "RFCableTester"
+				(path "/fcdaf602-6d83-47ef-9856-13ece685cf9e/f378d860-b8cf-44c4-b7ef-1ee1775c26e5"
+					(reference "C64")
 					(unit 1)
 				)
 			)
@@ -3310,8 +3210,7 @@
 	)
 	(symbol
 		(lib_id "power:GNDA")
-		(at 259.08 209.55 0)
-		(mirror y)
+		(at 332.74 201.93 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3320,9 +3219,9 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "faee4d42-5990-424f-ba6f-ebfa2d4d9da3")
-		(property "Reference" "#PWR0125"
-			(at 259.08 215.9 0)
+		(uuid "ef590794-6875-4a00-a170-4fa159591ed1")
+		(property "Reference" "#PWR0107"
+			(at 332.74 208.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3333,7 +3232,7 @@
 			)
 		)
 		(property "Value" "GNDA"
-			(at 259.08 214.63 0)
+			(at 332.74 207.01 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3343,7 +3242,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 259.08 209.55 0)
+			(at 332.74 201.93 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3354,7 +3253,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 259.08 209.55 0)
+			(at 332.74 201.93 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3365,7 +3264,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GNDA\" , analog ground"
-			(at 259.08 209.55 0)
+			(at 332.74 201.93 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3376,12 +3275,93 @@
 			)
 		)
 		(pin "1"
-			(uuid "d6d1d6d3-5d7a-4c7d-8dea-72527bdd40c8")
+			(uuid "e3a7ea9e-5554-45a8-8c50-97e74acafd1d")
 		)
 		(instances
 			(project "RFCableTester"
-				(path "/fcdaf602-6d83-47ef-9856-13ece685cf9e/f6548753-b1e6-43ea-873e-05eee1e14129"
-					(reference "#PWR0125")
+				(path "/fcdaf602-6d83-47ef-9856-13ece685cf9e/f378d860-b8cf-44c4-b7ef-1ee1775c26e5"
+					(reference "#PWR0107")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 332.74 199.39 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "f8f11f5f-fbc9-4469-bdd1-80314238bd07")
+		(property "Reference" "C70"
+			(at 335.28 198.1262 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100n"
+			(at 335.28 200.6662 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 332.74 199.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 332.74 199.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 332.74 199.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "5a735271-ed0b-4a68-97b0-8f0c5329aa1e")
+		)
+		(pin "2"
+			(uuid "00d83331-c68a-48ed-bbd6-a611636b8046")
+		)
+		(instances
+			(project "RFCableTester"
+				(path "/fcdaf602-6d83-47ef-9856-13ece685cf9e/f378d860-b8cf-44c4-b7ef-1ee1775c26e5"
+					(reference "C70")
 					(unit 1)
 				)
 			)
