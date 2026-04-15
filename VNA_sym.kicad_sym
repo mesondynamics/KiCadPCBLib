@@ -21823,8 +21823,8 @@
 		)
 		(symbol "RF_Crossover_0_1"
 			(rectangle
-				(start -10.16 7.62)
-				(end 11.43 -7.62)
+				(start -5.08 5.08)
+				(end 5.08 -3.81)
 				(stroke
 					(width 0)
 					(type default)
@@ -21836,12 +21836,12 @@
 		)
 		(symbol "RF_Crossover_1_1"
 			(pin input line
-				(at -12.7 0 0)
+				(at -7.62 0 0)
 				(length 2.54)
 				(name "RF_IN"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 0.508 0.508)
 						)
 					)
 				)
@@ -21854,12 +21854,12 @@
 				)
 			)
 			(pin output line
-				(at 13.97 0 180)
+				(at 7.62 0 180)
 				(length 2.54)
 				(name "RF_OUT"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 0.508 0.508)
 						)
 					)
 				)
@@ -21872,12 +21872,12 @@
 				)
 			)
 			(pin input line
-				(at 0 -10.16 90)
+				(at 0 -6.35 90)
 				(length 2.54)
 				(name "LO_IN"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 0.508 0.508)
 						)
 					)
 				)
@@ -21890,12 +21890,12 @@
 				)
 			)
 			(pin output line
-				(at 0 10.16 270)
+				(at 0 7.62 270)
 				(length 2.54)
 				(name "LO_OUT"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 0.508 0.508)
 						)
 					)
 				)
