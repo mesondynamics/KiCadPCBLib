@@ -11,9 +11,14 @@
 		(0 "F.Cu" signal)
 		(4 "In1.Cu" signal)
 		(6 "In2.Cu" signal)
+		(8 "In3.Cu" signal)
+		(10 "In4.Cu" signal)
+		(12 "In5.Cu" signal)
+		(14 "In6.Cu" signal)
 		(2 "B.Cu" signal)
 		(9 "F.Adhes" user "F.Adhesive")
 		(13 "F.Paste" user)
+		(15 "B.Paste" user)
 		(5 "F.SilkS" user "F.Silkscreen")
 		(7 "B.SilkS" user "B.Silkscreen")
 		(1 "F.Mask" user)
@@ -30,6 +35,116 @@
 	)
 	(setup
 		(stackup
+			(layer "F.SilkS"
+				(type "Top Silk Screen")
+			)
+			(layer "F.Paste"
+				(type "Top Solder Paste")
+			)
+			(layer "F.Mask"
+				(type "Top Solder Mask")
+				(color "Green")
+				(thickness 0.025)
+			)
+			(layer "F.Cu"
+				(type "copper")
+				(thickness 0.043)
+			)
+			(layer "dielectric 1"
+				(type "core")
+				(color "FR4 natural")
+				(thickness 0.168 locked)
+				(material "RO4350B")
+				(epsilon_r 3.48)
+				(loss_tangent 0.0037)
+			)
+			(layer "In1.Cu"
+				(type "copper")
+				(thickness 0.03)
+			)
+			(layer "dielectric 2"
+				(type "prepreg")
+				(color "FR4 natural")
+				(thickness 0.13)
+				(material "FR4")
+				(epsilon_r 4.14)
+				(loss_tangent 0.02)
+			)
+			(layer "In2.Cu"
+				(type "copper")
+				(thickness 0.015)
+			)
+			(layer "dielectric 3"
+				(type "core")
+				(color "FR4 natural")
+				(thickness 0.254 locked)
+				(material "FR4")
+				(epsilon_r 4.29)
+				(loss_tangent 0.02)
+			)
+			(layer "In3.Cu"
+				(type "copper")
+				(thickness 0.015)
+			)
+			(layer "dielectric 4"
+				(type "prepreg")
+				(color "FR4 natural")
+				(thickness 0.135)
+				(material "FR4")
+				(epsilon_r 4.14)
+				(loss_tangent 0.02)
+			)
+			(layer "In4.Cu"
+				(type "copper")
+				(thickness 0.015)
+			)
+			(layer "dielectric 5"
+				(type "core")
+				(color "FR4 natural")
+				(thickness 0.254)
+				(material "FR4")
+				(epsilon_r 4.29)
+				(loss_tangent 0.02)
+			)
+			(layer "In5.Cu"
+				(type "copper")
+				(thickness 0.015)
+			)
+			(layer "dielectric 6"
+				(type "prepreg")
+				(color "FR4 natural")
+				(thickness 0.135)
+				(material "FR4")
+				(epsilon_r 4.14)
+				(loss_tangent 0.02)
+			)
+			(layer "In6.Cu"
+				(type "copper")
+				(thickness 0.015)
+			)
+			(layer "dielectric 7"
+				(type "core")
+				(color "FR4 natural")
+				(thickness 0.254)
+				(material "FR4")
+				(epsilon_r 4.29)
+				(loss_tangent 0.02)
+			)
+			(layer "B.Cu"
+				(type "copper")
+				(thickness 0.043)
+			)
+			(layer "B.Mask"
+				(type "Bottom Solder Mask")
+				(color "Green")
+				(thickness 0.025)
+			)
+			(layer "B.Paste"
+				(type "Bottom Solder Paste")
+			)
+			(layer "B.SilkS"
+				(type "Bottom Silk Screen")
+			)
 			(layer "F.SilkS"
 				(type "Top Silk Screen")
 			)
@@ -573,4223 +688,6 @@
 				(type "copper")
 				(thickness 0.035)
 			)
-			(layer "dielectric 30"
-				(type "prepreg")
-				(color "FR4 natural")
-				(thickness 0.168 locked)
-				(material "RO4350B")
-				(epsilon_r 3.66)
-				(loss_tangent 0.0034)
-			)
-			(layer "B.Cu"
-				(type "copper")
-				(thickness 0.035)
-			)
-			(layer "B.Mask"
-				(type "Bottom Solder Mask")
-				(color "Green")
-				(thickness 0.01)
-			)
-			(layer "F.SilkS"
-				(type "Top Silk Screen")
-			)
-			(layer "F.Paste"
-				(type "Top Solder Paste")
-			)
-			(layer "F.Mask"
-				(type "Top Solder Mask")
-				(color "Green")
-				(thickness 0.01)
-			)
-			(layer "F.Cu"
-				(type "copper")
-				(thickness 0.035)
-			)
-			(layer "dielectric 31"
-				(type "prepreg")
-				(color "FR4 natural")
-				(thickness 0.168 locked)
-				(material "RO4350B")
-				(epsilon_r 3.66)
-				(loss_tangent 0.0034)
-			)
-			(layer "In1.Cu"
-				(type "copper")
-				(thickness 0.035)
-			)
-			(layer "dielectric 32"
-				(type "core")
-				(color "FR4 natural")
-				(thickness 1.1)
-				(material "FR4")
-				(epsilon_r 4.5)
-				(loss_tangent 0.02)
-			)
-			(layer "In2.Cu"
-				(type "copper")
-				(thickness 0.035)
-			)
-			(layer "dielectric 33"
-				(type "prepreg")
-				(color "FR4 natural")
-				(thickness 0.168 locked)
-				(material "RO4350B")
-				(epsilon_r 3.66)
-				(loss_tangent 0.0034)
-			)
-			(layer "B.Cu"
-				(type "copper")
-				(thickness 0.035)
-			)
-			(layer "B.Mask"
-				(type "Bottom Solder Mask")
-				(color "Green")
-				(thickness 0.01)
-			)
-			(layer "F.SilkS"
-				(type "Top Silk Screen")
-			)
-			(layer "F.Paste"
-				(type "Top Solder Paste")
-			)
-			(layer "F.Mask"
-				(type "Top Solder Mask")
-				(color "Green")
-				(thickness 0.01)
-			)
-			(layer "F.Cu"
-				(type "copper")
-				(thickness 0.035)
-			)
-			(layer "dielectric 34"
-				(type "prepreg")
-				(color "FR4 natural")
-				(thickness 0.168 locked)
-				(material "RO4350B")
-				(epsilon_r 3.66)
-				(loss_tangent 0.0034)
-			)
-			(layer "In1.Cu"
-				(type "copper")
-				(thickness 0.035)
-			)
-			(layer "dielectric 35"
-				(type "core")
-				(color "FR4 natural")
-				(thickness 1.1)
-				(material "FR4")
-				(epsilon_r 4.5)
-				(loss_tangent 0.02)
-			)
-			(layer "In2.Cu"
-				(type "copper")
-				(thickness 0.035)
-			)
-			(layer "dielectric 36"
-				(type "prepreg")
-				(color "FR4 natural")
-				(thickness 0.168 locked)
-				(material "RO4350B")
-				(epsilon_r 3.66)
-				(loss_tangent 0.0034)
-			)
-			(layer "B.Cu"
-				(type "copper")
-				(thickness 0.035)
-			)
-			(layer "B.Mask"
-				(type "Bottom Solder Mask")
-				(color "Green")
-				(thickness 0.01)
-			)
-			(layer "F.SilkS"
-				(type "Top Silk Screen")
-			)
-			(layer "F.Paste"
-				(type "Top Solder Paste")
-			)
-			(layer "F.Mask"
-				(type "Top Solder Mask")
-				(color "Green")
-				(thickness 0.01)
-			)
-			(layer "F.Cu"
-				(type "copper")
-				(thickness 0.035)
-			)
-			(layer "dielectric 37"
-				(type "prepreg")
-				(color "FR4 natural")
-				(thickness 0.168 locked)
-				(material "RO4350B")
-				(epsilon_r 3.66)
-				(loss_tangent 0.0034)
-			)
-			(layer "In1.Cu"
-				(type "copper")
-				(thickness 0.035)
-			)
-			(layer "dielectric 38"
-				(type "core")
-				(color "FR4 natural")
-				(thickness 1.1)
-				(material "FR4")
-				(epsilon_r 4.5)
-				(loss_tangent 0.02)
-			)
-			(layer "In2.Cu"
-				(type "copper")
-				(thickness 0.035)
-			)
-			(layer "dielectric 39"
-				(type "prepreg")
-				(color "FR4 natural")
-				(thickness 0.168 locked)
-				(material "RO4350B")
-				(epsilon_r 3.66)
-				(loss_tangent 0.0034)
-			)
-			(layer "B.Cu"
-				(type "copper")
-				(thickness 0.035)
-			)
-			(layer "B.Mask"
-				(type "Bottom Solder Mask")
-				(color "Green")
-				(thickness 0.01)
-			)
-			(layer "F.SilkS"
-				(type "Top Silk Screen")
-			)
-			(layer "F.Paste"
-				(type "Top Solder Paste")
-			)
-			(layer "F.Mask"
-				(type "Top Solder Mask")
-				(color "Green")
-				(thickness 0.01)
-			)
-			(layer "F.Cu"
-				(type "copper")
-				(thickness 0.035)
-			)
-			(layer "dielectric 40"
-				(type "prepreg")
-				(color "FR4 natural")
-				(thickness 0.168 locked)
-				(material "RO4350B")
-				(epsilon_r 3.66)
-				(loss_tangent 0.0034)
-			)
-			(layer "In1.Cu"
-				(type "copper")
-				(thickness 0.035)
-			)
-			(layer "dielectric 41"
-				(type "core")
-				(color "FR4 natural")
-				(thickness 1.1)
-				(material "FR4")
-				(epsilon_r 4.5)
-				(loss_tangent 0.02)
-			)
-			(layer "In2.Cu"
-				(type "copper")
-				(thickness 0.035)
-			)
-			(layer "dielectric 42"
-				(type "prepreg")
-				(color "FR4 natural")
-				(thickness 0.168 locked)
-				(material "RO4350B")
-				(epsilon_r 3.66)
-				(loss_tangent 0.0034)
-			)
-			(layer "B.Cu"
-				(type "copper")
-				(thickness 0.035)
-			)
-			(layer "B.Mask"
-				(type "Bottom Solder Mask")
-				(color "Green")
-				(thickness 0.01)
-			)
-			(layer "F.SilkS"
-				(type "Top Silk Screen")
-			)
-			(layer "F.Paste"
-				(type "Top Solder Paste")
-			)
-			(layer "F.Mask"
-				(type "Top Solder Mask")
-				(color "Green")
-				(thickness 0.01)
-			)
-			(layer "F.Cu"
-				(type "copper")
-				(thickness 0.035)
-			)
-			(layer "dielectric 43"
-				(type "prepreg")
-				(color "FR4 natural")
-				(thickness 0.168 locked)
-				(material "RO4350B")
-				(epsilon_r 3.66)
-				(loss_tangent 0.0034)
-			)
-			(layer "In1.Cu"
-				(type "copper")
-				(thickness 0.035)
-			)
-			(layer "dielectric 44"
-				(type "core")
-				(color "FR4 natural")
-				(thickness 1.1)
-				(material "FR4")
-				(epsilon_r 4.5)
-				(loss_tangent 0.02)
-			)
-			(layer "In2.Cu"
-				(type "copper")
-				(thickness 0.035)
-			)
-			(layer "dielectric 45"
-				(type "prepreg")
-				(color "FR4 natural")
-				(thickness 0.168 locked)
-				(material "RO4350B")
-				(epsilon_r 3.66)
-				(loss_tangent 0.0034)
-			)
-			(layer "B.Cu"
-				(type "copper")
-				(thickness 0.035)
-			)
-			(layer "B.Mask"
-				(type "Bottom Solder Mask")
-				(color "Green")
-				(thickness 0.01)
-			)
-			(layer "F.SilkS"
-				(type "Top Silk Screen")
-			)
-			(layer "F.Paste"
-				(type "Top Solder Paste")
-			)
-			(layer "F.Mask"
-				(type "Top Solder Mask")
-				(color "Green")
-				(thickness 0.01)
-			)
-			(layer "F.Cu"
-				(type "copper")
-				(thickness 0.035)
-			)
-			(layer "dielectric 46"
-				(type "prepreg")
-				(color "FR4 natural")
-				(thickness 0.168 locked)
-				(material "RO4350B")
-				(epsilon_r 3.66)
-				(loss_tangent 0.0034)
-			)
-			(layer "In1.Cu"
-				(type "copper")
-				(thickness 0.035)
-			)
-			(layer "dielectric 47"
-				(type "core")
-				(color "FR4 natural")
-				(thickness 1.1)
-				(material "FR4")
-				(epsilon_r 4.5)
-				(loss_tangent 0.02)
-			)
-			(layer "In2.Cu"
-				(type "copper")
-				(thickness 0.035)
-			)
-			(layer "dielectric 48"
-				(type "prepreg")
-				(color "FR4 natural")
-				(thickness 0.168 locked)
-				(material "RO4350B")
-				(epsilon_r 3.66)
-				(loss_tangent 0.0034)
-			)
-			(layer "B.Cu"
-				(type "copper")
-				(thickness 0.035)
-			)
-			(layer "B.Mask"
-				(type "Bottom Solder Mask")
-				(color "Green")
-				(thickness 0.01)
-			)
-			(layer "F.SilkS"
-				(type "Top Silk Screen")
-			)
-			(layer "F.Paste"
-				(type "Top Solder Paste")
-			)
-			(layer "F.Mask"
-				(type "Top Solder Mask")
-				(color "Green")
-				(thickness 0.01)
-			)
-			(layer "F.Cu"
-				(type "copper")
-				(thickness 0.035)
-			)
-			(layer "dielectric 49"
-				(type "prepreg")
-				(color "FR4 natural")
-				(thickness 0.168 locked)
-				(material "RO4350B")
-				(epsilon_r 3.66)
-				(loss_tangent 0.0034)
-			)
-			(layer "In1.Cu"
-				(type "copper")
-				(thickness 0.035)
-			)
-			(layer "dielectric 50"
-				(type "core")
-				(color "FR4 natural")
-				(thickness 1.1)
-				(material "FR4")
-				(epsilon_r 4.5)
-				(loss_tangent 0.02)
-			)
-			(layer "In2.Cu"
-				(type "copper")
-				(thickness 0.035)
-			)
-			(layer "dielectric 51"
-				(type "prepreg")
-				(color "FR4 natural")
-				(thickness 0.168 locked)
-				(material "RO4350B")
-				(epsilon_r 3.66)
-				(loss_tangent 0.0034)
-			)
-			(layer "B.Cu"
-				(type "copper")
-				(thickness 0.035)
-			)
-			(layer "B.Mask"
-				(type "Bottom Solder Mask")
-				(color "Green")
-				(thickness 0.01)
-			)
-			(layer "F.SilkS"
-				(type "Top Silk Screen")
-			)
-			(layer "F.Paste"
-				(type "Top Solder Paste")
-			)
-			(layer "F.Mask"
-				(type "Top Solder Mask")
-				(color "Green")
-				(thickness 0.01)
-			)
-			(layer "F.Cu"
-				(type "copper")
-				(thickness 0.035)
-			)
-			(layer "dielectric 52"
-				(type "prepreg")
-				(color "FR4 natural")
-				(thickness 0.168 locked)
-				(material "RO4350B")
-				(epsilon_r 3.66)
-				(loss_tangent 0.0034)
-			)
-			(layer "In1.Cu"
-				(type "copper")
-				(thickness 0.035)
-			)
-			(layer "dielectric 53"
-				(type "core")
-				(color "FR4 natural")
-				(thickness 1.1)
-				(material "FR4")
-				(epsilon_r 4.5)
-				(loss_tangent 0.02)
-			)
-			(layer "In2.Cu"
-				(type "copper")
-				(thickness 0.035)
-			)
-			(layer "dielectric 54"
-				(type "prepreg")
-				(color "FR4 natural")
-				(thickness 0.168 locked)
-				(material "RO4350B")
-				(epsilon_r 3.66)
-				(loss_tangent 0.0034)
-			)
-			(layer "B.Cu"
-				(type "copper")
-				(thickness 0.035)
-			)
-			(layer "B.Mask"
-				(type "Bottom Solder Mask")
-				(color "Green")
-				(thickness 0.01)
-			)
-			(layer "F.SilkS"
-				(type "Top Silk Screen")
-			)
-			(layer "F.Paste"
-				(type "Top Solder Paste")
-			)
-			(layer "F.Mask"
-				(type "Top Solder Mask")
-				(color "Green")
-				(thickness 0.01)
-			)
-			(layer "F.Cu"
-				(type "copper")
-				(thickness 0.035)
-			)
-			(layer "dielectric 55"
-				(type "prepreg")
-				(color "FR4 natural")
-				(thickness 0.168 locked)
-				(material "RO4350B")
-				(epsilon_r 3.66)
-				(loss_tangent 0.0034)
-			)
-			(layer "In1.Cu"
-				(type "copper")
-				(thickness 0.035)
-			)
-			(layer "dielectric 56"
-				(type "core")
-				(color "FR4 natural")
-				(thickness 1.1)
-				(material "FR4")
-				(epsilon_r 4.5)
-				(loss_tangent 0.02)
-			)
-			(layer "In2.Cu"
-				(type "copper")
-				(thickness 0.035)
-			)
-			(layer "dielectric 57"
-				(type "prepreg")
-				(color "FR4 natural")
-				(thickness 0.168 locked)
-				(material "RO4350B")
-				(epsilon_r 3.66)
-				(loss_tangent 0.0034)
-			)
-			(layer "B.Cu"
-				(type "copper")
-				(thickness 0.035)
-			)
-			(layer "B.Mask"
-				(type "Bottom Solder Mask")
-				(color "Green")
-				(thickness 0.01)
-			)
-			(layer "F.SilkS"
-				(type "Top Silk Screen")
-			)
-			(layer "F.Paste"
-				(type "Top Solder Paste")
-			)
-			(layer "F.Mask"
-				(type "Top Solder Mask")
-				(color "Green")
-				(thickness 0.01)
-			)
-			(layer "F.Cu"
-				(type "copper")
-				(thickness 0.035)
-			)
-			(layer "dielectric 58"
-				(type "prepreg")
-				(color "FR4 natural")
-				(thickness 0.168 locked)
-				(material "RO4350B")
-				(epsilon_r 3.66)
-				(loss_tangent 0.0034)
-			)
-			(layer "In1.Cu"
-				(type "copper")
-				(thickness 0.035)
-			)
-			(layer "dielectric 59"
-				(type "core")
-				(color "FR4 natural")
-				(thickness 1.1)
-				(material "FR4")
-				(epsilon_r 4.5)
-				(loss_tangent 0.02)
-			)
-			(layer "In2.Cu"
-				(type "copper")
-				(thickness 0.035)
-			)
-			(layer "dielectric 60"
-				(type "prepreg")
-				(color "FR4 natural")
-				(thickness 0.168 locked)
-				(material "RO4350B")
-				(epsilon_r 3.66)
-				(loss_tangent 0.0034)
-			)
-			(layer "B.Cu"
-				(type "copper")
-				(thickness 0.035)
-			)
-			(layer "B.Mask"
-				(type "Bottom Solder Mask")
-				(color "Green")
-				(thickness 0.01)
-			)
-			(layer "F.SilkS"
-				(type "Top Silk Screen")
-			)
-			(layer "F.Paste"
-				(type "Top Solder Paste")
-			)
-			(layer "F.Mask"
-				(type "Top Solder Mask")
-				(color "Green")
-				(thickness 0.01)
-			)
-			(layer "F.Cu"
-				(type "copper")
-				(thickness 0.035)
-			)
-			(layer "dielectric 61"
-				(type "prepreg")
-				(color "FR4 natural")
-				(thickness 0.168 locked)
-				(material "RO4350B")
-				(epsilon_r 3.66)
-				(loss_tangent 0.0034)
-			)
-			(layer "In1.Cu"
-				(type "copper")
-				(thickness 0.035)
-			)
-			(layer "dielectric 62"
-				(type "core")
-				(color "FR4 natural")
-				(thickness 1.1)
-				(material "FR4")
-				(epsilon_r 4.5)
-				(loss_tangent 0.02)
-			)
-			(layer "In2.Cu"
-				(type "copper")
-				(thickness 0.035)
-			)
-			(layer "dielectric 63"
-				(type "prepreg")
-				(color "FR4 natural")
-				(thickness 0.168 locked)
-				(material "RO4350B")
-				(epsilon_r 3.66)
-				(loss_tangent 0.0034)
-			)
-			(layer "B.Cu"
-				(type "copper")
-				(thickness 0.035)
-			)
-			(layer "B.Mask"
-				(type "Bottom Solder Mask")
-				(color "Green")
-				(thickness 0.01)
-			)
-			(layer "F.SilkS"
-				(type "Top Silk Screen")
-			)
-			(layer "F.Paste"
-				(type "Top Solder Paste")
-			)
-			(layer "F.Mask"
-				(type "Top Solder Mask")
-				(color "Green")
-				(thickness 0.01)
-			)
-			(layer "F.Cu"
-				(type "copper")
-				(thickness 0.035)
-			)
-			(layer "dielectric 64"
-				(type "prepreg")
-				(color "FR4 natural")
-				(thickness 0.168 locked)
-				(material "RO4350B")
-				(epsilon_r 3.66)
-				(loss_tangent 0.0034)
-			)
-			(layer "In1.Cu"
-				(type "copper")
-				(thickness 0.035)
-			)
-			(layer "dielectric 65"
-				(type "core")
-				(color "FR4 natural")
-				(thickness 1.1)
-				(material "FR4")
-				(epsilon_r 4.5)
-				(loss_tangent 0.02)
-			)
-			(layer "In2.Cu"
-				(type "copper")
-				(thickness 0.035)
-			)
-			(layer "dielectric 66"
-				(type "prepreg")
-				(color "FR4 natural")
-				(thickness 0.168 locked)
-				(material "RO4350B")
-				(epsilon_r 3.66)
-				(loss_tangent 0.0034)
-			)
-			(layer "B.Cu"
-				(type "copper")
-				(thickness 0.035)
-			)
-			(layer "B.Mask"
-				(type "Bottom Solder Mask")
-				(color "Green")
-				(thickness 0.01)
-			)
-			(layer "F.SilkS"
-				(type "Top Silk Screen")
-			)
-			(layer "F.Paste"
-				(type "Top Solder Paste")
-			)
-			(layer "F.Mask"
-				(type "Top Solder Mask")
-				(color "Green")
-				(thickness 0.01)
-			)
-			(layer "F.Cu"
-				(type "copper")
-				(thickness 0.035)
-			)
-			(layer "dielectric 67"
-				(type "prepreg")
-				(color "FR4 natural")
-				(thickness 0.168 locked)
-				(material "RO4350B")
-				(epsilon_r 3.66)
-				(loss_tangent 0.0034)
-			)
-			(layer "In1.Cu"
-				(type "copper")
-				(thickness 0.035)
-			)
-			(layer "dielectric 68"
-				(type "core")
-				(color "FR4 natural")
-				(thickness 1.1)
-				(material "FR4")
-				(epsilon_r 4.5)
-				(loss_tangent 0.02)
-			)
-			(layer "In2.Cu"
-				(type "copper")
-				(thickness 0.035)
-			)
-			(layer "dielectric 69"
-				(type "prepreg")
-				(color "FR4 natural")
-				(thickness 0.168 locked)
-				(material "RO4350B")
-				(epsilon_r 3.66)
-				(loss_tangent 0.0034)
-			)
-			(layer "B.Cu"
-				(type "copper")
-				(thickness 0.035)
-			)
-			(layer "B.Mask"
-				(type "Bottom Solder Mask")
-				(color "Green")
-				(thickness 0.01)
-			)
-			(layer "F.SilkS"
-				(type "Top Silk Screen")
-			)
-			(layer "F.Paste"
-				(type "Top Solder Paste")
-			)
-			(layer "F.Mask"
-				(type "Top Solder Mask")
-				(color "Green")
-				(thickness 0.01)
-			)
-			(layer "F.Cu"
-				(type "copper")
-				(thickness 0.035)
-			)
-			(layer "dielectric 70"
-				(type "prepreg")
-				(color "FR4 natural")
-				(thickness 0.168 locked)
-				(material "RO4350B")
-				(epsilon_r 3.66)
-				(loss_tangent 0.0034)
-			)
-			(layer "In1.Cu"
-				(type "copper")
-				(thickness 0.035)
-			)
-			(layer "dielectric 71"
-				(type "core")
-				(color "FR4 natural")
-				(thickness 1.1)
-				(material "FR4")
-				(epsilon_r 4.5)
-				(loss_tangent 0.02)
-			)
-			(layer "In2.Cu"
-				(type "copper")
-				(thickness 0.035)
-			)
-			(layer "dielectric 72"
-				(type "prepreg")
-				(color "FR4 natural")
-				(thickness 0.168 locked)
-				(material "RO4350B")
-				(epsilon_r 3.66)
-				(loss_tangent 0.0034)
-			)
-			(layer "B.Cu"
-				(type "copper")
-				(thickness 0.035)
-			)
-			(layer "B.Mask"
-				(type "Bottom Solder Mask")
-				(color "Green")
-				(thickness 0.01)
-			)
-			(layer "F.SilkS"
-				(type "Top Silk Screen")
-			)
-			(layer "F.Paste"
-				(type "Top Solder Paste")
-			)
-			(layer "F.Mask"
-				(type "Top Solder Mask")
-				(color "Green")
-				(thickness 0.01)
-			)
-			(layer "F.Cu"
-				(type "copper")
-				(thickness 0.035)
-			)
-			(layer "dielectric 73"
-				(type "prepreg")
-				(color "FR4 natural")
-				(thickness 0.168 locked)
-				(material "RO4350B")
-				(epsilon_r 3.66)
-				(loss_tangent 0.0034)
-			)
-			(layer "In1.Cu"
-				(type "copper")
-				(thickness 0.035)
-			)
-			(layer "dielectric 74"
-				(type "core")
-				(color "FR4 natural")
-				(thickness 1.1)
-				(material "FR4")
-				(epsilon_r 4.5)
-				(loss_tangent 0.02)
-			)
-			(layer "In2.Cu"
-				(type "copper")
-				(thickness 0.035)
-			)
-			(layer "dielectric 75"
-				(type "prepreg")
-				(color "FR4 natural")
-				(thickness 0.168 locked)
-				(material "RO4350B")
-				(epsilon_r 3.66)
-				(loss_tangent 0.0034)
-			)
-			(layer "B.Cu"
-				(type "copper")
-				(thickness 0.035)
-			)
-			(layer "B.Mask"
-				(type "Bottom Solder Mask")
-				(color "Green")
-				(thickness 0.01)
-			)
-			(layer "F.SilkS"
-				(type "Top Silk Screen")
-			)
-			(layer "F.Paste"
-				(type "Top Solder Paste")
-			)
-			(layer "F.Mask"
-				(type "Top Solder Mask")
-				(color "Green")
-				(thickness 0.01)
-			)
-			(layer "F.Cu"
-				(type "copper")
-				(thickness 0.035)
-			)
-			(layer "dielectric 76"
-				(type "prepreg")
-				(color "FR4 natural")
-				(thickness 0.168 locked)
-				(material "RO4350B")
-				(epsilon_r 3.66)
-				(loss_tangent 0.0034)
-			)
-			(layer "In1.Cu"
-				(type "copper")
-				(thickness 0.035)
-			)
-			(layer "dielectric 77"
-				(type "core")
-				(color "FR4 natural")
-				(thickness 1.1)
-				(material "FR4")
-				(epsilon_r 4.5)
-				(loss_tangent 0.02)
-			)
-			(layer "In2.Cu"
-				(type "copper")
-				(thickness 0.035)
-			)
-			(layer "dielectric 78"
-				(type "prepreg")
-				(color "FR4 natural")
-				(thickness 0.168 locked)
-				(material "RO4350B")
-				(epsilon_r 3.66)
-				(loss_tangent 0.0034)
-			)
-			(layer "B.Cu"
-				(type "copper")
-				(thickness 0.035)
-			)
-			(layer "B.Mask"
-				(type "Bottom Solder Mask")
-				(color "Green")
-				(thickness 0.01)
-			)
-			(layer "F.SilkS"
-				(type "Top Silk Screen")
-			)
-			(layer "F.Paste"
-				(type "Top Solder Paste")
-			)
-			(layer "F.Mask"
-				(type "Top Solder Mask")
-				(color "Green")
-				(thickness 0.01)
-			)
-			(layer "F.Cu"
-				(type "copper")
-				(thickness 0.035)
-			)
-			(layer "dielectric 79"
-				(type "prepreg")
-				(color "FR4 natural")
-				(thickness 0.168 locked)
-				(material "RO4350B")
-				(epsilon_r 3.66)
-				(loss_tangent 0.0034)
-			)
-			(layer "In1.Cu"
-				(type "copper")
-				(thickness 0.035)
-			)
-			(layer "dielectric 80"
-				(type "core")
-				(color "FR4 natural")
-				(thickness 1.1)
-				(material "FR4")
-				(epsilon_r 4.5)
-				(loss_tangent 0.02)
-			)
-			(layer "In2.Cu"
-				(type "copper")
-				(thickness 0.035)
-			)
-			(layer "dielectric 81"
-				(type "prepreg")
-				(color "FR4 natural")
-				(thickness 0.168 locked)
-				(material "RO4350B")
-				(epsilon_r 3.66)
-				(loss_tangent 0.0034)
-			)
-			(layer "B.Cu"
-				(type "copper")
-				(thickness 0.035)
-			)
-			(layer "B.Mask"
-				(type "Bottom Solder Mask")
-				(color "Green")
-				(thickness 0.01)
-			)
-			(layer "F.SilkS"
-				(type "Top Silk Screen")
-			)
-			(layer "F.Paste"
-				(type "Top Solder Paste")
-			)
-			(layer "F.Mask"
-				(type "Top Solder Mask")
-				(color "Green")
-				(thickness 0.01)
-			)
-			(layer "F.Cu"
-				(type "copper")
-				(thickness 0.035)
-			)
-			(layer "dielectric 82"
-				(type "prepreg")
-				(color "FR4 natural")
-				(thickness 0.168 locked)
-				(material "RO4350B")
-				(epsilon_r 3.66)
-				(loss_tangent 0.0034)
-			)
-			(layer "In1.Cu"
-				(type "copper")
-				(thickness 0.035)
-			)
-			(layer "dielectric 83"
-				(type "core")
-				(color "FR4 natural")
-				(thickness 1.1)
-				(material "FR4")
-				(epsilon_r 4.5)
-				(loss_tangent 0.02)
-			)
-			(layer "In2.Cu"
-				(type "copper")
-				(thickness 0.035)
-			)
-			(layer "dielectric 84"
-				(type "prepreg")
-				(color "FR4 natural")
-				(thickness 0.168 locked)
-				(material "RO4350B")
-				(epsilon_r 3.66)
-				(loss_tangent 0.0034)
-			)
-			(layer "B.Cu"
-				(type "copper")
-				(thickness 0.035)
-			)
-			(layer "B.Mask"
-				(type "Bottom Solder Mask")
-				(color "Green")
-				(thickness 0.01)
-			)
-			(layer "F.SilkS"
-				(type "Top Silk Screen")
-			)
-			(layer "F.Paste"
-				(type "Top Solder Paste")
-			)
-			(layer "F.Mask"
-				(type "Top Solder Mask")
-				(color "Green")
-				(thickness 0.01)
-			)
-			(layer "F.Cu"
-				(type "copper")
-				(thickness 0.035)
-			)
-			(layer "dielectric 85"
-				(type "prepreg")
-				(color "FR4 natural")
-				(thickness 0.168 locked)
-				(material "RO4350B")
-				(epsilon_r 3.66)
-				(loss_tangent 0.0034)
-			)
-			(layer "In1.Cu"
-				(type "copper")
-				(thickness 0.035)
-			)
-			(layer "dielectric 86"
-				(type "core")
-				(color "FR4 natural")
-				(thickness 1.1)
-				(material "FR4")
-				(epsilon_r 4.5)
-				(loss_tangent 0.02)
-			)
-			(layer "In2.Cu"
-				(type "copper")
-				(thickness 0.035)
-			)
-			(layer "dielectric 87"
-				(type "prepreg")
-				(color "FR4 natural")
-				(thickness 0.168 locked)
-				(material "RO4350B")
-				(epsilon_r 3.66)
-				(loss_tangent 0.0034)
-			)
-			(layer "B.Cu"
-				(type "copper")
-				(thickness 0.035)
-			)
-			(layer "B.Mask"
-				(type "Bottom Solder Mask")
-				(color "Green")
-				(thickness 0.01)
-			)
-			(layer "F.SilkS"
-				(type "Top Silk Screen")
-			)
-			(layer "F.Paste"
-				(type "Top Solder Paste")
-			)
-			(layer "F.Mask"
-				(type "Top Solder Mask")
-				(color "Green")
-				(thickness 0.01)
-			)
-			(layer "F.Cu"
-				(type "copper")
-				(thickness 0.035)
-			)
-			(layer "dielectric 88"
-				(type "prepreg")
-				(color "FR4 natural")
-				(thickness 0.168 locked)
-				(material "RO4350B")
-				(epsilon_r 3.66)
-				(loss_tangent 0.0034)
-			)
-			(layer "In1.Cu"
-				(type "copper")
-				(thickness 0.035)
-			)
-			(layer "dielectric 89"
-				(type "core")
-				(color "FR4 natural")
-				(thickness 1.1)
-				(material "FR4")
-				(epsilon_r 4.5)
-				(loss_tangent 0.02)
-			)
-			(layer "In2.Cu"
-				(type "copper")
-				(thickness 0.035)
-			)
-			(layer "dielectric 90"
-				(type "prepreg")
-				(color "FR4 natural")
-				(thickness 0.168 locked)
-				(material "RO4350B")
-				(epsilon_r 3.66)
-				(loss_tangent 0.0034)
-			)
-			(layer "B.Cu"
-				(type "copper")
-				(thickness 0.035)
-			)
-			(layer "B.Mask"
-				(type "Bottom Solder Mask")
-				(color "Green")
-				(thickness 0.01)
-			)
-			(layer "F.SilkS"
-				(type "Top Silk Screen")
-			)
-			(layer "F.Paste"
-				(type "Top Solder Paste")
-			)
-			(layer "F.Mask"
-				(type "Top Solder Mask")
-				(color "Green")
-				(thickness 0.01)
-			)
-			(layer "F.Cu"
-				(type "copper")
-				(thickness 0.035)
-			)
-			(layer "dielectric 91"
-				(type "prepreg")
-				(color "FR4 natural")
-				(thickness 0.168 locked)
-				(material "RO4350B")
-				(epsilon_r 3.66)
-				(loss_tangent 0.0034)
-			)
-			(layer "In1.Cu"
-				(type "copper")
-				(thickness 0.035)
-			)
-			(layer "dielectric 92"
-				(type "core")
-				(color "FR4 natural")
-				(thickness 1.1)
-				(material "FR4")
-				(epsilon_r 4.5)
-				(loss_tangent 0.02)
-			)
-			(layer "In2.Cu"
-				(type "copper")
-				(thickness 0.035)
-			)
-			(layer "dielectric 93"
-				(type "prepreg")
-				(color "FR4 natural")
-				(thickness 0.168 locked)
-				(material "RO4350B")
-				(epsilon_r 3.66)
-				(loss_tangent 0.0034)
-			)
-			(layer "B.Cu"
-				(type "copper")
-				(thickness 0.035)
-			)
-			(layer "B.Mask"
-				(type "Bottom Solder Mask")
-				(color "Green")
-				(thickness 0.01)
-			)
-			(layer "F.SilkS"
-				(type "Top Silk Screen")
-			)
-			(layer "F.Paste"
-				(type "Top Solder Paste")
-			)
-			(layer "F.Mask"
-				(type "Top Solder Mask")
-				(color "Green")
-				(thickness 0.01)
-			)
-			(layer "F.Cu"
-				(type "copper")
-				(thickness 0.035)
-			)
-			(layer "dielectric 94"
-				(type "prepreg")
-				(color "FR4 natural")
-				(thickness 0.168 locked)
-				(material "RO4350B")
-				(epsilon_r 3.66)
-				(loss_tangent 0.0034)
-			)
-			(layer "In1.Cu"
-				(type "copper")
-				(thickness 0.035)
-			)
-			(layer "dielectric 95"
-				(type "core")
-				(color "FR4 natural")
-				(thickness 1.1)
-				(material "FR4")
-				(epsilon_r 4.5)
-				(loss_tangent 0.02)
-			)
-			(layer "In2.Cu"
-				(type "copper")
-				(thickness 0.035)
-			)
-			(layer "dielectric 96"
-				(type "prepreg")
-				(color "FR4 natural")
-				(thickness 0.168 locked)
-				(material "RO4350B")
-				(epsilon_r 3.66)
-				(loss_tangent 0.0034)
-			)
-			(layer "B.Cu"
-				(type "copper")
-				(thickness 0.035)
-			)
-			(layer "B.Mask"
-				(type "Bottom Solder Mask")
-				(color "Green")
-				(thickness 0.01)
-			)
-			(layer "F.SilkS"
-				(type "Top Silk Screen")
-			)
-			(layer "F.Paste"
-				(type "Top Solder Paste")
-			)
-			(layer "F.Mask"
-				(type "Top Solder Mask")
-				(color "Green")
-				(thickness 0.01)
-			)
-			(layer "F.Cu"
-				(type "copper")
-				(thickness 0.035)
-			)
-			(layer "dielectric 97"
-				(type "prepreg")
-				(color "FR4 natural")
-				(thickness 0.168 locked)
-				(material "RO4350B")
-				(epsilon_r 3.66)
-				(loss_tangent 0.0034)
-			)
-			(layer "In1.Cu"
-				(type "copper")
-				(thickness 0.035)
-			)
-			(layer "dielectric 98"
-				(type "core")
-				(color "FR4 natural")
-				(thickness 1.1)
-				(material "FR4")
-				(epsilon_r 4.5)
-				(loss_tangent 0.02)
-			)
-			(layer "In2.Cu"
-				(type "copper")
-				(thickness 0.035)
-			)
-			(layer "dielectric 99"
-				(type "prepreg")
-				(color "FR4 natural")
-				(thickness 0.168 locked)
-				(material "RO4350B")
-				(epsilon_r 3.66)
-				(loss_tangent 0.0034)
-			)
-			(layer "B.Cu"
-				(type "copper")
-				(thickness 0.035)
-			)
-			(layer "B.Mask"
-				(type "Bottom Solder Mask")
-				(color "Green")
-				(thickness 0.01)
-			)
-			(layer "F.SilkS"
-				(type "Top Silk Screen")
-			)
-			(layer "F.Paste"
-				(type "Top Solder Paste")
-			)
-			(layer "F.Mask"
-				(type "Top Solder Mask")
-				(color "Green")
-				(thickness 0.01)
-			)
-			(layer "F.Cu"
-				(type "copper")
-				(thickness 0.035)
-			)
-			(layer "dielectric 100"
-				(type "prepreg")
-				(color "FR4 natural")
-				(thickness 0.168 locked)
-				(material "RO4350B")
-				(epsilon_r 3.66)
-				(loss_tangent 0.0034)
-			)
-			(layer "In1.Cu"
-				(type "copper")
-				(thickness 0.035)
-			)
-			(layer "dielectric 101"
-				(type "core")
-				(color "FR4 natural")
-				(thickness 1.1)
-				(material "FR4")
-				(epsilon_r 4.5)
-				(loss_tangent 0.02)
-			)
-			(layer "In2.Cu"
-				(type "copper")
-				(thickness 0.035)
-			)
-			(layer "dielectric 102"
-				(type "prepreg")
-				(color "FR4 natural")
-				(thickness 0.168 locked)
-				(material "RO4350B")
-				(epsilon_r 3.66)
-				(loss_tangent 0.0034)
-			)
-			(layer "B.Cu"
-				(type "copper")
-				(thickness 0.035)
-			)
-			(layer "B.Mask"
-				(type "Bottom Solder Mask")
-				(color "Green")
-				(thickness 0.01)
-			)
-			(layer "F.SilkS"
-				(type "Top Silk Screen")
-			)
-			(layer "F.Paste"
-				(type "Top Solder Paste")
-			)
-			(layer "F.Mask"
-				(type "Top Solder Mask")
-				(color "Green")
-				(thickness 0.01)
-			)
-			(layer "F.Cu"
-				(type "copper")
-				(thickness 0.035)
-			)
-			(layer "dielectric 103"
-				(type "prepreg")
-				(color "FR4 natural")
-				(thickness 0.168 locked)
-				(material "RO4350B")
-				(epsilon_r 3.66)
-				(loss_tangent 0.0034)
-			)
-			(layer "In1.Cu"
-				(type "copper")
-				(thickness 0.035)
-			)
-			(layer "dielectric 104"
-				(type "core")
-				(color "FR4 natural")
-				(thickness 1.1)
-				(material "FR4")
-				(epsilon_r 4.5)
-				(loss_tangent 0.02)
-			)
-			(layer "In2.Cu"
-				(type "copper")
-				(thickness 0.035)
-			)
-			(layer "dielectric 105"
-				(type "prepreg")
-				(color "FR4 natural")
-				(thickness 0.168 locked)
-				(material "RO4350B")
-				(epsilon_r 3.66)
-				(loss_tangent 0.0034)
-			)
-			(layer "B.Cu"
-				(type "copper")
-				(thickness 0.035)
-			)
-			(layer "B.Mask"
-				(type "Bottom Solder Mask")
-				(color "Green")
-				(thickness 0.01)
-			)
-			(layer "F.SilkS"
-				(type "Top Silk Screen")
-			)
-			(layer "F.Paste"
-				(type "Top Solder Paste")
-			)
-			(layer "F.Mask"
-				(type "Top Solder Mask")
-				(color "Green")
-				(thickness 0.01)
-			)
-			(layer "F.Cu"
-				(type "copper")
-				(thickness 0.035)
-			)
-			(layer "dielectric 106"
-				(type "prepreg")
-				(color "FR4 natural")
-				(thickness 0.168 locked)
-				(material "RO4350B")
-				(epsilon_r 3.66)
-				(loss_tangent 0.0034)
-			)
-			(layer "In1.Cu"
-				(type "copper")
-				(thickness 0.035)
-			)
-			(layer "dielectric 107"
-				(type "core")
-				(color "FR4 natural")
-				(thickness 1.1)
-				(material "FR4")
-				(epsilon_r 4.5)
-				(loss_tangent 0.02)
-			)
-			(layer "In2.Cu"
-				(type "copper")
-				(thickness 0.035)
-			)
-			(layer "dielectric 108"
-				(type "prepreg")
-				(color "FR4 natural")
-				(thickness 0.168 locked)
-				(material "RO4350B")
-				(epsilon_r 3.66)
-				(loss_tangent 0.0034)
-			)
-			(layer "B.Cu"
-				(type "copper")
-				(thickness 0.035)
-			)
-			(layer "B.Mask"
-				(type "Bottom Solder Mask")
-				(color "Green")
-				(thickness 0.01)
-			)
-			(layer "F.SilkS"
-				(type "Top Silk Screen")
-			)
-			(layer "F.Paste"
-				(type "Top Solder Paste")
-			)
-			(layer "F.Mask"
-				(type "Top Solder Mask")
-				(color "Green")
-				(thickness 0.01)
-			)
-			(layer "F.Cu"
-				(type "copper")
-				(thickness 0.035)
-			)
-			(layer "dielectric 109"
-				(type "prepreg")
-				(color "FR4 natural")
-				(thickness 0.168 locked)
-				(material "RO4350B")
-				(epsilon_r 3.66)
-				(loss_tangent 0.0034)
-			)
-			(layer "In1.Cu"
-				(type "copper")
-				(thickness 0.035)
-			)
-			(layer "dielectric 110"
-				(type "core")
-				(color "FR4 natural")
-				(thickness 1.1)
-				(material "FR4")
-				(epsilon_r 4.5)
-				(loss_tangent 0.02)
-			)
-			(layer "In2.Cu"
-				(type "copper")
-				(thickness 0.035)
-			)
-			(layer "dielectric 111"
-				(type "prepreg")
-				(color "FR4 natural")
-				(thickness 0.168 locked)
-				(material "RO4350B")
-				(epsilon_r 3.66)
-				(loss_tangent 0.0034)
-			)
-			(layer "B.Cu"
-				(type "copper")
-				(thickness 0.035)
-			)
-			(layer "B.Mask"
-				(type "Bottom Solder Mask")
-				(color "Green")
-				(thickness 0.01)
-			)
-			(layer "F.SilkS"
-				(type "Top Silk Screen")
-			)
-			(layer "F.Paste"
-				(type "Top Solder Paste")
-			)
-			(layer "F.Mask"
-				(type "Top Solder Mask")
-				(color "Green")
-				(thickness 0.01)
-			)
-			(layer "F.Cu"
-				(type "copper")
-				(thickness 0.035)
-			)
-			(layer "dielectric 112"
-				(type "prepreg")
-				(color "FR4 natural")
-				(thickness 0.168 locked)
-				(material "RO4350B")
-				(epsilon_r 3.66)
-				(loss_tangent 0.0034)
-			)
-			(layer "In1.Cu"
-				(type "copper")
-				(thickness 0.035)
-			)
-			(layer "dielectric 113"
-				(type "core")
-				(color "FR4 natural")
-				(thickness 1.1)
-				(material "FR4")
-				(epsilon_r 4.5)
-				(loss_tangent 0.02)
-			)
-			(layer "In2.Cu"
-				(type "copper")
-				(thickness 0.035)
-			)
-			(layer "dielectric 114"
-				(type "prepreg")
-				(color "FR4 natural")
-				(thickness 0.168 locked)
-				(material "RO4350B")
-				(epsilon_r 3.66)
-				(loss_tangent 0.0034)
-			)
-			(layer "B.Cu"
-				(type "copper")
-				(thickness 0.035)
-			)
-			(layer "B.Mask"
-				(type "Bottom Solder Mask")
-				(color "Green")
-				(thickness 0.01)
-			)
-			(layer "F.SilkS"
-				(type "Top Silk Screen")
-			)
-			(layer "F.Paste"
-				(type "Top Solder Paste")
-			)
-			(layer "F.Mask"
-				(type "Top Solder Mask")
-				(color "Green")
-				(thickness 0.01)
-			)
-			(layer "F.Cu"
-				(type "copper")
-				(thickness 0.035)
-			)
-			(layer "dielectric 115"
-				(type "prepreg")
-				(color "FR4 natural")
-				(thickness 0.168 locked)
-				(material "RO4350B")
-				(epsilon_r 3.66)
-				(loss_tangent 0.0034)
-			)
-			(layer "In1.Cu"
-				(type "copper")
-				(thickness 0.035)
-			)
-			(layer "dielectric 116"
-				(type "core")
-				(color "FR4 natural")
-				(thickness 1.1)
-				(material "FR4")
-				(epsilon_r 4.5)
-				(loss_tangent 0.02)
-			)
-			(layer "In2.Cu"
-				(type "copper")
-				(thickness 0.035)
-			)
-			(layer "dielectric 117"
-				(type "prepreg")
-				(color "FR4 natural")
-				(thickness 0.168 locked)
-				(material "RO4350B")
-				(epsilon_r 3.66)
-				(loss_tangent 0.0034)
-			)
-			(layer "B.Cu"
-				(type "copper")
-				(thickness 0.035)
-			)
-			(layer "B.Mask"
-				(type "Bottom Solder Mask")
-				(color "Green")
-				(thickness 0.01)
-			)
-			(layer "F.SilkS"
-				(type "Top Silk Screen")
-			)
-			(layer "F.Paste"
-				(type "Top Solder Paste")
-			)
-			(layer "F.Mask"
-				(type "Top Solder Mask")
-				(color "Green")
-				(thickness 0.01)
-			)
-			(layer "F.Cu"
-				(type "copper")
-				(thickness 0.035)
-			)
-			(layer "dielectric 118"
-				(type "prepreg")
-				(color "FR4 natural")
-				(thickness 0.168 locked)
-				(material "RO4350B")
-				(epsilon_r 3.66)
-				(loss_tangent 0.0034)
-			)
-			(layer "In1.Cu"
-				(type "copper")
-				(thickness 0.035)
-			)
-			(layer "dielectric 119"
-				(type "core")
-				(color "FR4 natural")
-				(thickness 1.1)
-				(material "FR4")
-				(epsilon_r 4.5)
-				(loss_tangent 0.02)
-			)
-			(layer "In2.Cu"
-				(type "copper")
-				(thickness 0.035)
-			)
-			(layer "dielectric 120"
-				(type "prepreg")
-				(color "FR4 natural")
-				(thickness 0.168 locked)
-				(material "RO4350B")
-				(epsilon_r 3.66)
-				(loss_tangent 0.0034)
-			)
-			(layer "B.Cu"
-				(type "copper")
-				(thickness 0.035)
-			)
-			(layer "B.Mask"
-				(type "Bottom Solder Mask")
-				(color "Green")
-				(thickness 0.01)
-			)
-			(layer "F.SilkS"
-				(type "Top Silk Screen")
-			)
-			(layer "F.Paste"
-				(type "Top Solder Paste")
-			)
-			(layer "F.Mask"
-				(type "Top Solder Mask")
-				(color "Green")
-				(thickness 0.01)
-			)
-			(layer "F.Cu"
-				(type "copper")
-				(thickness 0.035)
-			)
-			(layer "dielectric 121"
-				(type "prepreg")
-				(color "FR4 natural")
-				(thickness 0.168 locked)
-				(material "RO4350B")
-				(epsilon_r 3.66)
-				(loss_tangent 0.0034)
-			)
-			(layer "In1.Cu"
-				(type "copper")
-				(thickness 0.035)
-			)
-			(layer "dielectric 122"
-				(type "core")
-				(color "FR4 natural")
-				(thickness 1.1)
-				(material "FR4")
-				(epsilon_r 4.5)
-				(loss_tangent 0.02)
-			)
-			(layer "In2.Cu"
-				(type "copper")
-				(thickness 0.035)
-			)
-			(layer "dielectric 123"
-				(type "prepreg")
-				(color "FR4 natural")
-				(thickness 0.168 locked)
-				(material "RO4350B")
-				(epsilon_r 3.66)
-				(loss_tangent 0.0034)
-			)
-			(layer "B.Cu"
-				(type "copper")
-				(thickness 0.035)
-			)
-			(layer "B.Mask"
-				(type "Bottom Solder Mask")
-				(color "Green")
-				(thickness 0.01)
-			)
-			(layer "F.SilkS"
-				(type "Top Silk Screen")
-			)
-			(layer "F.Paste"
-				(type "Top Solder Paste")
-			)
-			(layer "F.Mask"
-				(type "Top Solder Mask")
-				(color "Green")
-				(thickness 0.01)
-			)
-			(layer "F.Cu"
-				(type "copper")
-				(thickness 0.035)
-			)
-			(layer "dielectric 124"
-				(type "prepreg")
-				(color "FR4 natural")
-				(thickness 0.168 locked)
-				(material "RO4350B")
-				(epsilon_r 3.66)
-				(loss_tangent 0.0034)
-			)
-			(layer "In1.Cu"
-				(type "copper")
-				(thickness 0.035)
-			)
-			(layer "dielectric 125"
-				(type "core")
-				(color "FR4 natural")
-				(thickness 1.1)
-				(material "FR4")
-				(epsilon_r 4.5)
-				(loss_tangent 0.02)
-			)
-			(layer "In2.Cu"
-				(type "copper")
-				(thickness 0.035)
-			)
-			(layer "dielectric 126"
-				(type "prepreg")
-				(color "FR4 natural")
-				(thickness 0.168 locked)
-				(material "RO4350B")
-				(epsilon_r 3.66)
-				(loss_tangent 0.0034)
-			)
-			(layer "B.Cu"
-				(type "copper")
-				(thickness 0.035)
-			)
-			(layer "B.Mask"
-				(type "Bottom Solder Mask")
-				(color "Green")
-				(thickness 0.01)
-			)
-			(layer "F.SilkS"
-				(type "Top Silk Screen")
-			)
-			(layer "F.Paste"
-				(type "Top Solder Paste")
-			)
-			(layer "F.Mask"
-				(type "Top Solder Mask")
-				(color "Green")
-				(thickness 0.01)
-			)
-			(layer "F.Cu"
-				(type "copper")
-				(thickness 0.035)
-			)
-			(layer "dielectric 127"
-				(type "prepreg")
-				(color "FR4 natural")
-				(thickness 0.168 locked)
-				(material "RO4350B")
-				(epsilon_r 3.66)
-				(loss_tangent 0.0034)
-			)
-			(layer "In1.Cu"
-				(type "copper")
-				(thickness 0.035)
-			)
-			(layer "dielectric 128"
-				(type "core")
-				(color "FR4 natural")
-				(thickness 1.1)
-				(material "FR4")
-				(epsilon_r 4.5)
-				(loss_tangent 0.02)
-			)
-			(layer "In2.Cu"
-				(type "copper")
-				(thickness 0.035)
-			)
-			(layer "dielectric 129"
-				(type "prepreg")
-				(color "FR4 natural")
-				(thickness 0.168 locked)
-				(material "RO4350B")
-				(epsilon_r 3.66)
-				(loss_tangent 0.0034)
-			)
-			(layer "B.Cu"
-				(type "copper")
-				(thickness 0.035)
-			)
-			(layer "B.Mask"
-				(type "Bottom Solder Mask")
-				(color "Green")
-				(thickness 0.01)
-			)
-			(layer "F.SilkS"
-				(type "Top Silk Screen")
-			)
-			(layer "F.Paste"
-				(type "Top Solder Paste")
-			)
-			(layer "F.Mask"
-				(type "Top Solder Mask")
-				(color "Green")
-				(thickness 0.01)
-			)
-			(layer "F.Cu"
-				(type "copper")
-				(thickness 0.035)
-			)
-			(layer "dielectric 130"
-				(type "prepreg")
-				(color "FR4 natural")
-				(thickness 0.168 locked)
-				(material "RO4350B")
-				(epsilon_r 3.66)
-				(loss_tangent 0.0034)
-			)
-			(layer "In1.Cu"
-				(type "copper")
-				(thickness 0.035)
-			)
-			(layer "dielectric 131"
-				(type "core")
-				(color "FR4 natural")
-				(thickness 1.1)
-				(material "FR4")
-				(epsilon_r 4.5)
-				(loss_tangent 0.02)
-			)
-			(layer "In2.Cu"
-				(type "copper")
-				(thickness 0.035)
-			)
-			(layer "dielectric 132"
-				(type "prepreg")
-				(color "FR4 natural")
-				(thickness 0.168 locked)
-				(material "RO4350B")
-				(epsilon_r 3.66)
-				(loss_tangent 0.0034)
-			)
-			(layer "B.Cu"
-				(type "copper")
-				(thickness 0.035)
-			)
-			(layer "B.Mask"
-				(type "Bottom Solder Mask")
-				(color "Green")
-				(thickness 0.01)
-			)
-			(layer "F.SilkS"
-				(type "Top Silk Screen")
-			)
-			(layer "F.Paste"
-				(type "Top Solder Paste")
-			)
-			(layer "F.Mask"
-				(type "Top Solder Mask")
-				(color "Green")
-				(thickness 0.01)
-			)
-			(layer "F.Cu"
-				(type "copper")
-				(thickness 0.035)
-			)
-			(layer "dielectric 133"
-				(type "prepreg")
-				(color "FR4 natural")
-				(thickness 0.168 locked)
-				(material "RO4350B")
-				(epsilon_r 3.66)
-				(loss_tangent 0.0034)
-			)
-			(layer "In1.Cu"
-				(type "copper")
-				(thickness 0.035)
-			)
-			(layer "dielectric 134"
-				(type "core")
-				(color "FR4 natural")
-				(thickness 1.1)
-				(material "FR4")
-				(epsilon_r 4.5)
-				(loss_tangent 0.02)
-			)
-			(layer "In2.Cu"
-				(type "copper")
-				(thickness 0.035)
-			)
-			(layer "dielectric 135"
-				(type "prepreg")
-				(color "FR4 natural")
-				(thickness 0.168 locked)
-				(material "RO4350B")
-				(epsilon_r 3.66)
-				(loss_tangent 0.0034)
-			)
-			(layer "B.Cu"
-				(type "copper")
-				(thickness 0.035)
-			)
-			(layer "B.Mask"
-				(type "Bottom Solder Mask")
-				(color "Green")
-				(thickness 0.01)
-			)
-			(layer "F.SilkS"
-				(type "Top Silk Screen")
-			)
-			(layer "F.Paste"
-				(type "Top Solder Paste")
-			)
-			(layer "F.Mask"
-				(type "Top Solder Mask")
-				(color "Green")
-				(thickness 0.01)
-			)
-			(layer "F.Cu"
-				(type "copper")
-				(thickness 0.035)
-			)
-			(layer "dielectric 136"
-				(type "prepreg")
-				(color "FR4 natural")
-				(thickness 0.168 locked)
-				(material "RO4350B")
-				(epsilon_r 3.66)
-				(loss_tangent 0.0034)
-			)
-			(layer "In1.Cu"
-				(type "copper")
-				(thickness 0.035)
-			)
-			(layer "dielectric 137"
-				(type "core")
-				(color "FR4 natural")
-				(thickness 1.1)
-				(material "FR4")
-				(epsilon_r 4.5)
-				(loss_tangent 0.02)
-			)
-			(layer "In2.Cu"
-				(type "copper")
-				(thickness 0.035)
-			)
-			(layer "dielectric 138"
-				(type "prepreg")
-				(color "FR4 natural")
-				(thickness 0.168 locked)
-				(material "RO4350B")
-				(epsilon_r 3.66)
-				(loss_tangent 0.0034)
-			)
-			(layer "B.Cu"
-				(type "copper")
-				(thickness 0.035)
-			)
-			(layer "B.Mask"
-				(type "Bottom Solder Mask")
-				(color "Green")
-				(thickness 0.01)
-			)
-			(layer "F.SilkS"
-				(type "Top Silk Screen")
-			)
-			(layer "F.Paste"
-				(type "Top Solder Paste")
-			)
-			(layer "F.Mask"
-				(type "Top Solder Mask")
-				(color "Green")
-				(thickness 0.01)
-			)
-			(layer "F.Cu"
-				(type "copper")
-				(thickness 0.035)
-			)
-			(layer "dielectric 139"
-				(type "prepreg")
-				(color "FR4 natural")
-				(thickness 0.168 locked)
-				(material "RO4350B")
-				(epsilon_r 3.66)
-				(loss_tangent 0.0034)
-			)
-			(layer "In1.Cu"
-				(type "copper")
-				(thickness 0.035)
-			)
-			(layer "dielectric 140"
-				(type "core")
-				(color "FR4 natural")
-				(thickness 1.1)
-				(material "FR4")
-				(epsilon_r 4.5)
-				(loss_tangent 0.02)
-			)
-			(layer "In2.Cu"
-				(type "copper")
-				(thickness 0.035)
-			)
-			(layer "dielectric 141"
-				(type "prepreg")
-				(color "FR4 natural")
-				(thickness 0.168 locked)
-				(material "RO4350B")
-				(epsilon_r 3.66)
-				(loss_tangent 0.0034)
-			)
-			(layer "B.Cu"
-				(type "copper")
-				(thickness 0.035)
-			)
-			(layer "B.Mask"
-				(type "Bottom Solder Mask")
-				(color "Green")
-				(thickness 0.01)
-			)
-			(layer "F.SilkS"
-				(type "Top Silk Screen")
-			)
-			(layer "F.Paste"
-				(type "Top Solder Paste")
-			)
-			(layer "F.Mask"
-				(type "Top Solder Mask")
-				(color "Green")
-				(thickness 0.01)
-			)
-			(layer "F.Cu"
-				(type "copper")
-				(thickness 0.035)
-			)
-			(layer "dielectric 142"
-				(type "prepreg")
-				(color "FR4 natural")
-				(thickness 0.168 locked)
-				(material "RO4350B")
-				(epsilon_r 3.66)
-				(loss_tangent 0.0034)
-			)
-			(layer "In1.Cu"
-				(type "copper")
-				(thickness 0.035)
-			)
-			(layer "dielectric 143"
-				(type "core")
-				(color "FR4 natural")
-				(thickness 1.1)
-				(material "FR4")
-				(epsilon_r 4.5)
-				(loss_tangent 0.02)
-			)
-			(layer "In2.Cu"
-				(type "copper")
-				(thickness 0.035)
-			)
-			(layer "dielectric 144"
-				(type "prepreg")
-				(color "FR4 natural")
-				(thickness 0.168 locked)
-				(material "RO4350B")
-				(epsilon_r 3.66)
-				(loss_tangent 0.0034)
-			)
-			(layer "B.Cu"
-				(type "copper")
-				(thickness 0.035)
-			)
-			(layer "B.Mask"
-				(type "Bottom Solder Mask")
-				(color "Green")
-				(thickness 0.01)
-			)
-			(layer "F.SilkS"
-				(type "Top Silk Screen")
-			)
-			(layer "F.Paste"
-				(type "Top Solder Paste")
-			)
-			(layer "F.Mask"
-				(type "Top Solder Mask")
-				(color "Green")
-				(thickness 0.01)
-			)
-			(layer "F.Cu"
-				(type "copper")
-				(thickness 0.035)
-			)
-			(layer "dielectric 145"
-				(type "prepreg")
-				(color "FR4 natural")
-				(thickness 0.168 locked)
-				(material "RO4350B")
-				(epsilon_r 3.66)
-				(loss_tangent 0.0034)
-			)
-			(layer "In1.Cu"
-				(type "copper")
-				(thickness 0.035)
-			)
-			(layer "dielectric 146"
-				(type "core")
-				(color "FR4 natural")
-				(thickness 1.1)
-				(material "FR4")
-				(epsilon_r 4.5)
-				(loss_tangent 0.02)
-			)
-			(layer "In2.Cu"
-				(type "copper")
-				(thickness 0.035)
-			)
-			(layer "dielectric 147"
-				(type "prepreg")
-				(color "FR4 natural")
-				(thickness 0.168 locked)
-				(material "RO4350B")
-				(epsilon_r 3.66)
-				(loss_tangent 0.0034)
-			)
-			(layer "B.Cu"
-				(type "copper")
-				(thickness 0.035)
-			)
-			(layer "B.Mask"
-				(type "Bottom Solder Mask")
-				(color "Green")
-				(thickness 0.01)
-			)
-			(layer "F.SilkS"
-				(type "Top Silk Screen")
-			)
-			(layer "F.Paste"
-				(type "Top Solder Paste")
-			)
-			(layer "F.Mask"
-				(type "Top Solder Mask")
-				(color "Green")
-				(thickness 0.01)
-			)
-			(layer "F.Cu"
-				(type "copper")
-				(thickness 0.035)
-			)
-			(layer "dielectric 148"
-				(type "prepreg")
-				(color "FR4 natural")
-				(thickness 0.168 locked)
-				(material "RO4350B")
-				(epsilon_r 3.66)
-				(loss_tangent 0.0034)
-			)
-			(layer "In1.Cu"
-				(type "copper")
-				(thickness 0.035)
-			)
-			(layer "dielectric 149"
-				(type "core")
-				(color "FR4 natural")
-				(thickness 1.1)
-				(material "FR4")
-				(epsilon_r 4.5)
-				(loss_tangent 0.02)
-			)
-			(layer "In2.Cu"
-				(type "copper")
-				(thickness 0.035)
-			)
-			(layer "dielectric 150"
-				(type "prepreg")
-				(color "FR4 natural")
-				(thickness 0.168 locked)
-				(material "RO4350B")
-				(epsilon_r 3.66)
-				(loss_tangent 0.0034)
-			)
-			(layer "B.Cu"
-				(type "copper")
-				(thickness 0.035)
-			)
-			(layer "B.Mask"
-				(type "Bottom Solder Mask")
-				(color "Green")
-				(thickness 0.01)
-			)
-			(layer "F.SilkS"
-				(type "Top Silk Screen")
-			)
-			(layer "F.Paste"
-				(type "Top Solder Paste")
-			)
-			(layer "F.Mask"
-				(type "Top Solder Mask")
-				(color "Green")
-				(thickness 0.01)
-			)
-			(layer "F.Cu"
-				(type "copper")
-				(thickness 0.035)
-			)
-			(layer "dielectric 151"
-				(type "prepreg")
-				(color "FR4 natural")
-				(thickness 0.168 locked)
-				(material "RO4350B")
-				(epsilon_r 3.66)
-				(loss_tangent 0.0034)
-			)
-			(layer "In1.Cu"
-				(type "copper")
-				(thickness 0.035)
-			)
-			(layer "dielectric 152"
-				(type "core")
-				(color "FR4 natural")
-				(thickness 1.1)
-				(material "FR4")
-				(epsilon_r 4.5)
-				(loss_tangent 0.02)
-			)
-			(layer "In2.Cu"
-				(type "copper")
-				(thickness 0.035)
-			)
-			(layer "dielectric 153"
-				(type "prepreg")
-				(color "FR4 natural")
-				(thickness 0.168 locked)
-				(material "RO4350B")
-				(epsilon_r 3.66)
-				(loss_tangent 0.0034)
-			)
-			(layer "B.Cu"
-				(type "copper")
-				(thickness 0.035)
-			)
-			(layer "B.Mask"
-				(type "Bottom Solder Mask")
-				(color "Green")
-				(thickness 0.01)
-			)
-			(layer "F.SilkS"
-				(type "Top Silk Screen")
-			)
-			(layer "F.Paste"
-				(type "Top Solder Paste")
-			)
-			(layer "F.Mask"
-				(type "Top Solder Mask")
-				(color "Green")
-				(thickness 0.01)
-			)
-			(layer "F.Cu"
-				(type "copper")
-				(thickness 0.035)
-			)
-			(layer "dielectric 154"
-				(type "prepreg")
-				(color "FR4 natural")
-				(thickness 0.168 locked)
-				(material "RO4350B")
-				(epsilon_r 3.66)
-				(loss_tangent 0.0034)
-			)
-			(layer "In1.Cu"
-				(type "copper")
-				(thickness 0.035)
-			)
-			(layer "dielectric 155"
-				(type "core")
-				(color "FR4 natural")
-				(thickness 1.1)
-				(material "FR4")
-				(epsilon_r 4.5)
-				(loss_tangent 0.02)
-			)
-			(layer "In2.Cu"
-				(type "copper")
-				(thickness 0.035)
-			)
-			(layer "dielectric 156"
-				(type "prepreg")
-				(color "FR4 natural")
-				(thickness 0.168 locked)
-				(material "RO4350B")
-				(epsilon_r 3.66)
-				(loss_tangent 0.0034)
-			)
-			(layer "B.Cu"
-				(type "copper")
-				(thickness 0.035)
-			)
-			(layer "B.Mask"
-				(type "Bottom Solder Mask")
-				(color "Green")
-				(thickness 0.01)
-			)
-			(layer "F.SilkS"
-				(type "Top Silk Screen")
-			)
-			(layer "F.Paste"
-				(type "Top Solder Paste")
-			)
-			(layer "F.Mask"
-				(type "Top Solder Mask")
-				(color "Green")
-				(thickness 0.01)
-			)
-			(layer "F.Cu"
-				(type "copper")
-				(thickness 0.035)
-			)
-			(layer "dielectric 157"
-				(type "prepreg")
-				(color "FR4 natural")
-				(thickness 0.168 locked)
-				(material "RO4350B")
-				(epsilon_r 3.66)
-				(loss_tangent 0.0034)
-			)
-			(layer "In1.Cu"
-				(type "copper")
-				(thickness 0.035)
-			)
-			(layer "dielectric 158"
-				(type "core")
-				(color "FR4 natural")
-				(thickness 1.1)
-				(material "FR4")
-				(epsilon_r 4.5)
-				(loss_tangent 0.02)
-			)
-			(layer "In2.Cu"
-				(type "copper")
-				(thickness 0.035)
-			)
-			(layer "dielectric 159"
-				(type "prepreg")
-				(color "FR4 natural")
-				(thickness 0.168 locked)
-				(material "RO4350B")
-				(epsilon_r 3.66)
-				(loss_tangent 0.0034)
-			)
-			(layer "B.Cu"
-				(type "copper")
-				(thickness 0.035)
-			)
-			(layer "B.Mask"
-				(type "Bottom Solder Mask")
-				(color "Green")
-				(thickness 0.01)
-			)
-			(layer "F.SilkS"
-				(type "Top Silk Screen")
-			)
-			(layer "F.Paste"
-				(type "Top Solder Paste")
-			)
-			(layer "F.Mask"
-				(type "Top Solder Mask")
-				(color "Green")
-				(thickness 0.01)
-			)
-			(layer "F.Cu"
-				(type "copper")
-				(thickness 0.035)
-			)
-			(layer "dielectric 160"
-				(type "prepreg")
-				(color "FR4 natural")
-				(thickness 0.168 locked)
-				(material "RO4350B")
-				(epsilon_r 3.66)
-				(loss_tangent 0.0034)
-			)
-			(layer "In1.Cu"
-				(type "copper")
-				(thickness 0.035)
-			)
-			(layer "dielectric 161"
-				(type "core")
-				(color "FR4 natural")
-				(thickness 1.1)
-				(material "FR4")
-				(epsilon_r 4.5)
-				(loss_tangent 0.02)
-			)
-			(layer "In2.Cu"
-				(type "copper")
-				(thickness 0.035)
-			)
-			(layer "dielectric 162"
-				(type "prepreg")
-				(color "FR4 natural")
-				(thickness 0.168 locked)
-				(material "RO4350B")
-				(epsilon_r 3.66)
-				(loss_tangent 0.0034)
-			)
-			(layer "B.Cu"
-				(type "copper")
-				(thickness 0.035)
-			)
-			(layer "B.Mask"
-				(type "Bottom Solder Mask")
-				(color "Green")
-				(thickness 0.01)
-			)
-			(layer "F.SilkS"
-				(type "Top Silk Screen")
-			)
-			(layer "F.Paste"
-				(type "Top Solder Paste")
-			)
-			(layer "F.Mask"
-				(type "Top Solder Mask")
-				(color "Green")
-				(thickness 0.01)
-			)
-			(layer "F.Cu"
-				(type "copper")
-				(thickness 0.035)
-			)
-			(layer "dielectric 163"
-				(type "prepreg")
-				(color "FR4 natural")
-				(thickness 0.168 locked)
-				(material "RO4350B")
-				(epsilon_r 3.66)
-				(loss_tangent 0.0034)
-			)
-			(layer "In1.Cu"
-				(type "copper")
-				(thickness 0.035)
-			)
-			(layer "dielectric 164"
-				(type "core")
-				(color "FR4 natural")
-				(thickness 1.1)
-				(material "FR4")
-				(epsilon_r 4.5)
-				(loss_tangent 0.02)
-			)
-			(layer "In2.Cu"
-				(type "copper")
-				(thickness 0.035)
-			)
-			(layer "dielectric 165"
-				(type "prepreg")
-				(color "FR4 natural")
-				(thickness 0.168 locked)
-				(material "RO4350B")
-				(epsilon_r 3.66)
-				(loss_tangent 0.0034)
-			)
-			(layer "B.Cu"
-				(type "copper")
-				(thickness 0.035)
-			)
-			(layer "B.Mask"
-				(type "Bottom Solder Mask")
-				(color "Green")
-				(thickness 0.01)
-			)
-			(layer "F.SilkS"
-				(type "Top Silk Screen")
-			)
-			(layer "F.Paste"
-				(type "Top Solder Paste")
-			)
-			(layer "F.Mask"
-				(type "Top Solder Mask")
-				(color "Green")
-				(thickness 0.01)
-			)
-			(layer "F.Cu"
-				(type "copper")
-				(thickness 0.035)
-			)
-			(layer "dielectric 166"
-				(type "prepreg")
-				(color "FR4 natural")
-				(thickness 0.168 locked)
-				(material "RO4350B")
-				(epsilon_r 3.66)
-				(loss_tangent 0.0034)
-			)
-			(layer "In1.Cu"
-				(type "copper")
-				(thickness 0.035)
-			)
-			(layer "dielectric 167"
-				(type "core")
-				(color "FR4 natural")
-				(thickness 1.1)
-				(material "FR4")
-				(epsilon_r 4.5)
-				(loss_tangent 0.02)
-			)
-			(layer "In2.Cu"
-				(type "copper")
-				(thickness 0.035)
-			)
-			(layer "dielectric 168"
-				(type "prepreg")
-				(color "FR4 natural")
-				(thickness 0.168 locked)
-				(material "RO4350B")
-				(epsilon_r 3.66)
-				(loss_tangent 0.0034)
-			)
-			(layer "B.Cu"
-				(type "copper")
-				(thickness 0.035)
-			)
-			(layer "B.Mask"
-				(type "Bottom Solder Mask")
-				(color "Green")
-				(thickness 0.01)
-			)
-			(layer "F.SilkS"
-				(type "Top Silk Screen")
-			)
-			(layer "F.Paste"
-				(type "Top Solder Paste")
-			)
-			(layer "F.Mask"
-				(type "Top Solder Mask")
-				(color "Green")
-				(thickness 0.01)
-			)
-			(layer "F.Cu"
-				(type "copper")
-				(thickness 0.035)
-			)
-			(layer "dielectric 169"
-				(type "prepreg")
-				(color "FR4 natural")
-				(thickness 0.168 locked)
-				(material "RO4350B")
-				(epsilon_r 3.66)
-				(loss_tangent 0.0034)
-			)
-			(layer "In1.Cu"
-				(type "copper")
-				(thickness 0.035)
-			)
-			(layer "dielectric 170"
-				(type "core")
-				(color "FR4 natural")
-				(thickness 1.1)
-				(material "FR4")
-				(epsilon_r 4.5)
-				(loss_tangent 0.02)
-			)
-			(layer "In2.Cu"
-				(type "copper")
-				(thickness 0.035)
-			)
-			(layer "dielectric 171"
-				(type "prepreg")
-				(color "FR4 natural")
-				(thickness 0.168 locked)
-				(material "RO4350B")
-				(epsilon_r 3.66)
-				(loss_tangent 0.0034)
-			)
-			(layer "B.Cu"
-				(type "copper")
-				(thickness 0.035)
-			)
-			(layer "B.Mask"
-				(type "Bottom Solder Mask")
-				(color "Green")
-				(thickness 0.01)
-			)
-			(layer "F.SilkS"
-				(type "Top Silk Screen")
-			)
-			(layer "F.Paste"
-				(type "Top Solder Paste")
-			)
-			(layer "F.Mask"
-				(type "Top Solder Mask")
-				(color "Green")
-				(thickness 0.01)
-			)
-			(layer "F.Cu"
-				(type "copper")
-				(thickness 0.035)
-			)
-			(layer "dielectric 172"
-				(type "prepreg")
-				(color "FR4 natural")
-				(thickness 0.168 locked)
-				(material "RO4350B")
-				(epsilon_r 3.66)
-				(loss_tangent 0.0034)
-			)
-			(layer "In1.Cu"
-				(type "copper")
-				(thickness 0.035)
-			)
-			(layer "dielectric 173"
-				(type "core")
-				(color "FR4 natural")
-				(thickness 1.1)
-				(material "FR4")
-				(epsilon_r 4.5)
-				(loss_tangent 0.02)
-			)
-			(layer "In2.Cu"
-				(type "copper")
-				(thickness 0.035)
-			)
-			(layer "dielectric 174"
-				(type "prepreg")
-				(color "FR4 natural")
-				(thickness 0.168 locked)
-				(material "RO4350B")
-				(epsilon_r 3.66)
-				(loss_tangent 0.0034)
-			)
-			(layer "B.Cu"
-				(type "copper")
-				(thickness 0.035)
-			)
-			(layer "B.Mask"
-				(type "Bottom Solder Mask")
-				(color "Green")
-				(thickness 0.01)
-			)
-			(layer "F.SilkS"
-				(type "Top Silk Screen")
-			)
-			(layer "F.Paste"
-				(type "Top Solder Paste")
-			)
-			(layer "F.Mask"
-				(type "Top Solder Mask")
-				(color "Green")
-				(thickness 0.01)
-			)
-			(layer "F.Cu"
-				(type "copper")
-				(thickness 0.035)
-			)
-			(layer "dielectric 175"
-				(type "prepreg")
-				(color "FR4 natural")
-				(thickness 0.168 locked)
-				(material "RO4350B")
-				(epsilon_r 3.66)
-				(loss_tangent 0.0034)
-			)
-			(layer "In1.Cu"
-				(type "copper")
-				(thickness 0.035)
-			)
-			(layer "dielectric 176"
-				(type "core")
-				(color "FR4 natural")
-				(thickness 1.1)
-				(material "FR4")
-				(epsilon_r 4.5)
-				(loss_tangent 0.02)
-			)
-			(layer "In2.Cu"
-				(type "copper")
-				(thickness 0.035)
-			)
-			(layer "dielectric 177"
-				(type "prepreg")
-				(color "FR4 natural")
-				(thickness 0.168 locked)
-				(material "RO4350B")
-				(epsilon_r 3.66)
-				(loss_tangent 0.0034)
-			)
-			(layer "B.Cu"
-				(type "copper")
-				(thickness 0.035)
-			)
-			(layer "B.Mask"
-				(type "Bottom Solder Mask")
-				(color "Green")
-				(thickness 0.01)
-			)
-			(layer "F.SilkS"
-				(type "Top Silk Screen")
-			)
-			(layer "F.Paste"
-				(type "Top Solder Paste")
-			)
-			(layer "F.Mask"
-				(type "Top Solder Mask")
-				(color "Green")
-				(thickness 0.01)
-			)
-			(layer "F.Cu"
-				(type "copper")
-				(thickness 0.035)
-			)
-			(layer "dielectric 178"
-				(type "prepreg")
-				(color "FR4 natural")
-				(thickness 0.168 locked)
-				(material "RO4350B")
-				(epsilon_r 3.66)
-				(loss_tangent 0.0034)
-			)
-			(layer "In1.Cu"
-				(type "copper")
-				(thickness 0.035)
-			)
-			(layer "dielectric 179"
-				(type "core")
-				(color "FR4 natural")
-				(thickness 1.1)
-				(material "FR4")
-				(epsilon_r 4.5)
-				(loss_tangent 0.02)
-			)
-			(layer "In2.Cu"
-				(type "copper")
-				(thickness 0.035)
-			)
-			(layer "dielectric 180"
-				(type "prepreg")
-				(color "FR4 natural")
-				(thickness 0.168 locked)
-				(material "RO4350B")
-				(epsilon_r 3.66)
-				(loss_tangent 0.0034)
-			)
-			(layer "B.Cu"
-				(type "copper")
-				(thickness 0.035)
-			)
-			(layer "B.Mask"
-				(type "Bottom Solder Mask")
-				(color "Green")
-				(thickness 0.01)
-			)
-			(layer "F.SilkS"
-				(type "Top Silk Screen")
-			)
-			(layer "F.Paste"
-				(type "Top Solder Paste")
-			)
-			(layer "F.Mask"
-				(type "Top Solder Mask")
-				(color "Green")
-				(thickness 0.01)
-			)
-			(layer "F.Cu"
-				(type "copper")
-				(thickness 0.035)
-			)
-			(layer "dielectric 181"
-				(type "prepreg")
-				(color "FR4 natural")
-				(thickness 0.168 locked)
-				(material "RO4350B")
-				(epsilon_r 3.66)
-				(loss_tangent 0.0034)
-			)
-			(layer "In1.Cu"
-				(type "copper")
-				(thickness 0.035)
-			)
-			(layer "dielectric 182"
-				(type "core")
-				(color "FR4 natural")
-				(thickness 1.1)
-				(material "FR4")
-				(epsilon_r 4.5)
-				(loss_tangent 0.02)
-			)
-			(layer "In2.Cu"
-				(type "copper")
-				(thickness 0.035)
-			)
-			(layer "dielectric 183"
-				(type "prepreg")
-				(color "FR4 natural")
-				(thickness 0.168 locked)
-				(material "RO4350B")
-				(epsilon_r 3.66)
-				(loss_tangent 0.0034)
-			)
-			(layer "B.Cu"
-				(type "copper")
-				(thickness 0.035)
-			)
-			(layer "B.Mask"
-				(type "Bottom Solder Mask")
-				(color "Green")
-				(thickness 0.01)
-			)
-			(layer "F.SilkS"
-				(type "Top Silk Screen")
-			)
-			(layer "F.Paste"
-				(type "Top Solder Paste")
-			)
-			(layer "F.Mask"
-				(type "Top Solder Mask")
-				(color "Green")
-				(thickness 0.01)
-			)
-			(layer "F.Cu"
-				(type "copper")
-				(thickness 0.035)
-			)
-			(layer "dielectric 184"
-				(type "prepreg")
-				(color "FR4 natural")
-				(thickness 0.168 locked)
-				(material "RO4350B")
-				(epsilon_r 3.66)
-				(loss_tangent 0.0034)
-			)
-			(layer "In1.Cu"
-				(type "copper")
-				(thickness 0.035)
-			)
-			(layer "dielectric 185"
-				(type "core")
-				(color "FR4 natural")
-				(thickness 1.1)
-				(material "FR4")
-				(epsilon_r 4.5)
-				(loss_tangent 0.02)
-			)
-			(layer "In2.Cu"
-				(type "copper")
-				(thickness 0.035)
-			)
-			(layer "dielectric 186"
-				(type "prepreg")
-				(color "FR4 natural")
-				(thickness 0.168 locked)
-				(material "RO4350B")
-				(epsilon_r 3.66)
-				(loss_tangent 0.0034)
-			)
-			(layer "B.Cu"
-				(type "copper")
-				(thickness 0.035)
-			)
-			(layer "B.Mask"
-				(type "Bottom Solder Mask")
-				(color "Green")
-				(thickness 0.01)
-			)
-			(layer "F.SilkS"
-				(type "Top Silk Screen")
-			)
-			(layer "F.Paste"
-				(type "Top Solder Paste")
-			)
-			(layer "F.Mask"
-				(type "Top Solder Mask")
-				(color "Green")
-				(thickness 0.01)
-			)
-			(layer "F.Cu"
-				(type "copper")
-				(thickness 0.035)
-			)
-			(layer "dielectric 187"
-				(type "prepreg")
-				(color "FR4 natural")
-				(thickness 0.168 locked)
-				(material "RO4350B")
-				(epsilon_r 3.66)
-				(loss_tangent 0.0034)
-			)
-			(layer "In1.Cu"
-				(type "copper")
-				(thickness 0.035)
-			)
-			(layer "dielectric 188"
-				(type "core")
-				(color "FR4 natural")
-				(thickness 1.1)
-				(material "FR4")
-				(epsilon_r 4.5)
-				(loss_tangent 0.02)
-			)
-			(layer "In2.Cu"
-				(type "copper")
-				(thickness 0.035)
-			)
-			(layer "dielectric 189"
-				(type "prepreg")
-				(color "FR4 natural")
-				(thickness 0.168 locked)
-				(material "RO4350B")
-				(epsilon_r 3.66)
-				(loss_tangent 0.0034)
-			)
-			(layer "B.Cu"
-				(type "copper")
-				(thickness 0.035)
-			)
-			(layer "B.Mask"
-				(type "Bottom Solder Mask")
-				(color "Green")
-				(thickness 0.01)
-			)
-			(layer "F.SilkS"
-				(type "Top Silk Screen")
-			)
-			(layer "F.Paste"
-				(type "Top Solder Paste")
-			)
-			(layer "F.Mask"
-				(type "Top Solder Mask")
-				(color "Green")
-				(thickness 0.01)
-			)
-			(layer "F.Cu"
-				(type "copper")
-				(thickness 0.035)
-			)
-			(layer "dielectric 190"
-				(type "prepreg")
-				(color "FR4 natural")
-				(thickness 0.168 locked)
-				(material "RO4350B")
-				(epsilon_r 3.66)
-				(loss_tangent 0.0034)
-			)
-			(layer "In1.Cu"
-				(type "copper")
-				(thickness 0.035)
-			)
-			(layer "dielectric 191"
-				(type "core")
-				(color "FR4 natural")
-				(thickness 1.1)
-				(material "FR4")
-				(epsilon_r 4.5)
-				(loss_tangent 0.02)
-			)
-			(layer "In2.Cu"
-				(type "copper")
-				(thickness 0.035)
-			)
-			(layer "dielectric 192"
-				(type "prepreg")
-				(color "FR4 natural")
-				(thickness 0.168 locked)
-				(material "RO4350B")
-				(epsilon_r 3.66)
-				(loss_tangent 0.0034)
-			)
-			(layer "B.Cu"
-				(type "copper")
-				(thickness 0.035)
-			)
-			(layer "B.Mask"
-				(type "Bottom Solder Mask")
-				(color "Green")
-				(thickness 0.01)
-			)
-			(layer "F.SilkS"
-				(type "Top Silk Screen")
-			)
-			(layer "F.Paste"
-				(type "Top Solder Paste")
-			)
-			(layer "F.Mask"
-				(type "Top Solder Mask")
-				(color "Green")
-				(thickness 0.01)
-			)
-			(layer "F.Cu"
-				(type "copper")
-				(thickness 0.035)
-			)
-			(layer "dielectric 193"
-				(type "prepreg")
-				(color "FR4 natural")
-				(thickness 0.168 locked)
-				(material "RO4350B")
-				(epsilon_r 3.66)
-				(loss_tangent 0.0034)
-			)
-			(layer "In1.Cu"
-				(type "copper")
-				(thickness 0.035)
-			)
-			(layer "dielectric 194"
-				(type "core")
-				(color "FR4 natural")
-				(thickness 1.1)
-				(material "FR4")
-				(epsilon_r 4.5)
-				(loss_tangent 0.02)
-			)
-			(layer "In2.Cu"
-				(type "copper")
-				(thickness 0.035)
-			)
-			(layer "dielectric 195"
-				(type "prepreg")
-				(color "FR4 natural")
-				(thickness 0.168 locked)
-				(material "RO4350B")
-				(epsilon_r 3.66)
-				(loss_tangent 0.0034)
-			)
-			(layer "B.Cu"
-				(type "copper")
-				(thickness 0.035)
-			)
-			(layer "B.Mask"
-				(type "Bottom Solder Mask")
-				(color "Green")
-				(thickness 0.01)
-			)
-			(layer "F.SilkS"
-				(type "Top Silk Screen")
-			)
-			(layer "F.Paste"
-				(type "Top Solder Paste")
-			)
-			(layer "F.Mask"
-				(type "Top Solder Mask")
-				(color "Green")
-				(thickness 0.01)
-			)
-			(layer "F.Cu"
-				(type "copper")
-				(thickness 0.035)
-			)
-			(layer "dielectric 196"
-				(type "prepreg")
-				(color "FR4 natural")
-				(thickness 0.168 locked)
-				(material "RO4350B")
-				(epsilon_r 3.66)
-				(loss_tangent 0.0034)
-			)
-			(layer "In1.Cu"
-				(type "copper")
-				(thickness 0.035)
-			)
-			(layer "dielectric 197"
-				(type "core")
-				(color "FR4 natural")
-				(thickness 1.1)
-				(material "FR4")
-				(epsilon_r 4.5)
-				(loss_tangent 0.02)
-			)
-			(layer "In2.Cu"
-				(type "copper")
-				(thickness 0.035)
-			)
-			(layer "dielectric 198"
-				(type "prepreg")
-				(color "FR4 natural")
-				(thickness 0.168 locked)
-				(material "RO4350B")
-				(epsilon_r 3.66)
-				(loss_tangent 0.0034)
-			)
-			(layer "B.Cu"
-				(type "copper")
-				(thickness 0.035)
-			)
-			(layer "B.Mask"
-				(type "Bottom Solder Mask")
-				(color "Green")
-				(thickness 0.01)
-			)
-			(layer "F.SilkS"
-				(type "Top Silk Screen")
-			)
-			(layer "F.Paste"
-				(type "Top Solder Paste")
-			)
-			(layer "F.Mask"
-				(type "Top Solder Mask")
-				(color "Green")
-				(thickness 0.01)
-			)
-			(layer "F.Cu"
-				(type "copper")
-				(thickness 0.035)
-			)
-			(layer "dielectric 199"
-				(type "prepreg")
-				(color "FR4 natural")
-				(thickness 0.168 locked)
-				(material "RO4350B")
-				(epsilon_r 3.66)
-				(loss_tangent 0.0034)
-			)
-			(layer "In1.Cu"
-				(type "copper")
-				(thickness 0.035)
-			)
-			(layer "dielectric 200"
-				(type "core")
-				(color "FR4 natural")
-				(thickness 1.1)
-				(material "FR4")
-				(epsilon_r 4.5)
-				(loss_tangent 0.02)
-			)
-			(layer "In2.Cu"
-				(type "copper")
-				(thickness 0.035)
-			)
-			(layer "dielectric 201"
-				(type "prepreg")
-				(color "FR4 natural")
-				(thickness 0.168 locked)
-				(material "RO4350B")
-				(epsilon_r 3.66)
-				(loss_tangent 0.0034)
-			)
-			(layer "B.Cu"
-				(type "copper")
-				(thickness 0.035)
-			)
-			(layer "B.Mask"
-				(type "Bottom Solder Mask")
-				(color "Green")
-				(thickness 0.01)
-			)
-			(layer "F.SilkS"
-				(type "Top Silk Screen")
-			)
-			(layer "F.Paste"
-				(type "Top Solder Paste")
-			)
-			(layer "F.Mask"
-				(type "Top Solder Mask")
-				(color "Green")
-				(thickness 0.01)
-			)
-			(layer "F.Cu"
-				(type "copper")
-				(thickness 0.035)
-			)
-			(layer "dielectric 202"
-				(type "prepreg")
-				(color "FR4 natural")
-				(thickness 0.168 locked)
-				(material "RO4350B")
-				(epsilon_r 3.66)
-				(loss_tangent 0.0034)
-			)
-			(layer "In1.Cu"
-				(type "copper")
-				(thickness 0.035)
-			)
-			(layer "dielectric 203"
-				(type "core")
-				(color "FR4 natural")
-				(thickness 1.1)
-				(material "FR4")
-				(epsilon_r 4.5)
-				(loss_tangent 0.02)
-			)
-			(layer "In2.Cu"
-				(type "copper")
-				(thickness 0.035)
-			)
-			(layer "dielectric 204"
-				(type "prepreg")
-				(color "FR4 natural")
-				(thickness 0.168 locked)
-				(material "RO4350B")
-				(epsilon_r 3.66)
-				(loss_tangent 0.0034)
-			)
-			(layer "B.Cu"
-				(type "copper")
-				(thickness 0.035)
-			)
-			(layer "B.Mask"
-				(type "Bottom Solder Mask")
-				(color "Green")
-				(thickness 0.01)
-			)
-			(layer "F.SilkS"
-				(type "Top Silk Screen")
-			)
-			(layer "F.Paste"
-				(type "Top Solder Paste")
-			)
-			(layer "F.Mask"
-				(type "Top Solder Mask")
-				(color "Green")
-				(thickness 0.01)
-			)
-			(layer "F.Cu"
-				(type "copper")
-				(thickness 0.035)
-			)
-			(layer "dielectric 205"
-				(type "prepreg")
-				(color "FR4 natural")
-				(thickness 0.168 locked)
-				(material "RO4350B")
-				(epsilon_r 3.66)
-				(loss_tangent 0.0034)
-			)
-			(layer "In1.Cu"
-				(type "copper")
-				(thickness 0.035)
-			)
-			(layer "dielectric 206"
-				(type "core")
-				(color "FR4 natural")
-				(thickness 1.1)
-				(material "FR4")
-				(epsilon_r 4.5)
-				(loss_tangent 0.02)
-			)
-			(layer "In2.Cu"
-				(type "copper")
-				(thickness 0.035)
-			)
-			(layer "dielectric 207"
-				(type "prepreg")
-				(color "FR4 natural")
-				(thickness 0.168 locked)
-				(material "RO4350B")
-				(epsilon_r 3.66)
-				(loss_tangent 0.0034)
-			)
-			(layer "B.Cu"
-				(type "copper")
-				(thickness 0.035)
-			)
-			(layer "B.Mask"
-				(type "Bottom Solder Mask")
-				(color "Green")
-				(thickness 0.01)
-			)
-			(layer "F.SilkS"
-				(type "Top Silk Screen")
-			)
-			(layer "F.Paste"
-				(type "Top Solder Paste")
-			)
-			(layer "F.Mask"
-				(type "Top Solder Mask")
-				(color "Green")
-				(thickness 0.01)
-			)
-			(layer "F.Cu"
-				(type "copper")
-				(thickness 0.035)
-			)
-			(layer "dielectric 208"
-				(type "prepreg")
-				(color "FR4 natural")
-				(thickness 0.168 locked)
-				(material "RO4350B")
-				(epsilon_r 3.66)
-				(loss_tangent 0.0034)
-			)
-			(layer "In1.Cu"
-				(type "copper")
-				(thickness 0.035)
-			)
-			(layer "dielectric 209"
-				(type "core")
-				(color "FR4 natural")
-				(thickness 1.1)
-				(material "FR4")
-				(epsilon_r 4.5)
-				(loss_tangent 0.02)
-			)
-			(layer "In2.Cu"
-				(type "copper")
-				(thickness 0.035)
-			)
-			(layer "dielectric 210"
-				(type "prepreg")
-				(color "FR4 natural")
-				(thickness 0.168 locked)
-				(material "RO4350B")
-				(epsilon_r 3.66)
-				(loss_tangent 0.0034)
-			)
-			(layer "B.Cu"
-				(type "copper")
-				(thickness 0.035)
-			)
-			(layer "B.Mask"
-				(type "Bottom Solder Mask")
-				(color "Green")
-				(thickness 0.01)
-			)
-			(layer "F.SilkS"
-				(type "Top Silk Screen")
-			)
-			(layer "F.Paste"
-				(type "Top Solder Paste")
-			)
-			(layer "F.Mask"
-				(type "Top Solder Mask")
-				(color "Green")
-				(thickness 0.01)
-			)
-			(layer "F.Cu"
-				(type "copper")
-				(thickness 0.035)
-			)
-			(layer "dielectric 211"
-				(type "prepreg")
-				(color "FR4 natural")
-				(thickness 0.168 locked)
-				(material "RO4350B")
-				(epsilon_r 3.66)
-				(loss_tangent 0.0034)
-			)
-			(layer "In1.Cu"
-				(type "copper")
-				(thickness 0.035)
-			)
-			(layer "dielectric 212"
-				(type "core")
-				(color "FR4 natural")
-				(thickness 1.1)
-				(material "FR4")
-				(epsilon_r 4.5)
-				(loss_tangent 0.02)
-			)
-			(layer "In2.Cu"
-				(type "copper")
-				(thickness 0.035)
-			)
-			(layer "dielectric 213"
-				(type "prepreg")
-				(color "FR4 natural")
-				(thickness 0.168 locked)
-				(material "RO4350B")
-				(epsilon_r 3.66)
-				(loss_tangent 0.0034)
-			)
-			(layer "B.Cu"
-				(type "copper")
-				(thickness 0.035)
-			)
-			(layer "B.Mask"
-				(type "Bottom Solder Mask")
-				(color "Green")
-				(thickness 0.01)
-			)
-			(layer "F.SilkS"
-				(type "Top Silk Screen")
-			)
-			(layer "F.Paste"
-				(type "Top Solder Paste")
-			)
-			(layer "F.Mask"
-				(type "Top Solder Mask")
-				(color "Green")
-				(thickness 0.01)
-			)
-			(layer "F.Cu"
-				(type "copper")
-				(thickness 0.035)
-			)
-			(layer "dielectric 214"
-				(type "prepreg")
-				(color "FR4 natural")
-				(thickness 0.168 locked)
-				(material "RO4350B")
-				(epsilon_r 3.66)
-				(loss_tangent 0.0034)
-			)
-			(layer "In1.Cu"
-				(type "copper")
-				(thickness 0.035)
-			)
-			(layer "dielectric 215"
-				(type "core")
-				(color "FR4 natural")
-				(thickness 1.1)
-				(material "FR4")
-				(epsilon_r 4.5)
-				(loss_tangent 0.02)
-			)
-			(layer "In2.Cu"
-				(type "copper")
-				(thickness 0.035)
-			)
-			(layer "dielectric 216"
-				(type "prepreg")
-				(color "FR4 natural")
-				(thickness 0.168 locked)
-				(material "RO4350B")
-				(epsilon_r 3.66)
-				(loss_tangent 0.0034)
-			)
-			(layer "B.Cu"
-				(type "copper")
-				(thickness 0.035)
-			)
-			(layer "B.Mask"
-				(type "Bottom Solder Mask")
-				(color "Green")
-				(thickness 0.01)
-			)
-			(layer "F.SilkS"
-				(type "Top Silk Screen")
-			)
-			(layer "F.Paste"
-				(type "Top Solder Paste")
-			)
-			(layer "F.Mask"
-				(type "Top Solder Mask")
-				(color "Green")
-				(thickness 0.01)
-			)
-			(layer "F.Cu"
-				(type "copper")
-				(thickness 0.035)
-			)
-			(layer "dielectric 217"
-				(type "prepreg")
-				(color "FR4 natural")
-				(thickness 0.168 locked)
-				(material "RO4350B")
-				(epsilon_r 3.66)
-				(loss_tangent 0.0034)
-			)
-			(layer "In1.Cu"
-				(type "copper")
-				(thickness 0.035)
-			)
-			(layer "dielectric 218"
-				(type "core")
-				(color "FR4 natural")
-				(thickness 1.1)
-				(material "FR4")
-				(epsilon_r 4.5)
-				(loss_tangent 0.02)
-			)
-			(layer "In2.Cu"
-				(type "copper")
-				(thickness 0.035)
-			)
-			(layer "dielectric 219"
-				(type "prepreg")
-				(color "FR4 natural")
-				(thickness 0.168 locked)
-				(material "RO4350B")
-				(epsilon_r 3.66)
-				(loss_tangent 0.0034)
-			)
-			(layer "B.Cu"
-				(type "copper")
-				(thickness 0.035)
-			)
-			(layer "B.Mask"
-				(type "Bottom Solder Mask")
-				(color "Green")
-				(thickness 0.01)
-			)
-			(layer "F.SilkS"
-				(type "Top Silk Screen")
-			)
-			(layer "F.Paste"
-				(type "Top Solder Paste")
-			)
-			(layer "F.Mask"
-				(type "Top Solder Mask")
-				(color "Green")
-				(thickness 0.01)
-			)
-			(layer "F.Cu"
-				(type "copper")
-				(thickness 0.035)
-			)
-			(layer "dielectric 220"
-				(type "prepreg")
-				(color "FR4 natural")
-				(thickness 0.168 locked)
-				(material "RO4350B")
-				(epsilon_r 3.66)
-				(loss_tangent 0.0034)
-			)
-			(layer "In1.Cu"
-				(type "copper")
-				(thickness 0.035)
-			)
-			(layer "dielectric 221"
-				(type "core")
-				(color "FR4 natural")
-				(thickness 1.1)
-				(material "FR4")
-				(epsilon_r 4.5)
-				(loss_tangent 0.02)
-			)
-			(layer "In2.Cu"
-				(type "copper")
-				(thickness 0.035)
-			)
-			(layer "dielectric 222"
-				(type "prepreg")
-				(color "FR4 natural")
-				(thickness 0.168 locked)
-				(material "RO4350B")
-				(epsilon_r 3.66)
-				(loss_tangent 0.0034)
-			)
-			(layer "B.Cu"
-				(type "copper")
-				(thickness 0.035)
-			)
-			(layer "B.Mask"
-				(type "Bottom Solder Mask")
-				(color "Green")
-				(thickness 0.01)
-			)
-			(layer "F.SilkS"
-				(type "Top Silk Screen")
-			)
-			(layer "F.Paste"
-				(type "Top Solder Paste")
-			)
-			(layer "F.Mask"
-				(type "Top Solder Mask")
-				(color "Green")
-				(thickness 0.01)
-			)
-			(layer "F.Cu"
-				(type "copper")
-				(thickness 0.035)
-			)
-			(layer "dielectric 223"
-				(type "prepreg")
-				(color "FR4 natural")
-				(thickness 0.168 locked)
-				(material "RO4350B")
-				(epsilon_r 3.66)
-				(loss_tangent 0.0034)
-			)
-			(layer "In1.Cu"
-				(type "copper")
-				(thickness 0.035)
-			)
-			(layer "dielectric 224"
-				(type "core")
-				(color "FR4 natural")
-				(thickness 1.1)
-				(material "FR4")
-				(epsilon_r 4.5)
-				(loss_tangent 0.02)
-			)
-			(layer "In2.Cu"
-				(type "copper")
-				(thickness 0.035)
-			)
-			(layer "dielectric 225"
-				(type "prepreg")
-				(color "FR4 natural")
-				(thickness 0.168 locked)
-				(material "RO4350B")
-				(epsilon_r 3.66)
-				(loss_tangent 0.0034)
-			)
-			(layer "B.Cu"
-				(type "copper")
-				(thickness 0.035)
-			)
-			(layer "B.Mask"
-				(type "Bottom Solder Mask")
-				(color "Green")
-				(thickness 0.01)
-			)
-			(layer "F.SilkS"
-				(type "Top Silk Screen")
-			)
-			(layer "F.Paste"
-				(type "Top Solder Paste")
-			)
-			(layer "F.Mask"
-				(type "Top Solder Mask")
-				(color "Green")
-				(thickness 0.01)
-			)
-			(layer "F.Cu"
-				(type "copper")
-				(thickness 0.035)
-			)
-			(layer "dielectric 226"
-				(type "prepreg")
-				(color "FR4 natural")
-				(thickness 0.168 locked)
-				(material "RO4350B")
-				(epsilon_r 3.66)
-				(loss_tangent 0.0034)
-			)
-			(layer "In1.Cu"
-				(type "copper")
-				(thickness 0.035)
-			)
-			(layer "dielectric 227"
-				(type "core")
-				(color "FR4 natural")
-				(thickness 1.1)
-				(material "FR4")
-				(epsilon_r 4.5)
-				(loss_tangent 0.02)
-			)
-			(layer "In2.Cu"
-				(type "copper")
-				(thickness 0.035)
-			)
-			(layer "dielectric 228"
-				(type "prepreg")
-				(color "FR4 natural")
-				(thickness 0.168 locked)
-				(material "RO4350B")
-				(epsilon_r 3.66)
-				(loss_tangent 0.0034)
-			)
-			(layer "B.Cu"
-				(type "copper")
-				(thickness 0.035)
-			)
-			(layer "B.Mask"
-				(type "Bottom Solder Mask")
-				(color "Green")
-				(thickness 0.01)
-			)
-			(layer "F.SilkS"
-				(type "Top Silk Screen")
-			)
-			(layer "F.Paste"
-				(type "Top Solder Paste")
-			)
-			(layer "F.Mask"
-				(type "Top Solder Mask")
-				(color "Green")
-				(thickness 0.01)
-			)
-			(layer "F.Cu"
-				(type "copper")
-				(thickness 0.035)
-			)
-			(layer "dielectric 229"
-				(type "prepreg")
-				(color "FR4 natural")
-				(thickness 0.168 locked)
-				(material "RO4350B")
-				(epsilon_r 3.66)
-				(loss_tangent 0.0034)
-			)
-			(layer "In1.Cu"
-				(type "copper")
-				(thickness 0.035)
-			)
-			(layer "dielectric 230"
-				(type "core")
-				(color "FR4 natural")
-				(thickness 1.1)
-				(material "FR4")
-				(epsilon_r 4.5)
-				(loss_tangent 0.02)
-			)
-			(layer "In2.Cu"
-				(type "copper")
-				(thickness 0.035)
-			)
-			(layer "dielectric 231"
-				(type "prepreg")
-				(color "FR4 natural")
-				(thickness 0.168 locked)
-				(material "RO4350B")
-				(epsilon_r 3.66)
-				(loss_tangent 0.0034)
-			)
-			(layer "B.Cu"
-				(type "copper")
-				(thickness 0.035)
-			)
-			(layer "B.Mask"
-				(type "Bottom Solder Mask")
-				(color "Green")
-				(thickness 0.01)
-			)
-			(layer "F.SilkS"
-				(type "Top Silk Screen")
-			)
-			(layer "F.Paste"
-				(type "Top Solder Paste")
-			)
-			(layer "F.Mask"
-				(type "Top Solder Mask")
-				(color "Green")
-				(thickness 0.01)
-			)
-			(layer "F.Cu"
-				(type "copper")
-				(thickness 0.035)
-			)
-			(layer "dielectric 232"
-				(type "prepreg")
-				(color "FR4 natural")
-				(thickness 0.168 locked)
-				(material "RO4350B")
-				(epsilon_r 3.66)
-				(loss_tangent 0.0034)
-			)
-			(layer "In1.Cu"
-				(type "copper")
-				(thickness 0.035)
-			)
-			(layer "dielectric 233"
-				(type "core")
-				(color "FR4 natural")
-				(thickness 1.1)
-				(material "FR4")
-				(epsilon_r 4.5)
-				(loss_tangent 0.02)
-			)
-			(layer "In2.Cu"
-				(type "copper")
-				(thickness 0.035)
-			)
-			(layer "dielectric 234"
-				(type "prepreg")
-				(color "FR4 natural")
-				(thickness 0.168 locked)
-				(material "RO4350B")
-				(epsilon_r 3.66)
-				(loss_tangent 0.0034)
-			)
-			(layer "B.Cu"
-				(type "copper")
-				(thickness 0.035)
-			)
-			(layer "B.Mask"
-				(type "Bottom Solder Mask")
-				(color "Green")
-				(thickness 0.01)
-			)
-			(layer "F.SilkS"
-				(type "Top Silk Screen")
-			)
-			(layer "F.Paste"
-				(type "Top Solder Paste")
-			)
-			(layer "F.Mask"
-				(type "Top Solder Mask")
-				(color "Green")
-				(thickness 0.01)
-			)
-			(layer "F.Cu"
-				(type "copper")
-				(thickness 0.035)
-			)
-			(layer "dielectric 235"
-				(type "prepreg")
-				(color "FR4 natural")
-				(thickness 0.168 locked)
-				(material "RO4350B")
-				(epsilon_r 3.66)
-				(loss_tangent 0.0034)
-			)
-			(layer "In1.Cu"
-				(type "copper")
-				(thickness 0.035)
-			)
-			(layer "dielectric 236"
-				(type "core")
-				(color "FR4 natural")
-				(thickness 1.1)
-				(material "FR4")
-				(epsilon_r 4.5)
-				(loss_tangent 0.02)
-			)
-			(layer "In2.Cu"
-				(type "copper")
-				(thickness 0.035)
-			)
-			(layer "dielectric 237"
-				(type "prepreg")
-				(color "FR4 natural")
-				(thickness 0.168 locked)
-				(material "RO4350B")
-				(epsilon_r 3.66)
-				(loss_tangent 0.0034)
-			)
-			(layer "B.Cu"
-				(type "copper")
-				(thickness 0.035)
-			)
-			(layer "B.Mask"
-				(type "Bottom Solder Mask")
-				(color "Green")
-				(thickness 0.01)
-			)
-			(layer "F.SilkS"
-				(type "Top Silk Screen")
-			)
-			(layer "F.Paste"
-				(type "Top Solder Paste")
-			)
-			(layer "F.Mask"
-				(type "Top Solder Mask")
-				(color "Green")
-				(thickness 0.01)
-			)
-			(layer "F.Cu"
-				(type "copper")
-				(thickness 0.035)
-			)
-			(layer "dielectric 238"
-				(type "prepreg")
-				(color "FR4 natural")
-				(thickness 0.168 locked)
-				(material "RO4350B")
-				(epsilon_r 3.66)
-				(loss_tangent 0.0034)
-			)
-			(layer "In1.Cu"
-				(type "copper")
-				(thickness 0.035)
-			)
-			(layer "dielectric 239"
-				(type "core")
-				(color "FR4 natural")
-				(thickness 1.1)
-				(material "FR4")
-				(epsilon_r 4.5)
-				(loss_tangent 0.02)
-			)
-			(layer "In2.Cu"
-				(type "copper")
-				(thickness 0.035)
-			)
-			(layer "dielectric 240"
-				(type "prepreg")
-				(color "FR4 natural")
-				(thickness 0.168 locked)
-				(material "RO4350B")
-				(epsilon_r 3.66)
-				(loss_tangent 0.0034)
-			)
-			(layer "B.Cu"
-				(type "copper")
-				(thickness 0.035)
-			)
-			(layer "B.Mask"
-				(type "Bottom Solder Mask")
-				(color "Green")
-				(thickness 0.01)
-			)
-			(layer "F.SilkS"
-				(type "Top Silk Screen")
-			)
-			(layer "F.Paste"
-				(type "Top Solder Paste")
-			)
-			(layer "F.Mask"
-				(type "Top Solder Mask")
-				(color "Green")
-				(thickness 0.01)
-			)
-			(layer "F.Cu"
-				(type "copper")
-				(thickness 0.035)
-			)
-			(layer "dielectric 241"
-				(type "prepreg")
-				(color "FR4 natural")
-				(thickness 0.168 locked)
-				(material "RO4350B")
-				(epsilon_r 3.66)
-				(loss_tangent 0.0034)
-			)
-			(layer "In1.Cu"
-				(type "copper")
-				(thickness 0.035)
-			)
-			(layer "dielectric 242"
-				(type "core")
-				(color "FR4 natural")
-				(thickness 1.1)
-				(material "FR4")
-				(epsilon_r 4.5)
-				(loss_tangent 0.02)
-			)
-			(layer "In2.Cu"
-				(type "copper")
-				(thickness 0.035)
-			)
-			(layer "dielectric 243"
-				(type "prepreg")
-				(color "FR4 natural")
-				(thickness 0.168 locked)
-				(material "RO4350B")
-				(epsilon_r 3.66)
-				(loss_tangent 0.0034)
-			)
-			(layer "B.Cu"
-				(type "copper")
-				(thickness 0.035)
-			)
-			(layer "B.Mask"
-				(type "Bottom Solder Mask")
-				(color "Green")
-				(thickness 0.01)
-			)
-			(layer "F.SilkS"
-				(type "Top Silk Screen")
-			)
-			(layer "F.Paste"
-				(type "Top Solder Paste")
-			)
-			(layer "F.Mask"
-				(type "Top Solder Mask")
-				(color "Green")
-				(thickness 0.01)
-			)
-			(layer "F.Cu"
-				(type "copper")
-				(thickness 0.035)
-			)
-			(layer "dielectric 244"
-				(type "prepreg")
-				(color "FR4 natural")
-				(thickness 0.168 locked)
-				(material "RO4350B")
-				(epsilon_r 3.66)
-				(loss_tangent 0.0034)
-			)
-			(layer "In1.Cu"
-				(type "copper")
-				(thickness 0.035)
-			)
-			(layer "dielectric 245"
-				(type "core")
-				(color "FR4 natural")
-				(thickness 1.1)
-				(material "FR4")
-				(epsilon_r 4.5)
-				(loss_tangent 0.02)
-			)
-			(layer "In2.Cu"
-				(type "copper")
-				(thickness 0.035)
-			)
-			(layer "dielectric 246"
-				(type "prepreg")
-				(color "FR4 natural")
-				(thickness 0.168 locked)
-				(material "RO4350B")
-				(epsilon_r 3.66)
-				(loss_tangent 0.0034)
-			)
-			(layer "B.Cu"
-				(type "copper")
-				(thickness 0.035)
-			)
-			(layer "B.Mask"
-				(type "Bottom Solder Mask")
-				(color "Green")
-				(thickness 0.01)
-			)
-			(layer "F.SilkS"
-				(type "Top Silk Screen")
-			)
-			(layer "F.Paste"
-				(type "Top Solder Paste")
-			)
-			(layer "F.Mask"
-				(type "Top Solder Mask")
-				(color "Green")
-				(thickness 0.01)
-			)
-			(layer "F.Cu"
-				(type "copper")
-				(thickness 0.035)
-			)
-			(layer "dielectric 247"
-				(type "prepreg")
-				(color "FR4 natural")
-				(thickness 0.168 locked)
-				(material "RO4350B")
-				(epsilon_r 3.66)
-				(loss_tangent 0.0034)
-			)
-			(layer "In1.Cu"
-				(type "copper")
-				(thickness 0.035)
-			)
-			(layer "dielectric 248"
-				(type "core")
-				(color "FR4 natural")
-				(thickness 1.1)
-				(material "FR4")
-				(epsilon_r 4.5)
-				(loss_tangent 0.02)
-			)
-			(layer "In2.Cu"
-				(type "copper")
-				(thickness 0.035)
-			)
-			(layer "dielectric 249"
-				(type "prepreg")
-				(color "FR4 natural")
-				(thickness 0.168 locked)
-				(material "RO4350B")
-				(epsilon_r 3.66)
-				(loss_tangent 0.0034)
-			)
-			(layer "B.Cu"
-				(type "copper")
-				(thickness 0.035)
-			)
-			(layer "B.Mask"
-				(type "Bottom Solder Mask")
-				(color "Green")
-				(thickness 0.01)
-			)
-			(layer "F.SilkS"
-				(type "Top Silk Screen")
-			)
-			(layer "F.Paste"
-				(type "Top Solder Paste")
-			)
-			(layer "F.Mask"
-				(type "Top Solder Mask")
-				(color "Green")
-				(thickness 0.01)
-			)
-			(layer "F.Cu"
-				(type "copper")
-				(thickness 0.035)
-			)
-			(layer "dielectric 250"
-				(type "prepreg")
-				(color "FR4 natural")
-				(thickness 0.168 locked)
-				(material "RO4350B")
-				(epsilon_r 3.66)
-				(loss_tangent 0.0034)
-			)
-			(layer "In1.Cu"
-				(type "copper")
-				(thickness 0.035)
-			)
-			(layer "dielectric 251"
-				(type "core")
-				(color "FR4 natural")
-				(thickness 1.1)
-				(material "FR4")
-				(epsilon_r 4.5)
-				(loss_tangent 0.02)
-			)
-			(layer "In2.Cu"
-				(type "copper")
-				(thickness 0.035)
-			)
-			(layer "dielectric 252"
-				(type "prepreg")
-				(color "FR4 natural")
-				(thickness 0.168 locked)
-				(material "RO4350B")
-				(epsilon_r 3.66)
-				(loss_tangent 0.0034)
-			)
-			(layer "B.Cu"
-				(type "copper")
-				(thickness 0.035)
-			)
-			(layer "B.Mask"
-				(type "Bottom Solder Mask")
-				(color "Green")
-				(thickness 0.01)
-			)
-			(layer "F.SilkS"
-				(type "Top Silk Screen")
-			)
-			(layer "F.Paste"
-				(type "Top Solder Paste")
-			)
-			(layer "F.Mask"
-				(type "Top Solder Mask")
-				(color "Green")
-				(thickness 0.01)
-			)
-			(layer "F.Cu"
-				(type "copper")
-				(thickness 0.035)
-			)
-			(layer "dielectric 253"
-				(type "prepreg")
-				(color "FR4 natural")
-				(thickness 0.168 locked)
-				(material "RO4350B")
-				(epsilon_r 3.66)
-				(loss_tangent 0.0034)
-			)
-			(layer "In1.Cu"
-				(type "copper")
-				(thickness 0.035)
-			)
-			(layer "dielectric 254"
-				(type "core")
-				(color "FR4 natural")
-				(thickness 1.1)
-				(material "FR4")
-				(epsilon_r 4.5)
-				(loss_tangent 0.02)
-			)
-			(layer "In2.Cu"
-				(type "copper")
-				(thickness 0.035)
-			)
-			(layer "dielectric 255"
-				(type "prepreg")
-				(color "FR4 natural")
-				(thickness 0.168 locked)
-				(material "RO4350B")
-				(epsilon_r 3.66)
-				(loss_tangent 0.0034)
-			)
-			(layer "B.Cu"
-				(type "copper")
-				(thickness 0.035)
-			)
-			(layer "B.Mask"
-				(type "Bottom Solder Mask")
-				(color "Green")
-				(thickness 0.01)
-			)
 			(copper_finish "ENIG")
 			(dielectric_constraints yes)
 		)
@@ -4809,6 +707,7 @@
 		)
 		(capping no)
 		(filling no)
+		(grid_origin 21.9795 163.92)
 		(pcbplotparams
 			(layerselection 0x00000000_00000000_55555555_5755f5ff)
 			(plot_on_all_layers_selection 0x00000000_00000000_00000000_00000000)
@@ -4849,13 +748,13 @@
 	(footprint "Capacitor_SMD:C_0402_1005Metric"
 		(layer "B.Cu")
 		(uuid "1ba7b366-fa37-406b-bab0-3a895077f8ef")
-		(at 238.356 102.6 180)
+		(at 198.5095 127.79 -90)
 		(descr "Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "capacitor")
 		(property "Reference" "C352"
-			(at 0 1.16 0)
+			(at 0 1.16 90)
 			(layer "B.SilkS")
-			(uuid "6c04b2e2-b3a7-4490-a66f-042d03cdcbf5")
+			(uuid "e708e591-fa8c-4d69-acbc-e22663910344")
 			(effects
 				(font
 					(size 1 1)
@@ -4865,9 +764,9 @@
 			)
 		)
 		(property "Value" "10u"
-			(at 0 -1.16 0)
+			(at 0 -1.16 90)
 			(layer "B.Fab")
-			(uuid "690f7795-45b9-409a-8af9-d7c26cb44a5c")
+			(uuid "58063fe4-043a-436a-9893-37d477271f2f")
 			(effects
 				(font
 					(size 1 1)
@@ -4877,10 +776,10 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 0)
+			(at 0 0 90)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "508baea6-cf1a-4718-8584-b659538617a1")
+			(uuid "2e82ef8c-7bed-4b36-89b9-98338da7fd29")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4889,13 +788,139 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 0 0 0)
+			(at 0 0 90)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "8f0aecf7-116e-4a7d-a7c8-403214d8afde")
+			(uuid "e9277d28-1cf7-4174-9254-fa828a9db9fa")
 			(effects
 				(font
 					(size 1.27 1.27)
+				)
+				(justify mirror)
+			)
+		)
+		(property "ALTIUM_VALUE" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "2e540078-f7bc-4924-bdd4-462e2ed1332d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "CASE" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "71c15600-9136-4532-821e-e328ef088445")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "PREFERRED" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "57369c5a-0884-4bf3-bd9c-fb47706f6ca6")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "STORAGE-TEMPERATURE" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "f4bf24ab-41db-4f37-9ae2-849493600d5c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "TECHNOLOGY" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "2d6e42e4-0c28-4c57-bd61-45649c0e382f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "TEMPERATURE-RANGE" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "7dc383bf-fe8f-48d4-92b7-34b9b0ffa815")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "TOLERANCE" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "917b62b3-ea92-4702-aab7-cf7f3d56fa4a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "TRENZ-ARTICLE-NUMBER" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "6c1418e5-532b-403b-987e-542efa5ca096")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "VOLTAGE" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "08c05423-e8db-4f18-b7be-69645388465c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
 				)
 				(justify mirror)
 			)
@@ -4926,9 +951,10 @@
 			(layer "B.SilkS")
 			(uuid "d78d01b6-c329-41de-b6be-8f1db1b2ee37")
 		)
-		(fp_rect
-			(start -0.91 0.46)
-			(end 0.91 -0.46)
+		(fp_poly
+			(pts
+				(xy -0.91 -0.46) (xy 0.91 -0.46) (xy 0.91 0.46) (xy -0.91 0.46)
+			)
 			(stroke
 				(width 0.05)
 				(type solid)
@@ -4937,9 +963,10 @@
 			(layer "B.CrtYd")
 			(uuid "b01ca04f-6cee-473b-9cf9-ca3ef73c0859")
 		)
-		(fp_rect
-			(start -0.5 0.25)
-			(end 0.5 -0.25)
+		(fp_poly
+			(pts
+				(xy -0.5 -0.25) (xy 0.5 -0.25) (xy 0.5 0.25) (xy -0.5 0.25)
+			)
 			(stroke
 				(width 0.1)
 				(type solid)
@@ -4949,7 +976,7 @@
 			(uuid "a9c14e73-0d46-4700-8c3a-f2a307117af8")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 0)
+			(at 0 0 90)
 			(layer "B.Fab")
 			(uuid "00fd0718-5c36-4b7b-a549-bd7596a3b1f0")
 			(effects
@@ -4961,16 +988,16 @@
 			)
 		)
 		(pad "1" smd roundrect
-			(at -0.48 0 180)
+			(at -0.48 0 270)
 			(size 0.56 0.62)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(roundrect_rratio 0.25)
-			(net "/1V8A")
+			(net "/1V8ADC1")
 			(pintype "passive")
 			(uuid "a4980d2b-40c8-4c20-90e4-7c73d0b5be69")
 		)
 		(pad "2" smd roundrect
-			(at 0.48 0 180)
+			(at 0.48 0 270)
 			(size 0.56 0.62)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(roundrect_rratio 0.25)
@@ -4994,13 +1021,13 @@
 	(footprint "Resistor_SMD:R_0402_1005Metric"
 		(layer "B.Cu")
 		(uuid "61b1f475-8633-46b0-a91a-490c6337122a")
-		(at 244.356 101.4 180)
+		(at 196.2045 122.67)
 		(descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "resistor")
 		(property "Reference" "R192"
 			(at 0 1.17 0)
 			(layer "B.SilkS")
-			(uuid "b5948683-b844-454e-ad3b-d7ce78f53ae6")
+			(uuid "4a8dc4d5-a51a-4201-8571-45d5d8542145")
 			(effects
 				(font
 					(size 1 1)
@@ -5012,7 +1039,7 @@
 		(property "Value" "10k"
 			(at 0 -1.17 0)
 			(layer "B.Fab")
-			(uuid "a24d1501-f44e-4ecb-bda0-802d293b12b9")
+			(uuid "d1a1cfd4-5ab7-4d9e-a50f-d0f80b7c3fc7")
 			(effects
 				(font
 					(size 1 1)
@@ -5025,7 +1052,7 @@
 			(at 0 0 0)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "60b8accb-48f0-4a3b-8ee5-1514a0096e50")
+			(uuid "fc64003b-4b76-4b80-bede-d530f3402a19")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5037,10 +1064,136 @@
 			(at 0 0 0)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "9107112d-67dd-4f1a-8a91-3438fdc30bec")
+			(uuid "7b4504da-3ba7-4941-83d0-838f1eaf1e87")
 			(effects
 				(font
 					(size 1.27 1.27)
+				)
+				(justify mirror)
+			)
+		)
+		(property "ALTIUM_VALUE" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "ec5ba9db-6966-4b5f-bc08-1ff867289894")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "CASE" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "33cafc4c-26fb-4ecf-a26e-f343446f0a0b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "PREFERRED" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "143993c6-afad-4625-83f2-ecaecda8f03c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "STORAGE-TEMPERATURE" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "26f8bd62-d95d-4464-88d1-59c574a8cbd8")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "TECHNOLOGY" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "d5f94d20-7c69-48be-baed-fb8ea4b25672")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "TEMPERATURE-RANGE" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "542b0744-8366-4f78-9982-b75c4367ddd3")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "TOLERANCE" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "5eebd27c-1218-47cf-8dea-aa9f43f65b0c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "TRENZ-ARTICLE-NUMBER" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "b49b58ce-ff03-4403-aeec-e43813427084")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "VOLTAGE" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "a30408a6-b945-41b0-a8a9-9c5d00d65447")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
 				)
 				(justify mirror)
 			)
@@ -5052,16 +1205,6 @@
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
-			(start -0.153641 0.38)
-			(end 0.153641 0.38)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "B.SilkS")
-			(uuid "a405d094-3aa4-4ca8-aa1e-25e41315087e")
-		)
-		(fp_line
 			(start -0.153641 -0.38)
 			(end 0.153641 -0.38)
 			(stroke
@@ -5071,9 +1214,20 @@
 			(layer "B.SilkS")
 			(uuid "f3395bc4-9107-450d-8e66-19f20d0dd9b4")
 		)
-		(fp_rect
-			(start -0.93 0.47)
-			(end 0.93 -0.47)
+		(fp_line
+			(start -0.153641 0.38)
+			(end 0.153641 0.38)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "B.SilkS")
+			(uuid "a405d094-3aa4-4ca8-aa1e-25e41315087e")
+		)
+		(fp_poly
+			(pts
+				(xy -0.93 -0.47) (xy 0.93 -0.47) (xy 0.93 0.47) (xy -0.93 0.47)
+			)
 			(stroke
 				(width 0.05)
 				(type solid)
@@ -5082,9 +1236,10 @@
 			(layer "B.CrtYd")
 			(uuid "ecc29fdb-4332-40a9-8625-b8879215516c")
 		)
-		(fp_rect
-			(start -0.525 0.27)
-			(end 0.525 -0.27)
+		(fp_poly
+			(pts
+				(xy -0.525 -0.27) (xy 0.525 -0.27) (xy 0.525 0.27) (xy -0.525 0.27)
+			)
 			(stroke
 				(width 0.1)
 				(type solid)
@@ -5106,7 +1261,7 @@
 			)
 		)
 		(pad "1" smd roundrect
-			(at -0.51 0 180)
+			(at -0.509999 0)
 			(size 0.54 0.64)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(roundrect_rratio 0.25)
@@ -5115,11 +1270,11 @@
 			(uuid "6ec2f2d3-3eab-419b-9406-f707e818b87d")
 		)
 		(pad "2" smd roundrect
-			(at 0.51 0 180)
+			(at 0.509999 0)
 			(size 0.54 0.64)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(roundrect_rratio 0.25)
-			(net "/Power/1V8/PGFB_1V8A")
+			(net "/Power/1V8/PGFB_1V8ADC1")
 			(pintype "passive")
 			(uuid "26f02bfd-9b75-4fb3-ba4e-6dd8b9a5463b")
 		)
@@ -5139,13 +1294,13 @@
 	(footprint "Resistor_SMD:R_0402_1005Metric"
 		(layer "B.Cu")
 		(uuid "9537151c-588b-464b-b625-5f26e9a9d0cd")
-		(at 242.756 102 -90)
+		(at 198.194899 123.134)
 		(descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "resistor")
 		(property "Reference" "R191"
-			(at 0 1.17 90)
+			(at 0 1.17 0)
 			(layer "B.SilkS")
-			(uuid "8ac1e3a9-894e-4f10-b323-40222f60aa27")
+			(uuid "6de456f2-92d5-4cc4-8a0e-ca51c1cd8889")
 			(effects
 				(font
 					(size 1 1)
@@ -5155,9 +1310,9 @@
 			)
 		)
 		(property "Value" "43k"
-			(at 0 -1.17 90)
+			(at 0 -1.17 0)
 			(layer "B.Fab")
-			(uuid "7ec61529-9421-486b-a325-c9e32c83124b")
+			(uuid "ec3b8499-3fe1-4167-850a-9d88671ede6b")
 			(effects
 				(font
 					(size 1 1)
@@ -5167,10 +1322,10 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 90)
+			(at 0 0 0)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "11192a1e-633f-45b7-b03e-0ab39c06aa00")
+			(uuid "dba7fa77-60ce-4e4a-800b-550534c1c5f8")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5179,13 +1334,139 @@
 			)
 		)
 		(property "Description" "Resistor, small US symbol"
-			(at 0 0 90)
+			(at 0 0 0)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "d31bd133-e62e-498b-80be-b1409b768824")
+			(uuid "91401732-aaab-46d5-a734-9b296245dc33")
 			(effects
 				(font
 					(size 1.27 1.27)
+				)
+				(justify mirror)
+			)
+		)
+		(property "ALTIUM_VALUE" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "1d3aee6d-9ee9-4fd6-8930-d46ed3dbebb4")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "CASE" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "71c93051-8b62-4aa2-b0dc-12d9748092fe")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "PREFERRED" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "b7924f06-ec28-4be5-a507-a5d4a2056752")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "STORAGE-TEMPERATURE" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "618fb5dd-6c65-46c4-9265-a1c24048b62c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "TECHNOLOGY" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "f13f0e40-e313-4180-acd9-4aef7643502f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "TEMPERATURE-RANGE" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "6001847c-6183-497c-91c4-28cb6bf86499")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "TOLERANCE" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "d0ed5485-6bc2-4684-967a-2d0e470662a5")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "TRENZ-ARTICLE-NUMBER" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "9119db8b-55f5-4032-9129-8390122d9fc3")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "VOLTAGE" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "fac09f1c-73ee-4544-9cfb-6f2a4f2f4a27")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
 				)
 				(justify mirror)
 			)
@@ -5197,16 +1478,6 @@
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
-			(start -0.153641 0.38)
-			(end 0.153641 0.38)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "B.SilkS")
-			(uuid "f878c18f-ccda-4771-951c-b3c8cd1a3273")
-		)
-		(fp_line
 			(start -0.153641 -0.38)
 			(end 0.153641 -0.38)
 			(stroke
@@ -5216,9 +1487,20 @@
 			(layer "B.SilkS")
 			(uuid "11d9728f-2905-4e28-ac13-f9afac22ab24")
 		)
-		(fp_rect
-			(start -0.93 0.47)
-			(end 0.93 -0.47)
+		(fp_line
+			(start -0.153641 0.38)
+			(end 0.153641 0.38)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "B.SilkS")
+			(uuid "f878c18f-ccda-4771-951c-b3c8cd1a3273")
+		)
+		(fp_poly
+			(pts
+				(xy 0.93 -0.47) (xy 0.93 0.47) (xy -0.93 0.47) (xy -0.93 -0.47)
+			)
 			(stroke
 				(width 0.05)
 				(type solid)
@@ -5227,9 +1509,10 @@
 			(layer "B.CrtYd")
 			(uuid "e6a77cec-5b35-45ea-a88e-cd27ca0c0e5d")
 		)
-		(fp_rect
-			(start -0.525 0.27)
-			(end 0.525 -0.27)
+		(fp_poly
+			(pts
+				(xy 0.525 -0.27) (xy 0.525 0.27) (xy -0.525 0.27) (xy -0.525 -0.27)
+			)
 			(stroke
 				(width 0.1)
 				(type solid)
@@ -5239,7 +1522,7 @@
 			(uuid "52a9dec3-a930-4b6d-9a92-5014d7b0a982")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 90)
+			(at 0 0 0)
 			(layer "B.Fab")
 			(uuid "5bc2362d-e11c-4dd7-ade0-f5a2df4f0d3e")
 			(effects
@@ -5251,20 +1534,20 @@
 			)
 		)
 		(pad "1" smd roundrect
-			(at -0.51 0 270)
+			(at -0.509999 0)
 			(size 0.54 0.64)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(roundrect_rratio 0.25)
-			(net "/Power/1V8/PGFB_1V8A")
+			(net "/Power/1V8/PGFB_1V8ADC1")
 			(pintype "passive")
 			(uuid "2482be67-29d9-44f5-ad3b-edf0bfdaf4ed")
 		)
 		(pad "2" smd roundrect
-			(at 0.51 0 270)
+			(at 0.509999 0)
 			(size 0.54 0.64)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(roundrect_rratio 0.25)
-			(net "/1V8A")
+			(net "/1V8ADC1")
 			(pintype "passive")
 			(uuid "d15e3152-00b2-4e8c-bd87-64f7e47bca8f")
 		)
@@ -5284,13 +1567,13 @@
 	(footprint "VNA_fp:05-08-1708_ADI-L"
 		(layer "B.Cu")
 		(uuid "c7470666-a29f-40bd-ad6a-496f4ad1bde3")
-		(at 240.4 98.8 -90)
+		(at 194.9949 125.49)
 		(tags "LT3041ADE-PBF ")
 		(property "Reference" "U38"
-			(at 0 0 90)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.SilkS")
-			(uuid "4b05b52f-d17f-4df2-87b0-491c9397f222")
+			(uuid "4a9b62a3-c654-4cfa-a3f8-4a1750bb15a8")
 			(effects
 				(font
 					(size 1 1)
@@ -5300,10 +1583,10 @@
 			)
 		)
 		(property "Value" "LT3041ADE-PBF"
-			(at 0 0 90)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
-			(uuid "c405655b-e416-4095-a771-ae55e5b8f19d")
+			(uuid "8f99cab7-dd0a-4636-b24a-9f73098117a6")
 			(effects
 				(font
 					(size 1 1)
@@ -5313,10 +1596,10 @@
 			)
 		)
 		(property "Datasheet" "LT3041ADE-PBF"
-			(at 0 0 90)
+			(at 0 0 0)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "db877f25-af1a-4598-85c0-f353481df063")
+			(uuid "03c5ce3f-f5b5-4516-85f7-da04d0623bb5")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5325,13 +1608,139 @@
 			)
 		)
 		(property "Description" ""
-			(at 0 0 90)
+			(at 0 0 0)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "4ed4f178-f8ad-4e1d-b7a3-dea83ed412dc")
+			(uuid "b8fe26a9-fabb-472d-9026-ed77e818ca24")
 			(effects
 				(font
 					(size 1.27 1.27)
+				)
+				(justify mirror)
+			)
+		)
+		(property "ALTIUM_VALUE" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "287fd123-f97f-4545-b1ef-f93001100541")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "CASE" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "8cb18151-fbe4-4af9-bd92-112f232f55fe")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "PREFERRED" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "f40f2aa1-62a3-4f44-bcb8-490679bbfea6")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "STORAGE-TEMPERATURE" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "15da1c4b-8dcd-43fd-af3e-58de3af2514c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "TECHNOLOGY" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "22222312-adf7-4163-bac7-9c9161ddb57f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "TEMPERATURE-RANGE" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "4bdc2260-3642-44ef-aa0d-03a0e82a5fcb")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "TOLERANCE" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "cbd227d8-bd10-4df5-9c5e-1a6261fd23e9")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "TRENZ-ARTICLE-NUMBER" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "81073c4f-7a94-423d-81cf-67a095e2aceb")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "VOLTAGE" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "ac23fd4a-c983-42a6-9f52-3bbea7bb31cb")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
 				)
 				(justify mirror)
 			)
@@ -5343,16 +1752,6 @@
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
-			(start 1.6764 2.1717)
-			(end -1.6764 2.1717)
-			(stroke
-				(width 0.1524)
-				(type solid)
-			)
-			(layer "B.SilkS")
-			(uuid "973101d8-9b91-4746-9848-f13599108a75")
-		)
-		(fp_line
 			(start -1.6764 -2.1717)
 			(end 1.6764 -2.1717)
 			(stroke
@@ -5361,6 +1760,16 @@
 			)
 			(layer "B.SilkS")
 			(uuid "b03f02d9-dea6-49f9-94cc-a47be5387e19")
+		)
+		(fp_line
+			(start 1.6764 2.1717)
+			(end -1.6764 2.1717)
+			(stroke
+				(width 0.1524)
+				(type solid)
+			)
+			(layer "B.SilkS")
+			(uuid "973101d8-9b91-4746-9848-f13599108a75")
 		)
 		(fp_circle
 			(center -2.3002 1.5)
@@ -5375,18 +1784,6 @@
 		)
 		(fp_poly
 			(pts
-				(xy -0.8017 1.6018) (xy -0.8017 0.1) (xy 0.8017 0.1) (xy 0.8017 1.6018)
-			)
-			(stroke
-				(width 0)
-				(type solid)
-			)
-			(fill yes)
-			(layer "B.Paste")
-			(uuid "06e94e3e-8c52-4bd3-9add-6d2dce44c78d")
-		)
-		(fp_poly
-			(pts
 				(xy -0.8017 -0.1) (xy -0.8017 -1.6018) (xy 0.8017 -1.6018) (xy 0.8017 -0.1)
 			)
 			(stroke
@@ -5397,65 +1794,17 @@
 			(layer "B.Paste")
 			(uuid "932506b7-bfcc-43f7-8df9-88382dca4c7d")
 		)
-		(fp_line
-			(start -1.651 2.1463)
-			(end 1.651 2.1463)
+		(fp_poly
+			(pts
+				(xy -0.8017 1.6018) (xy -0.8017 0.1) (xy 0.8017 0.1) (xy 0.8017 1.6018)
+			)
 			(stroke
-				(width 0.1524)
+				(width 0)
 				(type solid)
 			)
-			(layer "B.CrtYd")
-			(uuid "0759750d-fefc-474c-a31c-c933a57cb1f1")
-		)
-		(fp_line
-			(start 1.651 2.1463)
-			(end 1.651 1.729)
-			(stroke
-				(width 0.1524)
-				(type solid)
-			)
-			(layer "B.CrtYd")
-			(uuid "c99eabd6-7eab-4958-a51a-c4c6c37dc7c8")
-		)
-		(fp_line
-			(start -1.851 1.729)
-			(end -1.651 1.729)
-			(stroke
-				(width 0.1524)
-				(type solid)
-			)
-			(layer "B.CrtYd")
-			(uuid "128bc9ed-79b6-4ed5-b489-183e4e15d2db")
-		)
-		(fp_line
-			(start -1.651 1.729)
-			(end -1.651 2.1463)
-			(stroke
-				(width 0.1524)
-				(type solid)
-			)
-			(layer "B.CrtYd")
-			(uuid "30f866f8-0e49-4ff6-a67a-b6c94f1a2fd5")
-		)
-		(fp_line
-			(start 1.851 1.729)
-			(end 1.651 1.729)
-			(stroke
-				(width 0.1524)
-				(type solid)
-			)
-			(layer "B.CrtYd")
-			(uuid "847cf769-25cb-4823-991a-340d6dea9c9a")
-		)
-		(fp_line
-			(start 1.851 1.729)
-			(end 1.851 -1.729)
-			(stroke
-				(width 0.1524)
-				(type solid)
-			)
-			(layer "B.CrtYd")
-			(uuid "14bbf3fb-1203-4b08-bd4a-54aa610fbd57")
+			(fill yes)
+			(layer "B.Paste")
+			(uuid "06e94e3e-8c52-4bd3-9add-6d2dce44c78d")
 		)
 		(fp_line
 			(start -1.851 -1.729)
@@ -5478,24 +1827,14 @@
 			(uuid "acc2e7e9-2b8f-42ab-8f7c-3f97cf8091ea")
 		)
 		(fp_line
-			(start 1.651 -1.729)
-			(end 1.651 -2.1463)
+			(start -1.851 1.729)
+			(end -1.651 1.729)
 			(stroke
 				(width 0.1524)
 				(type solid)
 			)
 			(layer "B.CrtYd")
-			(uuid "f021025d-5cc0-43a4-8388-8c6e31d9b1a0")
-		)
-		(fp_line
-			(start 1.851 -1.729)
-			(end 1.651 -1.729)
-			(stroke
-				(width 0.1524)
-				(type solid)
-			)
-			(layer "B.CrtYd")
-			(uuid "5177d0c5-6f51-44fc-a792-15454d600683")
+			(uuid "128bc9ed-79b6-4ed5-b489-183e4e15d2db")
 		)
 		(fp_line
 			(start -1.651 -2.1463)
@@ -5508,6 +1847,26 @@
 			(uuid "2a73ab39-0a50-4eb8-a07f-3fd72be9c4d4")
 		)
 		(fp_line
+			(start -1.651 1.729)
+			(end -1.651 2.1463)
+			(stroke
+				(width 0.1524)
+				(type solid)
+			)
+			(layer "B.CrtYd")
+			(uuid "30f866f8-0e49-4ff6-a67a-b6c94f1a2fd5")
+		)
+		(fp_line
+			(start -1.651 2.1463)
+			(end 1.651 2.1463)
+			(stroke
+				(width 0.1524)
+				(type solid)
+			)
+			(layer "B.CrtYd")
+			(uuid "0759750d-fefc-474c-a31c-c933a57cb1f1")
+		)
+		(fp_line
 			(start 1.651 -2.1463)
 			(end -1.651 -2.1463)
 			(stroke
@@ -5518,24 +1877,54 @@
 			(uuid "1d2c046d-ace3-461b-a4fd-5221f1951c3d")
 		)
 		(fp_line
-			(start -1.5494 2.0447)
-			(end -1.5494 -2.0447)
+			(start 1.651 -1.729)
+			(end 1.651 -2.1463)
 			(stroke
-				(width 0.0254)
+				(width 0.1524)
 				(type solid)
 			)
-			(layer "B.Fab")
-			(uuid "258540c2-b8ec-4c43-97a8-a0545ad3c3eb")
+			(layer "B.CrtYd")
+			(uuid "f021025d-5cc0-43a4-8388-8c6e31d9b1a0")
 		)
 		(fp_line
-			(start 1.5494 2.0447)
-			(end -1.5494 2.0447)
+			(start 1.651 2.1463)
+			(end 1.651 1.729)
 			(stroke
-				(width 0.0254)
+				(width 0.1524)
 				(type solid)
 			)
-			(layer "B.Fab")
-			(uuid "c243f0da-1756-4bf0-a1ed-dfd0237768cb")
+			(layer "B.CrtYd")
+			(uuid "c99eabd6-7eab-4958-a51a-c4c6c37dc7c8")
+		)
+		(fp_line
+			(start 1.851 -1.729)
+			(end 1.651 -1.729)
+			(stroke
+				(width 0.1524)
+				(type solid)
+			)
+			(layer "B.CrtYd")
+			(uuid "5177d0c5-6f51-44fc-a792-15454d600683")
+		)
+		(fp_line
+			(start 1.851 1.729)
+			(end 1.651 1.729)
+			(stroke
+				(width 0.1524)
+				(type solid)
+			)
+			(layer "B.CrtYd")
+			(uuid "847cf769-25cb-4823-991a-340d6dea9c9a")
+		)
+		(fp_line
+			(start 1.851 1.729)
+			(end 1.851 -1.729)
+			(stroke
+				(width 0.1524)
+				(type solid)
+			)
+			(layer "B.CrtYd")
+			(uuid "14bbf3fb-1203-4b08-bd4a-54aa610fbd57")
 		)
 		(fp_line
 			(start -1.5494 -2.0447)
@@ -5548,6 +1937,16 @@
 			(uuid "b04034f8-8a3c-4300-8daa-1a114969d1d9")
 		)
 		(fp_line
+			(start -1.5494 2.0447)
+			(end -1.5494 -2.0447)
+			(stroke
+				(width 0.0254)
+				(type solid)
+			)
+			(layer "B.Fab")
+			(uuid "258540c2-b8ec-4c43-97a8-a0545ad3c3eb")
+		)
+		(fp_line
 			(start 1.5494 -2.0447)
 			(end 1.5494 2.0447)
 			(stroke
@@ -5556,6 +1955,16 @@
 			)
 			(layer "B.Fab")
 			(uuid "253f081b-e348-42ec-b8b1-1809ecb2417e")
+		)
+		(fp_line
+			(start 1.5494 2.0447)
+			(end -1.5494 2.0447)
+			(stroke
+				(width 0.0254)
+				(type solid)
+			)
+			(layer "B.Fab")
+			(uuid "c243f0da-1756-4bf0-a1ed-dfd0237768cb")
 		)
 		(fp_arc
 			(start -0.3048 2.0447)
@@ -5580,7 +1989,7 @@
 			(uuid "fa8c5889-ed8e-465b-9ebf-c0d1eb766388")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 90)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
 			(uuid "3ad8db12-2a98-4dc6-a7b4-38ce29335382")
@@ -5593,34 +2002,34 @@
 			)
 		)
 		(pad "1" smd rect
-			(at -1.3954 1.5 270)
+			(at -1.3954 1.5)
 			(size 0.708 0.2548)
 			(layers "B.Cu" "B.Mask" "B.Paste")
-			(net "/Power/+3V8_in")
+			(net "/Power/3V8_int")
 			(pinfunction "IN_1")
 			(pintype "input")
 			(uuid "1902e2a6-a6c5-4fb1-b465-faf6e15ce73c")
 		)
 		(pad "2" smd rect
-			(at -1.3954 1.000001 270)
+			(at -1.3954 1.000001)
 			(size 0.708 0.2548)
 			(layers "B.Cu" "B.Mask" "B.Paste")
-			(net "/Power/+3V8_in")
+			(net "/Power/3V8_int")
 			(pinfunction "IN_2")
 			(pintype "input")
 			(uuid "b222871d-ed46-47cf-b797-cf97d85ef9f7")
 		)
 		(pad "3" smd rect
-			(at -1.3954 0.499999 270)
+			(at -1.3954 0.499999)
 			(size 0.708 0.2548)
 			(layers "B.Cu" "B.Mask" "B.Paste")
-			(net "/Power/+3V8_in")
+			(net "/Power/3V8_int")
 			(pinfunction "IN_3")
 			(pintype "input")
 			(uuid "42aced6b-aa3b-4a38-8013-b3515209b25d")
 		)
 		(pad "4" smd rect
-			(at -1.3954 0 270)
+			(at -1.3954 0)
 			(size 0.708 0.2548)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(net "unconnected-(U38-VIOC-Pad4)")
@@ -5629,25 +2038,25 @@
 			(uuid "e95d04b7-621e-49ac-9dbd-f5d49cfb6740")
 		)
 		(pad "5" smd rect
-			(at -1.3954 -0.500002 270)
+			(at -1.3954 -0.500002)
 			(size 0.708 0.2548)
 			(layers "B.Cu" "B.Mask" "B.Paste")
-			(net "EN_DIG")
+			(net "/EN_DIG")
 			(pinfunction "EN/UV_5")
 			(pintype "unspecified")
 			(uuid "1f5b7cbd-86ee-418e-a591-7bd649f7a1d8")
 		)
 		(pad "6" smd rect
-			(at -1.3954 -1.000001 270)
+			(at -1.3954 -1.000001)
 			(size 0.708 0.2548)
 			(layers "B.Cu" "B.Mask" "B.Paste")
-			(net "PG_DIG")
+			(net "/PG_DIG")
 			(pinfunction "PG_6")
 			(pintype "unspecified")
 			(uuid "19a96761-b363-4a4d-bae1-a729b02277bf")
 		)
 		(pad "7" smd rect
-			(at -1.3954 -1.5 270)
+			(at -1.3954 -1.5)
 			(size 0.708 0.2548)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(net "Net-(U38-ILIM)")
@@ -5656,16 +2065,16 @@
 			(uuid "e90dd335-6998-4147-adaf-de31b9fa2ab2")
 		)
 		(pad "8" smd rect
-			(at 1.3954 -1.5 270)
+			(at 1.3954 -1.5)
 			(size 0.708 0.2548)
 			(layers "B.Cu" "B.Mask" "B.Paste")
-			(net "/Power/1V8/PGFB_1V8A")
+			(net "/Power/1V8/PGFB_1V8ADC1")
 			(pinfunction "PGFB_8")
 			(pintype "unspecified")
 			(uuid "c0a22ef6-fe36-42f6-823a-366394b7eeac")
 		)
 		(pad "9" smd rect
-			(at 1.3954 -1.000001 270)
+			(at 1.3954 -1.000001)
 			(size 0.708 0.2548)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(net "Net-(U38-SET)")
@@ -5674,7 +2083,7 @@
 			(uuid "f7ae71c1-574d-4081-8f57-a5a0fcbd166f")
 		)
 		(pad "10" smd rect
-			(at 1.3954 -0.499999 270)
+			(at 1.3954 -0.499999)
 			(size 0.708 0.2548)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(net "GNDA")
@@ -5683,7 +2092,7 @@
 			(uuid "c506cc4c-6a50-4b04-9a68-b2b9369d81f5")
 		)
 		(pad "11" smd rect
-			(at 1.3954 0 270)
+			(at 1.3954 0)
 			(size 0.708 0.2548)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(net "GNDA")
@@ -5692,34 +2101,67 @@
 			(uuid "a0b7077f-e937-490d-bed4-836888b922ce")
 		)
 		(pad "12" smd rect
-			(at 1.3954 0.500002 270)
+			(at 1.3954 0.500002)
 			(size 0.708 0.2548)
 			(layers "B.Cu" "B.Mask" "B.Paste")
-			(net "/1V8A")
+			(net "/1V8ADC1")
 			(pinfunction "OUTS_12")
 			(pintype "output")
 			(uuid "1754b5f9-6c85-4907-a9ef-f20f85ac94a7")
 		)
 		(pad "13" smd rect
-			(at 1.3954 1.000001 270)
+			(at 1.3954 1.000001)
 			(size 0.708 0.2548)
 			(layers "B.Cu" "B.Mask" "B.Paste")
-			(net "/1V8A")
+			(net "/1V8ADC1")
 			(pinfunction "OUT_13")
 			(pintype "output")
 			(uuid "bdb95b13-8a8a-4a0f-a14f-3a11f343aaa9")
 		)
 		(pad "14" smd rect
-			(at 1.3954 1.5 270)
+			(at 1.3954 1.5)
 			(size 0.708 0.2548)
 			(layers "B.Cu" "B.Mask" "B.Paste")
-			(net "/1V8A")
+			(net "/1V8ADC1")
 			(pinfunction "OUT_14")
 			(pintype "output")
 			(uuid "a9247340-f1fe-40f2-be6b-4804e7b1fe45")
 		)
+		(pad "15" thru_hole circle
+			(at -0.45 -1)
+			(size 0.45 0.45)
+			(drill 0.2)
+			(layers "*.Cu" "F.Mask")
+			(remove_unused_layers no)
+			(net "GNDA")
+			(pinfunction "GND_15")
+			(pintype "power_out")
+			(uuid "d8a418e9-1746-4649-8418-2c2095fa3972")
+		)
+		(pad "15" thru_hole circle
+			(at -0.45 0)
+			(size 0.45 0.45)
+			(drill 0.2)
+			(layers "*.Cu" "F.Mask")
+			(remove_unused_layers no)
+			(net "GNDA")
+			(pinfunction "GND_15")
+			(pintype "power_out")
+			(uuid "a966a9b9-48a9-44d6-8fee-ca1defc63c87")
+		)
+		(pad "15" thru_hole circle
+			(at -0.45 1)
+			(size 0.45 0.45)
+			(drill 0.2)
+			(layers "*.Cu" "F.Mask")
+			(remove_unused_layers no)
+			(net "GNDA")
+			(pinfunction "GND_15")
+			(pintype "power_out")
+			(uuid "786590ba-f18b-4cc4-bbcd-e91490652eaa")
+		)
 		(pad "15" smd rect
-			(at 0 0 270)
+			(at 0 0)
 			(size 1.8034 3.4036)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(net "GNDA")
@@ -5727,18 +2169,51 @@
 			(pintype "power_out")
 			(uuid "a5bec63e-66bb-43df-97fe-1f8d1f28cf2c")
 		)
+		(pad "15" thru_hole circle
+			(at 0.55 -1)
+			(size 0.45 0.45)
+			(drill 0.2)
+			(layers "*.Cu" "F.Mask")
+			(remove_unused_layers no)
+			(net "GNDA")
+			(pinfunction "GND_15")
+			(pintype "power_out")
+			(uuid "64a33c5d-eb0d-4a02-bf40-a231da516af7")
+		)
+		(pad "15" thru_hole circle
+			(at 0.55 0)
+			(size 0.45 0.45)
+			(drill 0.2)
+			(layers "*.Cu" "F.Mask")
+			(remove_unused_layers no)
+			(net "GNDA")
+			(pinfunction "GND_15")
+			(pintype "power_out")
+			(uuid "35b21674-af43-49e1-a407-0713ac6b7b64")
+		)
+		(pad "15" thru_hole circle
+			(at 0.55 1)
+			(size 0.45 0.45)
+			(drill 0.2)
+			(layers "*.Cu" "F.Mask")
+			(remove_unused_layers no)
+			(net "GNDA")
+			(pinfunction "GND_15")
+			(pintype "power_out")
+			(uuid "03e65179-b301-4a7d-9a38-42252b56a549")
+		)
 		(embedded_fonts no)
 	)
 	(footprint "Capacitor_SMD:C_0603_1608Metric"
 		(layer "B.Cu")
 		(uuid "ca5cc10c-a1b9-4012-8d80-5ea5fe7a54d6")
-		(at 241.156 103.6 -90)
+		(at 198.7595 125.285 -90)
 		(descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "capacitor")
 		(property "Reference" "C348"
 			(at 0 1.43 90)
 			(layer "B.SilkS")
-			(uuid "62befb68-79ca-4ddf-ad82-848498d1a715")
+			(uuid "f68f3570-00ea-4388-a857-a9dde2eccc52")
 			(effects
 				(font
 					(size 1 1)
@@ -5750,7 +2225,7 @@
 		(property "Value" "4.7u"
 			(at 0 -1.43 90)
 			(layer "B.Fab")
-			(uuid "99003c23-60fb-45de-9a72-6fcaf9e824da")
+			(uuid "857f3b3c-cc05-43d1-81e8-73f2f2c4c76e")
 			(effects
 				(font
 					(size 1 1)
@@ -5763,7 +2238,7 @@
 			(at 0 0 90)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "04be960b-142f-4b5a-86bb-b69dc62fe4dd")
+			(uuid "2a6fec08-5a73-436f-b043-5990ebfb6a14")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5775,10 +2250,136 @@
 			(at 0 0 90)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "f5b9909c-dd77-4efd-ab89-54583bc6036c")
+			(uuid "3d4315d1-a5d1-4c70-a8ed-548a1e7af647")
 			(effects
 				(font
 					(size 1.27 1.27)
+				)
+				(justify mirror)
+			)
+		)
+		(property "ALTIUM_VALUE" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "ad9c31d7-bc6d-42af-b6f3-b363757a3088")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "CASE" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "f5889a5c-69dd-4308-9e1e-3bf552ee59e1")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "PREFERRED" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "52a5e662-15b9-403a-8d6d-ab5469290865")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "STORAGE-TEMPERATURE" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "e885828a-2e73-42c3-8eda-7a55769f0de5")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "TECHNOLOGY" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "edca7d70-fabe-4b6c-83c0-22b23fe24a8f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "TEMPERATURE-RANGE" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "94dba2df-ea40-4d5c-91d5-a69db6722ebe")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "TOLERANCE" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "75b590b1-eda7-4621-9c0a-56493c9aa162")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "TRENZ-ARTICLE-NUMBER" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "eccae83d-abf9-4b7f-8f43-a369f496287f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "VOLTAGE" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "1a24e413-e66b-4009-b3cf-666d838136b3")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
 				)
 				(justify mirror)
 			)
@@ -5790,8 +2391,8 @@
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
-			(start -0.14058 0.51)
-			(end 0.14058 0.51)
+			(start -0.140581 0.509999)
+			(end 0.140581 0.509999)
 			(stroke
 				(width 0.12)
 				(type solid)
@@ -5800,8 +2401,8 @@
 			(uuid "00cb5626-0e7a-48da-b08a-1e5f9c8ab33b")
 		)
 		(fp_line
-			(start -0.14058 -0.51)
-			(end 0.14058 -0.51)
+			(start -0.140581 -0.509999)
+			(end 0.140581 -0.509999)
 			(stroke
 				(width 0.12)
 				(type solid)
@@ -5809,9 +2410,10 @@
 			(layer "B.SilkS")
 			(uuid "f4cedcf0-4192-4a8d-9194-16e593980bfa")
 		)
-		(fp_rect
-			(start -1.48 0.73)
-			(end 1.48 -0.73)
+		(fp_poly
+			(pts
+				(xy 1.480001 -0.73) (xy 1.48 0.730001) (xy -1.480001 0.73) (xy -1.48 -0.730001)
+			)
 			(stroke
 				(width 0.05)
 				(type solid)
@@ -5820,9 +2422,10 @@
 			(layer "B.CrtYd")
 			(uuid "5b60ddb3-4c6e-4a07-82ec-da3480685b7e")
 		)
-		(fp_rect
-			(start -0.8 0.4)
-			(end 0.8 -0.4)
+		(fp_poly
+			(pts
+				(xy 0.8 -0.4) (xy 0.8 0.4) (xy -0.8 0.4) (xy -0.8 -0.4)
+			)
 			(stroke
 				(width 0.1)
 				(type solid)
@@ -5877,13 +2480,13 @@
 	(footprint "Capacitor_SMD:C_0402_1005Metric"
 		(layer "B.Cu")
 		(uuid "dfcc2b7f-ad30-4447-a546-d9ff3c99d5d4")
-		(at 238.356 101.4 180)
+		(at 197.494899 127.794 -90)
 		(descr "Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "capacitor")
 		(property "Reference" "C350"
-			(at 0 1.16 0)
+			(at 0 1.16 90)
 			(layer "B.SilkS")
-			(uuid "b4d2e699-4170-4dec-abae-e751e32eaa30")
+			(uuid "11847ebe-13d4-45a2-8d4c-312c37da7ff3")
 			(effects
 				(font
 					(size 1 1)
@@ -5893,9 +2496,9 @@
 			)
 		)
 		(property "Value" "10u"
-			(at 0 -1.16 0)
+			(at 0 -1.16 90)
 			(layer "B.Fab")
-			(uuid "c8673542-dcf9-48bd-8cf9-1876adf6c54f")
+			(uuid "fbe05f80-2346-4ecd-887e-7197edc96253")
 			(effects
 				(font
 					(size 1 1)
@@ -5905,10 +2508,10 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 0)
+			(at 0 0 90)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "ad61eac8-1b53-49f4-8a6d-8d449f9e4323")
+			(uuid "a388461f-1e6b-4ef3-bc33-b2da32b45375")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5917,13 +2520,139 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 0 0 0)
+			(at 0 0 90)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "5cc43bee-accb-4f35-a162-9e29ce451538")
+			(uuid "2c8c16bb-6fb2-4fb6-ade5-f357ed573e03")
 			(effects
 				(font
 					(size 1.27 1.27)
+				)
+				(justify mirror)
+			)
+		)
+		(property "ALTIUM_VALUE" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "0488df1f-a45f-406e-8cd0-d3b8237976ab")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "CASE" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "988c875b-78e4-4729-8665-e74fe9a561ac")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "PREFERRED" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "24652ab0-f843-428d-a814-2dc5c7d0d746")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "STORAGE-TEMPERATURE" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "e75abb85-9e31-4568-8767-1654754bc020")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "TECHNOLOGY" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "cde0c346-99c4-4aa9-96e6-d4c074bb405c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "TEMPERATURE-RANGE" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "e3eba9cb-ff17-4c7a-bc9b-57b5a9d7ea70")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "TOLERANCE" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "1c8e7b31-c6f1-480f-b263-b4848e9ab3cc")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "TRENZ-ARTICLE-NUMBER" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "7ffde268-a329-41da-a1de-839fa07fe73a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "VOLTAGE" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "97f7cb6a-c898-4e3c-af62-4423f7e76722")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
 				)
 				(justify mirror)
 			)
@@ -5954,9 +2683,10 @@
 			(layer "B.SilkS")
 			(uuid "71901f99-18bf-4a27-bf73-8c7b7f2a105d")
 		)
-		(fp_rect
-			(start -0.91 0.46)
-			(end 0.91 -0.46)
+		(fp_poly
+			(pts
+				(xy -0.91 -0.46) (xy 0.91 -0.46) (xy 0.91 0.46) (xy -0.91 0.46)
+			)
 			(stroke
 				(width 0.05)
 				(type solid)
@@ -5965,9 +2695,10 @@
 			(layer "B.CrtYd")
 			(uuid "87174b40-8230-4b07-bbe4-a6849fc538ac")
 		)
-		(fp_rect
-			(start -0.5 0.25)
-			(end 0.5 -0.25)
+		(fp_poly
+			(pts
+				(xy -0.5 -0.25) (xy 0.5 -0.25) (xy 0.5 0.25) (xy -0.5 0.25)
+			)
 			(stroke
 				(width 0.1)
 				(type solid)
@@ -5977,7 +2708,7 @@
 			(uuid "8f84b78c-82d7-4445-b8c3-27d66405e992")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 0)
+			(at 0 0 90)
 			(layer "B.Fab")
 			(uuid "4722d6e6-4670-4265-b6d8-d7a445652c04")
 			(effects
@@ -5989,16 +2720,16 @@
 			)
 		)
 		(pad "1" smd roundrect
-			(at -0.48 0 180)
+			(at -0.48 0 270)
 			(size 0.56 0.62)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(roundrect_rratio 0.25)
-			(net "/1V8A")
+			(net "/1V8ADC1")
 			(pintype "passive")
 			(uuid "6bda8087-10f4-4ffe-8d28-21dc4ff0e2a4")
 		)
 		(pad "2" smd roundrect
-			(at 0.48 0 180)
+			(at 0.48 0 270)
 			(size 0.56 0.62)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(roundrect_rratio 0.25)
@@ -6022,13 +2753,13 @@
 	(footprint "Capacitor_SMD:C_0402_1005Metric"
 		(layer "B.Cu")
 		(uuid "e7847e4b-d854-45a0-8939-cceb6a504c5c")
-		(at 238.756 96)
+		(at 192.1949 127.133999 90)
 		(descr "Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "capacitor")
 		(property "Reference" "C346"
-			(at 0 1.16 0)
+			(at 0 1.16 90)
 			(layer "B.SilkS")
-			(uuid "e4a65545-4c69-4bcb-9cdc-38d5a8daa3f8")
+			(uuid "8c1d787f-8d77-49fe-9b99-4e34c201d850")
 			(effects
 				(font
 					(size 1 1)
@@ -6038,9 +2769,9 @@
 			)
 		)
 		(property "Value" "10u"
-			(at 0 -1.16 0)
+			(at 0 -1.16 90)
 			(layer "B.Fab")
-			(uuid "96b65a09-8379-4ec7-a46e-f678f8a0acd8")
+			(uuid "97cdfbae-3a37-4a59-974a-6755a8a35fbe")
 			(effects
 				(font
 					(size 1 1)
@@ -6050,10 +2781,10 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 0)
+			(at 0 0 90)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "b0ae5994-ee9f-4751-9bf5-79f9e3cb416b")
+			(uuid "56cc2067-5e1d-4314-a952-4942a0deb3ef")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6062,13 +2793,139 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 0 0 0)
+			(at 0 0 90)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "6d51026c-9fb3-490b-ba28-6002ffe7f915")
+			(uuid "d9f11705-1c4a-4eee-bae6-371e8e437f23")
 			(effects
 				(font
 					(size 1.27 1.27)
+				)
+				(justify mirror)
+			)
+		)
+		(property "ALTIUM_VALUE" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "6a35e690-9a13-46db-8c56-773aea275a40")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "CASE" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "4277d1cd-3bfa-4111-81c9-ea034503128c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "PREFERRED" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "3c9b6f09-15b7-4253-b04f-fe50093cd62c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "STORAGE-TEMPERATURE" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "2f1ba2bb-a664-45d8-b59b-05faf4eb407e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "TECHNOLOGY" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "481d68e2-8bb4-4d42-8e77-0ea72fe368d2")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "TEMPERATURE-RANGE" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "6ea9d7b4-f06f-48c5-8518-7f8eace54394")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "TOLERANCE" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "465f9d6a-329f-45db-8ffd-616d4f93dde9")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "TRENZ-ARTICLE-NUMBER" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "1a303d0b-b6e2-4c1a-9879-a9a3e4f70d0c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "VOLTAGE" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "eb4814ea-fc5b-40ea-83a3-9b328e4ef538")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
 				)
 				(justify mirror)
 			)
@@ -6099,9 +2956,10 @@
 			(layer "B.SilkS")
 			(uuid "e0404105-b791-4bd5-bdb9-1ec6ae8e99b9")
 		)
-		(fp_rect
-			(start -0.91 0.46)
-			(end 0.91 -0.46)
+		(fp_poly
+			(pts
+				(xy 0.91 0.46) (xy -0.91 0.46) (xy -0.91 -0.46) (xy 0.91 -0.46)
+			)
 			(stroke
 				(width 0.05)
 				(type solid)
@@ -6110,9 +2968,10 @@
 			(layer "B.CrtYd")
 			(uuid "3b2a0f6c-5fc4-4f28-8bba-6916d822ddad")
 		)
-		(fp_rect
-			(start -0.5 0.25)
-			(end 0.5 -0.25)
+		(fp_poly
+			(pts
+				(xy 0.5 0.25) (xy -0.5 0.25) (xy -0.5 -0.25) (xy 0.5 -0.25)
+			)
 			(stroke
 				(width 0.1)
 				(type solid)
@@ -6122,7 +2981,7 @@
 			(uuid "8ffdb92e-384a-485c-9cb9-a8ea79897804")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 0)
+			(at 0 0 90)
 			(layer "B.Fab")
 			(uuid "be99e5bc-01f4-4cc2-b943-a46390ddee55")
 			(effects
@@ -6134,7 +2993,7 @@
 			)
 		)
 		(pad "1" smd roundrect
-			(at -0.48 0)
+			(at -0.48 0 90)
 			(size 0.56 0.62)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(roundrect_rratio 0.25)
@@ -6143,11 +3002,11 @@
 			(uuid "a5efafc4-4245-4c8f-ac8a-dbe93192fc73")
 		)
 		(pad "2" smd roundrect
-			(at 0.48 0)
+			(at 0.48 0 90)
 			(size 0.56 0.62)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(roundrect_rratio 0.25)
-			(net "/Power/+3V8_in")
+			(net "/Power/3V8_int")
 			(pintype "passive")
 			(uuid "b45021b2-c06f-4bb3-8406-c45dc3445dfb")
 		)
@@ -6167,13 +3026,13 @@
 	(footprint "Resistor_SMD:R_0402_1005Metric"
 		(layer "B.Cu")
 		(uuid "fc19e7ba-0a97-4546-9ca3-12c60c0f87ea")
-		(at 240.956 101.4)
+		(at 197.4895 125.09 90)
 		(descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "resistor")
 		(property "Reference" "R189"
-			(at 0 1.17 0)
+			(at 0 1.17 90)
 			(layer "B.SilkS")
-			(uuid "7c0b9b64-b352-4b1b-a9a6-ffaf4be10f73")
+			(uuid "723e5d83-579e-4ee4-9f07-9e2e86b0f18e")
 			(effects
 				(font
 					(size 1 1)
@@ -6183,9 +3042,9 @@
 			)
 		)
 		(property "Value" "18k"
-			(at 0 -1.17 0)
+			(at 0 -1.17 90)
 			(layer "B.Fab")
-			(uuid "0d5f7a49-5fde-41a8-8126-69ae24a98a99")
+			(uuid "638318fd-1e15-4231-81af-e0f49c7b24ce")
 			(effects
 				(font
 					(size 1 1)
@@ -6195,10 +3054,10 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 0)
+			(at 0 0 90)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "79cea50d-873c-4465-8164-d5fc3a74f807")
+			(uuid "902bbd04-eed9-4482-9e59-5954d728d7d2")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6207,13 +3066,139 @@
 			)
 		)
 		(property "Description" "Resistor, small US symbol"
-			(at 0 0 0)
+			(at 0 0 90)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "0be05051-f9ad-4b2d-93c5-ec2d86c9cb9b")
+			(uuid "f0094e64-3bd9-4b9a-b90b-4ecc51769ac8")
 			(effects
 				(font
 					(size 1.27 1.27)
+				)
+				(justify mirror)
+			)
+		)
+		(property "ALTIUM_VALUE" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "cb947777-f5d2-40c5-8a8c-56baab0fc6f3")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "CASE" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "90b9a290-ed57-4b65-bc3e-7409f0ef5f89")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "PREFERRED" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "2d7516e0-147f-4398-bff1-ee93e70b69d1")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "STORAGE-TEMPERATURE" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "779457f5-7d50-404f-aef0-edd8ae9fef7d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "TECHNOLOGY" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "7b42e71f-a96f-41b5-95e7-279645ffb569")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "TEMPERATURE-RANGE" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "3d79b1d7-3dd8-4390-b99f-a12a85d75639")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "TOLERANCE" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "430de53a-2b4e-4e8e-9d46-c8b610cd8e41")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "TRENZ-ARTICLE-NUMBER" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "a97cd3a1-f804-4f85-9ee4-f4ee6309c0b6")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "VOLTAGE" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "363f4950-aac9-42fd-90e8-347b7f391a4b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
 				)
 				(justify mirror)
 			)
@@ -6244,9 +3229,10 @@
 			(layer "B.SilkS")
 			(uuid "62585d2e-2377-4880-81fe-99752b749627")
 		)
-		(fp_rect
-			(start -0.93 0.47)
-			(end 0.93 -0.47)
+		(fp_poly
+			(pts
+				(xy 0.93 0.47) (xy -0.93 0.47) (xy -0.93 -0.47) (xy 0.93 -0.47)
+			)
 			(stroke
 				(width 0.05)
 				(type solid)
@@ -6255,9 +3241,10 @@
 			(layer "B.CrtYd")
 			(uuid "b77c7412-b896-454f-98f0-bd352ebaaa6d")
 		)
-		(fp_rect
-			(start -0.525 0.27)
-			(end 0.525 -0.27)
+		(fp_poly
+			(pts
+				(xy 0.525 0.27) (xy -0.525 0.27) (xy -0.525 -0.27) (xy 0.525 -0.27)
+			)
 			(stroke
 				(width 0.1)
 				(type solid)
@@ -6267,7 +3254,7 @@
 			(uuid "d068447d-dc31-4689-a8ad-79a4afd739d9")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 0)
+			(at 0 0 90)
 			(layer "B.Fab")
 			(uuid "49512e01-acaa-42a1-b819-cc3e3bc7ce85")
 			(effects
@@ -6279,7 +3266,7 @@
 			)
 		)
 		(pad "1" smd roundrect
-			(at -0.51 0)
+			(at -0.509999 0 90)
 			(size 0.54 0.64)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(roundrect_rratio 0.25)
@@ -6288,7 +3275,7 @@
 			(uuid "87a234d7-aa98-48bd-b04d-6ded44f7bfa4")
 		)
 		(pad "2" smd roundrect
-			(at 0.51 0)
+			(at 0.509999 0 90)
 			(size 0.54 0.64)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(roundrect_rratio 0.25)
